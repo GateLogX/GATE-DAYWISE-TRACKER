@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Schedule Planner</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
+  <div id="app"></div>
+
+  <script>
+    let videoData = [];
+    let daySchedule = [];
+    let selectedDay = 0;
+    let showBacklog = false;
+    let backlogDays = [];
+    let fileUploaded = false;
+    let showPasteArea = false;
+    let completedVideos = {}; // Track completed videos by messageId
+    let showDayBacklog = false; // Show backlog videos for current day
+
+    function render() {
+      const app = document.getElementById('app');
+      if (!fileUploaded) {
+        app.innerHTML = renderUploadScreen();
+      } else {
+        app.innerHTML = renderScheduleScreen();
+      }
+      attachEventListeners();
+    }
+
+    function renderUploadScreen() {
+      return `
+        <div class="min-h-screen p-4 md:p-8 flex items-center justify-center">
+          <div class="max-w-3xl w-full bg-white/10 backdrop-blur-lg rounded-2xl p-6 md:p-8 shadow-2xl border border-white/20">
+            <div class="text-center">
+              <svg class="w-16 h-16 text-purple-400 mx-auto mb-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M17 8l-5-5-5 5M12 3v12"/>
+              </svg>
+              <h1 class="text-3xl font-bold text-white mb-4">Study Schedule Planner</h1>
+              <p class="text-purple-200 mb-6">Upload the CSV file or paste the data to generate your schedule</p>
+              
+              <label class="cursor-pointer inline-block mb-4">
+                <div class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-4 px-8 rounded-lg transition-all inline-flex items-center gap-3">
+                  <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M17 8l-5-5-5 5M12 3v12"/>
+                  </svg>
+                  Upload CSV File
+                </div>
+                <input type="file" accept=".csv" id="fileInput" class="hidden" />
+              </label>
+
+              <div class="flex items-center gap-4 my-6">
+                <div class="flex-1 h-px bg-white/20"></div>
+                <span class="text-white/60 font-semibold">OR</span>
+                <div class="flex-1 h-px bg-white/20"></div>
+              </div>
+
+              <button id="togglePaste" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg transition-all inline-flex items-center gap-3 mb-4">
+                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                </svg>
+                Paste CSV Data
+              </button>
+
+              <div id="pasteArea" class="${showPasteArea ? '' : 'hidden'} mt-6 text-left">
+                <label class="text-white font-semibold mb-2 block">Paste your CSV content here:</label>
+                <textarea id="csvText" placeholder="Subject,Video_Number,Message_ID,Date,Duration_Seconds,Duration_Formatted,File_Name&#10;DBMS,1,12345,2024-01-01,5400,1:30:00,Intro to DBMS" class="w-full h-64 bg-white/5 border border-white/20 rounded-lg p-4 text-white font-mono text-sm resize-none"></textarea>
+                <button id="generateBtn" class="mt-4 bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition-all">Generate Schedule</button>
+              </div>
+
+              <div class="mt-8 bg-blue-600/20 border border-blue-400/30 rounded-lg p-4 text-left">
+                <h3 class="text-white font-bold mb-2">Expected CSV Format:</h3>
+                <div class="text-blue-100 text-sm space-y-1">
+                  <p>• Subject, Video_Number, Message_ID, Date, Duration_Seconds, Duration_Formatted, File_Name</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderScheduleScreen() {
+      const stats = getCompletionStats();
+      return `
+        <div class="p-4 md:p-8">
+          <div class="max-w-7xl mx-auto">
+            <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 md:p-8 shadow-2xl border border-white/20">
+              <div class="flex items-center justify-between mb-4 flex-wrap gap-3">
+                <h1 class="text-3xl md:text-4xl font-bold text-white">${daySchedule.length}-Day Schedule</h1>
+                <div class="flex gap-2">
+                  <div class="bg-green-600 text-white px-4 py-2 rounded-full font-bold text-sm">2x Speed</div>
+                  <div class="bg-purple-600 text-white px-4 py-2 rounded-full font-bold text-sm">${videoData.length} Videos</div>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
+                <div class="bg-white/5 rounded-xl p-4 border border-white/10">
+                  <div class="text-2xl font-bold text-white">${daySchedule.length}</div>
+                  <div class="text-sm text-purple-200">Total Days</div>
+                </div>
+                <div class="bg-white/5 rounded-xl p-4 border border-white/10">
+                  <div class="text-2xl font-bold text-white">${stats.completed}</div>
+                  <div class="text-sm text-purple-200">Completed</div>
+                </div>
+                <div class="bg-white/5 rounded-xl p-4 border border-white/10">
+                  <div class="text-2xl font-bold text-white">${stats.total - stats.completed}</div>
+                  <div class="text-sm text-purple-200">Remaining</div>
+                </div>
+                <div class="bg-white/5 rounded-xl p-4 border border-white/10">
+                  <div class="text-2xl font-bold text-white">${stats.percentage}%</div>
+                  <div class="text-sm text-purple-200">Progress</div>
+                </div>
+              </div>
+
+              <div class="flex gap-2 mb-6">
+                <button id="scheduleViewBtn" class="px-6 py-3 rounded-lg font-semibold transition-all ${!showBacklog ? 'bg-purple-600 text-white shadow-lg' : 'bg-white/5 text-purple-200 hover:bg-white/10'}">Day-by-Day Schedule</button>
+                <button id="backlogViewBtn" class="px-6 py-3 rounded-lg font-semibold transition-all ${showBacklog ? 'bg-purple-600 text-white shadow-lg' : 'bg-white/5 text-purple-200 hover:bg-white/10'}">Progress Tracker</button>
+              </div>
+
+              ${!showBacklog ? renderDayByDayView() : renderBacklogView(stats)}
+
+              <div class="mt-6 bg-gradient-to-r from-blue-600/20 to-purple-600/20 rounded-xl p-6 border border-blue-400/30">
+                <h3 class="text-xl font-bold text-white mb-3">Daily Success Tips:</h3>
+                <ul class="text-blue-100 space-y-2 text-sm">
+                  <li>• <strong>Morning:</strong> Watch all videos at 2x speed</li>
+                  <li>• <strong>Evening:</strong> Review and make notes</li>
+                  <li>• <strong>Night:</strong> Practice problems</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderDayByDayView() {
+      const day = daySchedule[selectedDay];
+      if (!day) return '';
+
+      return `
+        <div class="mb-6">
+          <h3 class="text-xl font-bold text-white mb-3">Select Day:</h3>
+          <div class="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-2 max-h-96 overflow-y-auto p-2 bg-white/5 rounded-lg">
+            ${daySchedule.map((d, idx) => `
+              <button class="day-btn p-3 rounded-lg font-semibold transition-all text-sm ${
+                selectedDay === idx ? 'bg-purple-600 text-white shadow-lg' : 
+                backlogDays[idx]?.completed ? 'bg-green-600/50 text-white' : 
+                'bg-white/5 text-purple-200 hover:bg-white/10'
+              }" data-idx="${idx}">Day ${d.day}</button>
+            `).join('')}
+          </div>
+        </div>
+
+        <div class="bg-gradient-to-r from-blue-600/30 to-purple-600/30 rounded-xl p-6 border border-blue-400/30">
+          <div class="flex items-start justify-between mb-4 flex-wrap gap-3">
+            <div>
+              <div class="text-purple-300 font-semibold mb-1">Day ${day.day}</div>
+              <h3 class="text-3xl font-bold text-white mb-2">${day.subject}</h3>
+              <div class="flex flex-wrap gap-3 text-sm">
+                <span class="bg-white/10 px-3 py-1 rounded-full text-purple-200">${day.videos.length} videos</span>
+                <span class="bg-white/10 px-3 py-1 rounded-full text-blue-200">${day.originalHours}h original</span>
+                <span class="bg-white/10 px-3 py-1 rounded-full text-green-200">${day.totalHours}h at 2x</span>
+              </div>
+            </div>
+            <button id="markCompleteBtn" class="px-4 py-2 rounded-lg font-semibold transition-all ${
+              backlogDays[selectedDay]?.completed ? 'bg-green-600 text-white' : 'bg-white/20 text-white hover:bg-white/30'
+            }">${backlogDays[selectedDay]?.completed ? '✓ Completed' : 'Mark Complete'}</button>
+          </div>
+
+          <div class="bg-white/10 rounded-lg p-4">
+            <div class="flex items-center justify-between mb-3">
+              <h4 class="text-white font-bold">Videos to Watch (${day.videos.length}):</h4>
+              <div class="flex gap-2">
+                <button id="showAllVideosBtn" class="px-3 py-1 rounded text-sm font-semibold transition-all ${!showDayBacklog ? 'bg-purple-600 text-white' : 'bg-white/10 text-purple-200 hover:bg-white/20'}">All (${day.videos.length})</button>
+                <button id="showBacklogVideosBtn" class="px-3 py-1 rounded text-sm font-semibold transition-all ${showDayBacklog ? 'bg-orange-600 text-white' : 'bg-white/10 text-orange-200 hover:bg-white/20'}">Backlog (${day.videos.filter(v => !completedVideos[v.messageId]).length})</button>
+              </div>
+            </div>
+            <div class="space-y-2 max-h-96 overflow-y-auto">
+              ${(showDayBacklog ? day.videos.filter(v => !completedVideos[v.messageId]) : day.videos).map((video) => `
+                <div class="bg-white/5 rounded p-3 border ${completedVideos[video.messageId] ? 'border-green-500/50 bg-green-900/20' : 'border-white/10'} hover:bg-white/10 transition-all">
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-3 flex-1">
+                      <button class="video-complete-btn w-6 h-6 rounded-full border-2 flex items-center justify-center transition-all ${completedVideos[video.messageId] ? 'bg-green-500 border-green-500 text-white' : 'border-white/40 hover:border-green-400'}" data-id="${video.messageId}">
+                        ${completedVideos[video.messageId] ? '✓' : ''}
+                      </button>
+                      <div class="flex-1">
+                        <div class="text-white font-semibold text-sm ${completedVideos[video.messageId] ? 'line-through opacity-60' : ''}">Video ${video.videoNumber}: ${video.fileName}</div>
+                        <div class="text-purple-200 text-xs mt-1">ID: ${video.messageId}</div>
+                      </div>
+                    </div>
+                    <div class="text-right ml-4">
+                      <div class="text-green-300 font-bold text-sm">${formatDuration(video.durationSeconds / 2)}</div>
+                      <div class="text-purple-300 text-xs">(${formatDuration(video.durationSeconds)} orig)</div>
+                    </div>
+                  </div>
+                </div>
+              `).join('')}
+              ${showDayBacklog && day.videos.filter(v => !completedVideos[v.messageId]).length === 0 ? '<div class="text-center text-green-300 py-4">🎉 All videos completed for this day!</div>' : ''}
+            </div>
+            <div class="mt-3 pt-3 border-t border-white/20">
+              <div class="flex justify-between items-center text-sm">
+                <div>
+                  <span class="text-green-300">${day.videos.filter(v => completedVideos[v.messageId]).length}/${day.videos.length} completed</span>
+                  <span class="text-purple-200 ml-3">Backlog: ${day.videos.filter(v => !completedVideos[v.messageId]).length}</span>
+                </div>
+                <div>
+                  <span class="text-green-300 font-bold">${day.totalHours}h at 2x</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderBacklogView(stats) {
+      return `
+        <div class="bg-white/5 rounded-xl p-6 border border-white/10">
+          <h3 class="text-xl font-bold text-white mb-4">All Days:</h3>
+          <div class="space-y-2 max-h-[600px] overflow-y-auto">
+            ${backlogDays.map((day, idx) => `
+              <div class="rounded-lg p-4 border transition-all ${day.completed ? 'bg-green-600/20 border-green-400/30' : 'bg-white/5 border-white/10'}">
+                <div class="flex items-center justify-between">
+                  <div class="flex items-center gap-4 flex-1">
+                    <div class="w-10 h-10 rounded-full flex items-center justify-center font-bold ${day.completed ? 'bg-green-600 text-white' : 'bg-white/10 text-purple-300'}">${day.day}</div>
+                    <div class="flex-1">
+                      <span class="text-white font-semibold">${day.subject}</span>
+                      <div class="text-sm text-purple-200">${day.videos.length} videos • ${day.totalHours}h</div>
+                    </div>
+                  </div>
+                  <button class="view-day-btn px-4 py-2 rounded-lg font-semibold transition-all ${day.completed ? 'bg-green-600 text-white' : 'bg-purple-600 text-white hover:bg-purple-700'}" data-idx="${idx}">${day.completed ? '✓ Done' : 'View'}</button>
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `;
+    }
+
+    function attachEventListeners() {
+      const fileInput = document.getElementById('fileInput');
+      if (fileInput) fileInput.addEventListener('change', handleFileUpload);
+
+      const togglePaste = document.getElementById('togglePaste');
+      if (togglePaste) togglePaste.addEventListener('click', () => { showPasteArea = !showPasteArea; render(); });
+
+      const generateBtn = document.getElementById('generateBtn');
+      if (generateBtn) generateBtn.addEventListener('click', () => {
+        const csvText = document.getElementById('csvText').value;
+        if (csvText.trim()) parseCSVData(csvText);
+        else alert('Please paste CSV data first');
+      });
+
+      const scheduleViewBtn = document.getElementById('scheduleViewBtn');
+      if (scheduleViewBtn) scheduleViewBtn.addEventListener('click', () => { showBacklog = false; render(); });
+
+      const backlogViewBtn = document.getElementById('backlogViewBtn');
+      if (backlogViewBtn) backlogViewBtn.addEventListener('click', () => { showBacklog = true; render(); });
+
+      document.querySelectorAll('.day-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => { selectedDay = parseInt(e.target.dataset.idx); render(); });
+      });
+
+      const markCompleteBtn = document.getElementById('markCompleteBtn');
+      if (markCompleteBtn) markCompleteBtn.addEventListener('click', () => {
+        backlogDays[selectedDay].completed = !backlogDays[selectedDay].completed;
+        saveProgress();
+        render();
+      });
+
+      document.querySelectorAll('.view-day-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => { selectedDay = parseInt(e.target.dataset.idx); showBacklog = false; showDayBacklog = false; render(); });
+      });
+
+      // Video complete buttons
+      document.querySelectorAll('.video-complete-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          const id = e.currentTarget.dataset.id;
+          completedVideos[id] = !completedVideos[id];
+          saveProgress();
+          render();
+        });
+      });
+
+      // Show all/backlog videos buttons
+      const showAllVideosBtn = document.getElementById('showAllVideosBtn');
+      if (showAllVideosBtn) showAllVideosBtn.addEventListener('click', () => { showDayBacklog = false; render(); });
+
+      const showBacklogVideosBtn = document.getElementById('showBacklogVideosBtn');
+      if (showBacklogVideosBtn) showBacklogVideosBtn.addEventListener('click', () => { showDayBacklog = true; render(); });
+    }
+
+    // Save progress to localStorage
+    function saveProgress() {
+      localStorage.setItem('completedVideos', JSON.stringify(completedVideos));
+      localStorage.setItem('backlogDays', JSON.stringify(backlogDays));
+    }
+
+    // Load progress from localStorage
+    function loadProgress() {
+      const saved = localStorage.getItem('completedVideos');
+      if (saved) completedVideos = JSON.parse(saved);
+      const savedDays = localStorage.getItem('backlogDays');
+      if (savedDays) {
+        const parsed = JSON.parse(savedDays);
+        backlogDays = backlogDays.map((day, idx) => ({
+          ...day,
+          completed: parsed[idx]?.completed || false
+        }));
+      }
+    }
+
+    function handleFileUpload(event) {
+      const file = event.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = (e) => parseCSVData(e.target.result);
+      reader.readAsText(file);
+    }
+
+    function parseCSVData(csvContent) {
+      try {
+        const parsed = Papa.parse(csvContent, { header: true, dynamicTyping: true, skipEmptyLines: true, transformHeader: (h) => h.trim() });
+        const videos = parsed.data.map(row => ({
+          subject: String(row.Subject || '').trim(),
+          videoNumber: parseInt(row.Video_Number) || 0,
+          messageId: parseInt(row.Message_ID) || 0,
+          date: row.Date || '',
+          durationSeconds: parseFloat(row.Duration_Seconds) || 0,
+          durationFormatted: row.Duration_Formatted || '',
+          fileName: String(row.File_Name || 'Unknown').trim()
+        })).filter(v => v.subject && v.durationSeconds > 0);
+
+        if (videos.length > 0) {
+          videoData = videos;
+          generateDaySchedule(videos);
+          loadProgress();
+          fileUploaded = true;
+          render();
+        } else {
+          alert('No valid video data found.');
+        }
+      } catch (error) {
+        console.error('Error:', error);
+        alert('Error parsing CSV.');
+      }
+    }
+
+    function generateDaySchedule(videos) {
+      const DAILY_SECONDS = 6.5 * 3600;
+      const subjectGroups = {};
+      videos.forEach(v => {
+        if (!subjectGroups[v.subject]) subjectGroups[v.subject] = [];
+        subjectGroups[v.subject].push(v);
+      });
+
+      Object.keys(subjectGroups).forEach(s => subjectGroups[s].sort((a, b) => a.videoNumber - b.videoNumber));
+
+      const sortedSubjects = Object.keys(subjectGroups).sort((a, b) => {
+        const totalA = subjectGroups[a].reduce((sum, v) => sum + v.durationSeconds, 0);
+        const totalB = subjectGroups[b].reduce((sum, v) => sum + v.durationSeconds, 0);
+        return totalB - totalA;
+      });
+
+      const schedule = [];
+      let currentDay = 1;
+
+      sortedSubjects.forEach(subject => {
+        const subjectVideos = subjectGroups[subject];
+        let currentDayVideos = [], currentDaySeconds = 0, videoIndex = 0;
+
+        while (videoIndex < subjectVideos.length) {
+          const video = subjectVideos[videoIndex];
+          const videoAt2x = video.durationSeconds / 2;
+
+          if (currentDaySeconds + videoAt2x <= DAILY_SECONDS * 1.1) {
+            currentDayVideos.push(video);
+            currentDaySeconds += videoAt2x;
+            videoIndex++;
+          } else {
+            if (currentDayVideos.length > 0) {
+              schedule.push({ day: currentDay, subject, videos: [...currentDayVideos], totalSeconds: currentDaySeconds, totalHours: (currentDaySeconds / 3600).toFixed(2), originalHours: (currentDaySeconds * 2 / 3600).toFixed(2) });
+              currentDay++;
+              currentDayVideos = [];
+              currentDaySeconds = 0;
+            } else {
+              schedule.push({ day: currentDay, subject, videos: [video], totalSeconds: videoAt2x, totalHours: (videoAt2x / 3600).toFixed(2), originalHours: (video.durationSeconds / 3600).toFixed(2) });
+              currentDay++;
+              videoIndex++;
+            }
+          }
+        }
+
+        if (currentDayVideos.length > 0) {
+          schedule.push({ day: currentDay, subject, videos: currentDayVideos, totalSeconds: currentDaySeconds, totalHours: (currentDaySeconds / 3600).toFixed(2), originalHours: (currentDaySeconds * 2 / 3600).toFixed(2) });
+          currentDay++;
+        }
+      });
+
+      daySchedule = schedule;
+      backlogDays = schedule.map(day => ({ ...day, completed: false }));
+    }
+
+    function formatDuration(seconds) {
+      const h = Math.floor(seconds / 3600);
+      const m = Math.floor((seconds % 3600) / 60);
+      const s = Math.floor(seconds % 60);
+      return `${h}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+    }
+
+    function getCompletionStats() {
+      const completed = backlogDays.filter(d => d.completed).length;
+      const total = backlogDays.length;
+      return { completed, total, percentage: total > 0 ? ((completed / total) * 100).toFixed(1) : 0 };
+    }
+
+    render();
+  </script>
+</body>
+</html>
