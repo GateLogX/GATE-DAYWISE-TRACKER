@@ -1,0 +1,865 @@
+Subject,Video_Number,Message_ID,Date,Duration_Seconds,Duration_Formatted,File_Name
+COA,1,81,,1185,19:45,000_Lecture_1A_Introduction_to_COA_Architecture_Vs_Organ.mp4
+COA,2,82,,671,11:11,001. Lecture 1B - Stored Program Architecture.mp4
+COA,3,83,,1124,18:44,002. Lecture 1C - Structure of a Computer - Basic Compon.mp4
+COA,4,84,,308,05:08,"003. Lecture 1D - IO Devices - Input Devices, Output Dev.mp4"
+COA,5,85,,874,14:34,004. Lecture 1E - Memory - RAM Vs ROM.mp4
+COA,6,86,,8026,02:13:46,005. Recording - Lecture 2A - Main Memory - Addressabili.mp4
+COA,7,87,,10378,02:52:58,006_Recording_Lecture_2B_Byte_Ordering_Endianness_Little.mp4
+COA,8,88,,7737,02:08:57,007_Recording_Lecture_2C_Practice_Questions_Endianness.mp4
+COA,9,89,,3244,54:04:00,008. Recording - Lecture 3A - System Bus.mp4
+COA,10,90,,7550,02:05:50,009_Recording_Lecture_3B_Memory_Interfacing_&_Expansion.mp4
+COA,11,91,,9703,02:41:43,010_Recording_Lecture_3C_GATE_Questions_Memory_Interleav.mp4
+COA,12,92,,10937,03:02:17,011. Recording - Lecture 1 - Registers & Status Flags.mp4
+COA,13,93,,8815,02:26:55,012_Recording_Lecture_2A_Instruction_Set_Architecture_IS.mp4
+COA,14,94,,5326,01:28:46,013. Recording - Lecture 2B - RISC & CISC Architecture.mp4
+COA,15,95,,6626,01:50:26,014_Recording_Lecture_3A_Instruction_Format_&_Expand_Opc.mp4
+COA,16,96,,9107,02:31:47,015. Recording - Lecture 3B - Expanding Opcode Technique.mp4
+COA,17,97,,5940,01:39:00,016_Recording_Lecture_3C_ALL_GATE_PYQs_on_Expand_Opcode_.mp4
+COA,18,98,,9996,02:46:36,017_Recording_Lecture_3D_Instruction_Types_&_ALU_Operati.mp4
+COA,19,99,,3734,01:02:14,018. Lecture 4B - Branch Instructions.mp4
+COA,20,100,,5169,01:26:09,019. Lecture 4C - GATE PYQs on Machine Instructions.mp4
+COA,21,101,,10066,02:47:46,020. Recording - Lecture 5A - Instruction Execution Cycl.mp4
+COA,22,102,,8095,02:14:55,021. Recording - Lecture 6A - Addressing Modes.mp4
+COA,23,103,,10345,02:52:25,022. Recording - Lecture 6B - Addressing Modes Part 2.mp4
+COA,24,104,,6813,01:53:33,023. Recording - Lecture 6C - Addressing Modes Part 3.mp4
+COA,25,105,,6405,01:46:45,024. Lecture 1 Introduction to Cache Direct Mapped Cache.mp4
+COA,26,106,,5737,01:35:37,025. Lecture 2- Questions on Direct Mapped Cache Memory.mp4
+COA,27,107,,4408,01:13:28,026. Lecture 3- Introduction to Set Associative Cache.mp4
+COA,28,108,,4253,01:10:53,027. Lecture 4 Questions on Set Associative Cache Memory.mp4
+COA,29,109,,5527,01:32:07,"028_Lecture_5_Loop_Array,_and_Cache_Questions_from_Stand.mp4"
+COA,30,110,,6769,01:52:49,029. Lecture 6 GATE PYQs on Loop Array and Cache Questio.mp4
+COA,31,111,,5384,01:29:44,030_Lecture_7_GATE_PYQs_on_Cache_Memory_Effective_Access.mp4
+COA,32,112,,2956,49:16:00,031. Lecture 8. Write Back and Write Through Policies.mp4
+COA,33,113,,5777,01:36:17,032_Recording_Lecture_1_Introduction_to_Fixed_Point_and_.mp4
+COA,34,114,,3904,01:05:04,033_Recording_Lecture_2_Introduction_to_Floating_Point_R.mp4
+COA,35,115,,5972,01:39:32,034_Recording_Lecture_3_Floating_Point_Representation_GA.mp4
+OS,1,119,,5196,01:26:36,000_Lecture_1_Introduction_to_Operating_Systems_What_is_.mp4
+OS,2,120,,4788,01:19:48,001_Lecture_2a_How_Operating_System_create_a_new_process.mp4
+OS,3,121,,6948,01:55:48,002_Lecture_2b_Forking_the_Identical_Copies_GATE_2005_ve.mp4
+OS,4,122,,5544,01:32:24,003. Lecture 3_ Fork Questions _ Process Graph _ Fork Tr.mp4
+OS,5,123,,6350,01:45:50,004. Lecture 4 exec _ Creating a Process _ System Calls.mp4
+OS,6,124,,6519,01:48:39,005. Lecture 5 System Call Execution _ Threads.mp4
+OS,7,125,,5536,01:32:16,006_Recording_Lecture_6_User_Level_Threads_and_Kernel_Le.mp4
+OS,8,126,,4627,01:17:07,"007. Lecture 7_ Thread Mapping models, and Context Switc.mp4"
+OS,9,127,,5775,01:36:15,008. Lecture 8 _ Process State Diagram and Schedulers.mp4
+OS,10,128,,2584,43:04:00,009. Recording - Lecture 9 _ Scheduling Algorithms.mp4
+OS,11,129,,6583,01:49:43,010_Recording_Lecture_10_Scheduling_Algorithms_Shortest_.mp4
+OS,12,130,,5354,01:29:14,011_Recording_Lecture_11_Scheduling_Algorithms_Round_Rob.mp4
+OS,13,131,,6400,01:46:40,012. Recording - Lecture 12 _ Scheduling Algorithms_ SRT.mp4
+OS,14,132,,4917,01:21:57,013_Recording_Lecture_13_Scheduling_Algorithms_Priority_.mp4
+OS,15,133,,4188,01:09:48,014. Lecture 14 _ InterProcess Communication (IPC).mp4
+OS,16,134,,3908,01:05:08,015. Recording - Lecture 15_ Introduction to Synchronisa.mp4
+OS,17,135,,5661,01:34:21,016. Lecture 16_ Critical Section Solution Requirements.mp4
+OS,18,136,,6962,01:56:02,017_Recording_Lecture_17_Questions_on_Critical_Section_S.mp4
+OS,19,137,,5834,01:37:14,018_Recording_Lecture_18_Peterson's_solution_and_Hardwar.mp4
+OS,20,138,,7381,02:03:01,019_Recording_Lecture_19_Atomic_Hardware_Instructions_an.mp4
+OS,21,139,,8127,02:15:27,020. Lecture 20_ Semaphores PYQs.mp4
+OS,22,140,,7798,02:09:58,021_Lecture_21_Classic_Synchronisation_Problems_Producer.mp4
+OS,23,141,,5365,01:29:25,022_Lecture_22_Classic_Synchronisation_Problems_Reader_W.mp4
+OS,24,142,,8405,02:20:05,023_Recording_Lecture_23_Memory_Management_1_Base_Bound_.mp4
+OS,25,143,,7469,02:04:29,024_Recording_Optional_Lecture_24_Questions_on_Base_Boun.mp4
+OS,26,144,,6808,01:53:28,025. Recording - Lecture 25_ Introduction to Paging.mp4
+OS,27,145,,8676,02:24:36,026. Recording - Lecture 26_Single level Paging question.mp4
+OS,28,146,,7180,01:59:40,027. Recording - Lecture 27_ Multi Level Paging.mp4
+OS,29,147,,6647,01:50:47,028. Lecture 28_ Multi Level Paging -2.mp4
+OS,30,148,,9363,02:36:03,029_Lecture_29_Multi_Level_Paging_3_Reducing_Page_Table_.mp4
+OS,31,149,,7087,01:58:07,030_Recording_Lecture_30_Memory_Management_Summary_So_Fa.mp4
+OS,32,150,,4219,01:10:19,031. Recording - Lecture 31_ Segmentation with Paging.mp4
+OS,33,151,,7750,02:09:10,032_Recording_Lecture_32_Demand_Paging_and_Page_replacem.mp4
+OS,34,152,,5692,01:34:52,033_Recording_Lecture_33_Remaining_Topics_in_Memory_Mana.mp4
+OS,35,153,,1704,28:24:00,034. GATE 2020 TLB Page Fault Question.mp4
+OS,36,154,,8250,02:17:30,035. Recording - Lecture 34_ Deadlock in Operating Syste.mp4
+OS,37,155,,8023,02:13:43,036_Recording_Lecture_35_Deadlock_Avoidance_Banker's_Alg.mp4
+OS,38,156,,9207,02:33:27,037. File System Implementation.mp4
+OS,39,157,,6486,01:48:06,038_Practice_questions_and_PYQs_in_File_System_Implement.mp4
+TOC,1,199,,8388,02:19:48,"000_OPTIONAL_Lecture_1_Theory_of_Computation_Introduction,_M.mp4"
+TOC,2,200,,2658,44:18:00,"001. Lecture 2A - Basic Concepts - Alphabet, String.mp4"
+TOC,3,201,,1111,18:31,002. Lecture 2B - Basic Concepts - Concatenation of Strings.mp4
+TOC,4,202,,2836,47:16:00,"003_Lecture_2C_Basic_Concepts_Prefix,_Suffix,_Substring,_Sub.mp4"
+TOC,5,203,,1250,20:50,004. Lecture 3A - Language.mp4
+TOC,6,204,,1561,26:01:00,005. Lecture 3B - Set Operations on Languages.mp4
+TOC,7,205,,2222,37:02:00,"006. Lecture 3C - Exponentiation of Language, Kleene Closure.mp4"
+TOC,8,206,,1197,19:57,007. Lecture 4 - Practice Questions - Basic Concepts.mp4
+TOC,9,207,,2063,34:23:00,008. Lecture 5 - Complement of a Language.mp4
+TOC,10,208,,1525,25:25:00,009_Lecture_6_What_we_study_in_Theory_of_Computation_&_Why_.mp4
+TOC,11,209,,2973,49:33:00,010. Lecture 7A - Finite Automata - Introduction.mp4
+TOC,12,210,,3206,53:26:00,011. Lecture 7B - Finite Automata - Part 2.mp4
+TOC,13,211,,1506,25:06:00,012_Lecture_7C_Finite_Automata_Formal_Definition_&_Rules.mp4
+TOC,14,212,,1588,26:28:00,013. Lecture 8A - Deterministic Finite Automata DFA.mp4
+TOC,15,213,,2862,47:42:00,014. Lecture 8B - Designing DFA Part 1.mp4
+TOC,16,214,,1825,30:25:00,015. Lecture 8C - Designing DFA Part 2.mp4
+TOC,17,215,,1031,17:11,016. Lecture 8D - Regular Language.mp4
+TOC,18,216,,2815,46:55:00,017. Lecture 8E - Designing DFA Part 3.mp4
+TOC,19,217,,2215,36:55:00,018. Lecture 8F - Designing DFA Part 4.mp4
+TOC,20,218,,923,15:23,019. Lecture 8G - Designing DFA Part 5.mp4
+TOC,21,219,,1680,28:00:00,020. Lecture 8H - Designing DFA Part 6.mp4
+TOC,22,220,,1000,16:40,021. Lecture 9 - Extended Transition Function in DFA.mp4
+TOC,23,221,,615,10:15,023. Lecture 10B - Practice Questions.mp4
+TOC,24,222,,1696,28:16:00,022. Lecture 10A - DFA for Complement of a Regular Language.mp4
+TOC,25,223,,629,10:29,024_Lecture_10C_Recap_DFA_for_Complement_of_a_Regular_Langua.mp4
+TOC,26,224,,6723,01:52:03,025. Lecture 11 - The Product Construction of DFAs.mp4
+TOC,27,225,,1615,26:55:00,026. Lecture 12A - DFA Minimization - Part 1.mp4
+TOC,28,226,,3010,50:10:00,027_Lecture_12B_DFA_Minimization_Part_2_State_Equivalence.mp4
+TOC,29,227,,1315,21:55,028_Lecture_12C_DFA_Minimization_Part_3_Practice_Questions.mp4
+TOC,30,228,,1782,29:42:00,029_Lecture_12D_DFA_Minimization_Part_4_Practice_Questions_S.mp4
+TOC,31,229,,3296,54:56:00,030_Lecture_12E_DFA_Minimization_Part_5_Partition_Algorithm_.mp4
+TOC,32,230,,1139,18:59,031_Lecture_12F_DFA_Minimization_Part_6_Practice_Partition_A.mp4
+TOC,33,231,,531,08:51,032. Lecture 13A - Configuration in DFA.mp4
+TOC,34,232,,2005,33:25:00,033. Lecture 13B - Our First Non-Regular Language.mp4
+TOC,35,233,,1275,21:15,034. Lecture 14A - NFA Introduction.mp4
+TOC,36,234,,1610,26:50:00,035. Lecture 14B - NFA Definition & Rules.mp4
+TOC,37,235,,2501,41:41:00,036. Lecture 14C - Understanding Non-Determinism.mp4
+TOC,38,236,,1585,26:25:00,037. Lecture 14D - Designing NFA.mp4
+TOC,39,237,,1321,22:01,038. Lecture 14E - Practice Questions.mp4
+TOC,40,238,,2565,42:45:00,039. Lecture 14F - Null Moves in NFAs.mp4
+TOC,41,239,,605,10:05,040. Lecture 14G - Peter Linz Question on NFA.mp4
+TOC,42,240,,1567,26:07:00,041_Lecture_14H_NFA_Practice_&_NFA_Extended_Transition_Funct.mp4
+TOC,43,241,,928,15:28,042. Lecture 14i - NFA Formal Definition & Rules.mp4
+TOC,44,242,,8283,02:18:03,043. Recording - Lecture 15 - Equivalence of DFA & NFA.mp4
+TOC,45,243,,8751,02:25:51,044. Recording - Lecture 15B - Equivalence of DFA & NFA.mp4
+TOC,46,244,,3728,01:02:08,045. Lecture 16A - Regular Expression Part 1.mp4
+TOC,47,245,,476,07:56,046. Lecture 16B - Example Regular Expression.mp4
+TOC,48,246,,3640,01:00:40,047. Lecture 16C - A Lot of Practice - Regular Expression.mp4
+TOC,49,247,,1203,20:03,048. Lecture 16D - Regular Expression Analysis.mp4
+TOC,50,248,,1458,24:18:00,049. Lecture 16E - Practice Questions - Regular Expression.mp4
+TOC,51,249,,1655,27:35:00,050. Lecture 16F - Regular Expression - Analysis.mp4
+TOC,52,250,,4210,01:10:10,051_Lecture_16G_Important_Properties_of_Regular_Expressions.mp4
+TOC,53,251,,690,11:30,052_Lecture_16H_Some_Basic_Properties_of_Regular_Expressions.mp4
+TOC,54,252,,1326,22:06,053_Lecture_17A_Equivalence_of_RE_and_FA_Part_1_Somethings_A.mp4
+TOC,55,253,,1724,28:44:00,054_Lecture_17B_Equivalence_of_RE_and_FA_Part_2_Converting_R.mp4
+TOC,56,254,,451,07:31,055_Lecture_17C_Equivalence_of_RE_and_FA_Part_3_FA_to_RE.mp4
+TOC,57,255,,1200,20:00,056_Lecture_17D_Equivalence_of_RE_and_FA_Part_4_FA_to_RE.mp4
+TOC,58,256,,1952,32:32:00,057_Lecture_17E_Equivalence_of_RE_and_FA_Part_5_Unary_Alphab.mp4
+TOC,59,257,,3577,59:37:00,058_Lecture_17F_Equivalence_of_RE_and_FA_Part_6_The_Two_Temp.mp4
+TOC,60,258,,10181,02:49:41,059_Recording_Lecture_18A_Pumping_Lemma_for_Regular_Language.mp4
+TOC,61,259,,8257,02:17:37,060_Recording_Lecture_18B_Pumping_Lemma_for_Regular_Language.mp4
+TOC,62,260,,5794,01:36:34,061_Recording_Lecture_18C_Pumping_Lemma_for_Regular_Language.mp4
+TOC,63,261,,8348,02:19:08,062_Recording_Lecture_18D_Pumping_Lemma_for_Regular_Language.mp4
+TOC,64,262,,8206,02:16:46,063_Recording_Lecture_18E_Pumping_Lemma_for_Regular_Language.mp4
+TOC,65,263,,7088,01:58:08,064_Proving_Non_Regular_Language_Part_1_Myhill_Nerode_Theore.mp4
+TOC,66,264,,3446,57:26:00,065_Lecture_19B_Myhill_Nerode_Theorem_Part_2_Distinguishable.mp4
+TOC,67,265,,2348,39:08:00,066. Lecture 19C - Myhill Nerode Theorem Part 3 - Practice.mp4
+TOC,68,266,,2605,43:25:00,067_Lecture_19D_Myhill_Nerode_Theorem_Part_4_The_Theorem.mp4
+TOC,69,267,,7805,02:10:05,068_Recording_Lecture_19E_Revision_&_Practice_Myhill_Nerode_.mp4
+TOC,70,268,,8717,02:25:17,069_Recording_Lecture_19F_Finding_Number_of_States_in_Minima.mp4
+TOC,71,269,,7228,02:00:28,070_Recording_Lecture_19G_GATE_PYQs_on_Minimal_DFA_Myhill_Ne.mp4
+TOC,72,270,,8235,02:17:15,071. Lecture 1A - Context Free Grammars.mp4
+TOC,73,271,,6838,01:53:58,072. Lecture 1B - Practice & Standard Examples of CFGs.mp4
+TOC,74,272,,8103,02:15:03,073. Recording - Lecture 1C - Regular Grammars.mp4
+TOC,75,273,,1034,17:14,074. Lecture 1D - Every Regular Language is CFL - Proof.mp4
+TOC,76,274,,5951,01:39:11,075_Recording_Lecture_1E_Regular_Grammar_to_NFA_&_Vice_Versa.mp4
+TOC,77,275,,4977,01:22:57,"076_Lecture_2A_Push_Down_Automata_PDA_Idea,_Definition,_Rule.mp4"
+TOC,78,276,,2329,38:49:00,077. Lecture 2B - PDA Practice Questions.mp4
+TOC,79,277,,2491,41:31:00,078_Lecture_2C_PDA_Analysis_Understanding_PDA_Transitions_&_.mp4
+TOC,80,278,,1280,21:20,079. PDA Design Example 1 - a^nb^n Language.mp4
+TOC,81,279,,703,11:43,080. PDA Design Example 2 - a^nb^n+1 Language.mp4
+TOC,82,280,,686,11:26,081. PDA Design Example 3 - a^nb^m Language.mp4
+TOC,83,281,,404,06:44,082. PDA Design Example 4 - a^nb^m Language.mp4
+TOC,84,282,,796,13:16,083. PDA Design Example 5 - a^nb^m Language.mp4
+TOC,85,283,,859,14:19,084. PDA Design Example 6 - a^nb^2n Language.mp4
+TOC,86,284,,1007,16:47,085. PDA Design Example 7 - a^2nb^n Language.mp4
+TOC,87,285,,4675,01:17:55,086_Lecture_2D_PDA_Design_More_Examples_Nondeterminism_in_Pu.mp4
+TOC,88,286,,8529,02:22:09,"087. Lecture 2E - PDA Analysis, Empty Stack Acceptance(1).mp4"
+TOC,89,287,,5042,01:24:02,088_Recording_Live_Session_Weekly_Quiz_26_Discussion_Theory_.mp4
+TOC,90,288,,2710,45:10:00,089_Recording_Live_Session_Weekly_Quiz_26_Discussion_Part_2_.mp4
+TOC,91,289,,8529,02:22:09,"90.Lecture 2E - PDA Analysis, Empty Stack Acceptance(1).mp4"
+TOC,92,290,,801,13:21,91.Lecture 2F - Correction in a Question.mp4
+TOC,93,291,,1672,27:52:00,92.Lecture 2G - Practice - PDA with Empty Stack Acceptan.mp4
+TOC,94,292,,1159,19:19,93.Lecture 3A - DPDA Part 1 - What is Nondeterminism.mp4
+TOC,95,293,,8853,02:27:33,94.Lecture 3B - DPDA and DCFL.mp4
+TOC,96,294,,4480,01:14:40,95_Lecture_1A_Identification_of_Regular_Languages_Nonregul_m.mp4
+TOC,97,295,,1684,28:04:00,96_Lecture_1B_Practice_Identification_of_Regular_Languag.mp4
+TOC,98,296,,2720,45:20:00,97_Lecture_1C_GATE_CSE_2014_Identification_of_Regular_Langua.mp4
+TOC,99,297,,4026,01:07:06,"98_Lecture_2A_Identification_of_CFL,_DCFL_Languages_Context_.mp4"
+TOC,100,298,,6555,01:49:15,"99.Lecture 2B - Identification of CFL, DCFL Languages.mp4"
+TOC,101,299,,7017,01:56:57,100_Recording_Lecture_1A_Closure_Properties_of_Regular_Langu.mp4
+TOC,102,300,,6417,01:46:57,101_Recording_Lecture_1B_Closure_Properties_of_Regular_Langu.mp4
+TOC,103,301,,4143,01:09:03,103. Recording - Lecture 2B - Closure Properties of DCFLs.mp4
+TOC,104,302,,9861,02:44:21,"102_Recording_Lecture_2_Closure_Properties_of_CFLs,_DCFLs.mp4"
+TOC,105,303,,5016,01:23:36,104_Recording_Lecture_3_Closure_Properties_of_Nonregular_Lan.mp4
+TOC,106,304,,3731,01:02:11,105. Lecture 4 - Chomsky Hierarchy & Types of Grammars.mp4
+TOC,107,305,,1486,24:46:00,106. Lecture 5 - Non-Closure of Regular Languages.mp4
+TOC,108,306,,1014,16:54,107. Lecture 6 - Closure Properties of Finite Languages.mp4
+TOC,109,307,,826,13:46,108_OPTIONAL_DCFLs_are_Not_Closed_under_Concatenation_and_Kl.mp4
+TOC,110,308,,1164,19:24,109_GATE_CSE_2021_Number_of_States_in_Minimal_DFA_for_L_and_.mp4
+TOC,111,309,,7360,02:02:40,110. Lecture 1 - Introduction of Turing Machines.mp4
+TOC,112,310,,5004,01:23:24,111. Lecture 2 - Turing Machine Design.mp4
+TOC,113,311,,1244,20:44,112. Lecture 3 - Turing Machine - Formal Definition.mp4
+TOC,114,312,,1595,26:35:00,113. Lecture 4 - Some Conjectures.mp4
+TOC,115,313,,9817,02:43:37,114_Recording_Lecture_5_Practice_&_Revision_Turing_Machines.mp4
+TOC,116,314,,6424,01:47:04,115. Recording - Lecture 6 - Understanding Infinite Looping.mp4
+TOC,117,315,,1184,19:44,"116. Lecture 7 - Decider, Decidable.mp4"
+TOC,118,316,,3266,54:26:00,117. Lecture 8 - Revision - Story So Far - Turing Machines.mp4
+TOC,119,317,,6639,01:50:39,"118. Lecture 9 - Dovetailing, Variants of TM.mp4"
+TOC,120,318,,4821,01:20:21,119. Lecture 10 - Encoding and Decidability.mp4
+TOC,121,319,,2015,33:35:00,120. Lecture 11 - Language Vs Decision Problem.mp4
+TOC,122,320,,6405,01:46:45,121. Lecture 12A - Revision & Practice of Encoding.mp4
+TOC,123,321,,3102,51:42:00,122_Lecture_12B_Revision_&_Practice_of_Decision_Problems_&_L.mp4
+TOC,124,322,,6269,01:44:29,123_Lecture_13_Logically_Solving_Decision_Problems_related_t.mp4
+TOC,125,323,,6090,01:41:30,124. Lecture 14A - Decision Problems of Regular Languages.mp4
+TOC,126,324,,1960,32:40:00,125_Lecture_14B_Practice_Questions_on_Decision_Problems_of_R.mp4
+TOC,127,325,,3961,01:06:01,126_Lecture_15A_Simplification_of_Context_Free_Grammars_Usel.mp4
+TOC,128,326,,4375,01:12:55,"127_Lecture_15B_Simplification_of_CFGs_Null_Production,_Unit.mp4"
+TOC,129,327,,9446,02:37:26,"128. Lecture 15C - Normal Forms of CFGs - CNF, GNF.mp4"
+TOC,130,328,,6174,01:42:54,129_Lecture_15D_Decision_Problems_of_Context_Free_Languages.mp4
+TOC,131,329,,6105,01:41:45,"130. Lecture 16A - Universal TM, Membership Problem of TM.mp4"
+TOC,132,330,,6840,01:54:00,"131_Lecture_16B_Halting_Problem_of_TM,_Existence_of_Non_RE_L.mp4"
+TOC,133,331,,7604,02:06:44,132. Lecture 16C - Rice Theorem.mp4
+TOC,134,332,,3289,54:49:00,133. Lecture 16D - Practice and Revision - Rice Theorem.mp4
+TOC,135,333,,2220,37:00:00,134_Lecture_16E_Rice_Theorem_Part_3_Machine_Property_Vs_Lang.mp4
+TOC,136,334,,2058,34:18:00,135. Lecture 16F - Rice Theorem for Programs.mp4
+TOC,137,335,,6653,01:50:53,136. Lecture 17 - GATE Questions on Undecidability.mp4
+TOC,138,336,,10829,03:00:29,"137_Lecture_18_Closure_Properties_of_RE,_REC_Languages,_Comp.mp4"
+TOC,139,337,,9584,02:39:44,138. Recording - Lecture 1 - Countable Sets.mp4
+TOC,140,338,,5665,01:34:25,139. Recording - Lecture 2 - Countable Sets.mp4
+TOC,141,339,,6865,01:54:25,140_Recording_Lecture_3_Uncountable_Sets_&_Cantor's_Diagonal.mp4
+TOC,142,340,,8806,02:26:46,141_Recording_Lecture_4_Three_Definitions_of_Countable_Sets.mp4
+TOC,143,341,,7328,02:02:08,142. Recording - Lecture 5 - Theorems for Countable Sets.mp4
+TOC,144,342,,6563,01:49:23,143_Recording_Lecture_6_Cantor's_Theorem_&_Consequences.mp4
+TOC,145,343,,9309,02:35:09,144_Recording_Lecture_7_Countability_Results_in_Theory_of_Co.mp4
+TOC,146,344,,9274,02:34:34,145_Recording_Lecture_8_Previous_Exams_Questions_Discussion_.mp4
+DL,1,350,,4018,01:06:58,000_Lecture_1_Introduction_to_Digital_Logic_&_Boolean_Al.mp4
+DL,2,351,,2388,39:48:00,001. Lecture 2 - Boolean Algebra.mp4
+DL,3,352,,4446,01:14:06,002. Lecture 3A - Binary & Decimal Number System.mp4
+DL,4,353,,542,09:02,003_Lecture_3B_Practice_Decimal_&_Binary_Number_System.mp4
+DL,5,354,,2029,33:49:00,004. Lecture 4A - Boolean Algebra Continued.mp4
+DL,6,355,,3723,01:02:03,005_Lecture_4B_Boolean_Expressions_&_Boolean_Algebra_Law.mp4
+DL,7,356,,3467,57:47:00,006_Lecture_4C_Complement_&_Dual_of_Boolean_Expressions.mp4
+DL,8,357,,7122,01:58:42,007. Lecture 4D - Algebraic Simplification.mp4
+DL,9,358,,2303,38:23:00,008. Lecture 5A - Standard Forms of Boolean Expressions.mp4
+DL,10,359,,3295,54:55:00,"009. Lecture 5B - Minterm, Maxterm.mp4"
+DL,11,360,,4954,01:22:34,"010_Recording_Lecture_5C_Sum_of_Minterms,_Product_of_Max.mp4"
+DL,12,361,,10715,02:58:35,011_Recording_Lecture_5D_Expressing_Boolean_Function_usi.mp4
+DL,13,362,,2572,42:52:00,012_Lecture_5E_Revision_&_Practice_Standard_Forms_of_Boo.mp4
+DL,14,363,,1250,20:50,"013_Lecture_5F_Practice_Questions_Sum_of_Minterms,_Produ.mp4"
+DL,15,364,,4041,01:07:21,014_Lecture_6A_K_Map_Part_1_Boolean_Function_Minimizatio.mp4
+DL,16,365,,3690,01:01:30,015_Lecture_6B_K_Map_Part_2_Minimization_of_Boolean_Expr.mp4
+DL,17,366,,2789,46:29:00,016_Lecture_6C_K_Map_Part_3_Minimization_of_Boolean_Expr.mp4
+DL,18,367,,9666,02:41:06,"017_Lecture_6D_K_Map_Part_4_Don't_Cares,_Prime_Implicant.mp4"
+DL,19,368,,9200,02:33:20,"018_Lecture_6E_K_Map_Part_5_Prime_Implicant,_Essential_P.mp4"
+DL,20,369,,11786,03:16:26,"019_Recording_Lecture_7_Dual_of_a_Boolean_Function,_Self.mp4"
+DL,21,370,,1567,26:07:00,"020_Lecture_8_ExOr,_ExNor_Functions_&_Their_Properties.mp4"
+DL,22,371,,1116,18:36,"021_OPTIONAL_Positive_Level_Logic_System,_Negative_Level.mp4"
+DL,23,372,,5272,01:27:52,"022. Lecture 1A - Octal, Hexadecimal Number Systems.mp4"
+DL,24,373,,775,12:55,"023_Lecture_1B_Why_Octal,_Hexadecimal_Number_Systems_are.mp4"
+DL,25,374,,524,08:44,024. Lecture 2 - Binary Addition.mp4
+DL,26,375,,3606,01:00:06,"025_Lecture_3A_Complement_of_a_number,_Subtraction_using.mp4"
+DL,27,376,,557,09:17,026_Lecture_3B_Practice_Questions_Subtraction_using_r's_.mp4
+DL,28,377,,1750,29:10:00,027. Lecture 3C - Subtraction using r-1's complement.mp4
+DL,29,378,,2416,40:16:00,028. Lecture 3D - Signed Binary Numbers Representations.mp4
+DL,30,379,,2984,49:44:00,029_Lecture_3E_Range_of_Signed_Binary_Numbers_in_Various.mp4
+DL,31,380,,2814,46:54:00,030_Lecture_4A_Addition_of_Signed_Binary_Numbers_in_Vari.mp4
+DL,32,381,,3380,56:20:00,"031_Lecture_4B_Addition,_Subtraction_of_Signed_Binary_Nu.mp4"
+DL,33,382,,4016,01:06:56,"032_Lecture_5A_Overflow_Definition,_Overflow_Detection_i.mp4"
+DL,34,383,,2919,48:39:00,033_Lecture_5B_Overflow_in_Addition_of_Signed_Binary_Num.mp4
+DL,35,384,,1721,28:41:00,034. Lecture 6 - Sign Extension in Various Representatio.mp4
+DL,36,385,,1845,30:45:00,035. Lecture 7A - Binary Codes Introduction.mp4
+DL,37,386,,4521,01:15:21,"036_Lecture_7B_BCD_Code,_2421_Code,_Self_Complementary_B.mp4"
+DL,38,387,,4001,01:06:41,037. Lecture 7C - Gray Codes.mp4
+DL,39,388,,594,09:54,038. Lecture 7D - Finding Gray Code - An Easy Alternate .mp4
+DL,40,389,,3860,01:04:20,039. Lecture 1 - Compact Truth Table Representation.mp4
+DL,41,390,,3508,58:28:00,040. Lecture 2A - Multiplexer.mp4
+DL,42,391,,2282,38:02:00,041_Lecture_2B_Realization_of_Boolean_Functions_using_Mu.mp4
+DL,43,392,,3543,59:03:00,042. Lecture 2C - Practice Questions - Multiplexer.mp4
+DL,44,393,,1607,26:47:00,043. Lecture 2D - Function Realization using Multiplexer.mp4
+DL,45,394,,2209,36:49:00,044. Lecture 2E - Building Large Mux using Small Mux.mp4
+DL,46,395,,1613,26:53:00,045. Lecture 2F - Multiplexer with Enable Input.mp4
+DL,47,396,,991,16:31,046. Lecture 3 - Demultiplexer.mp4
+DL,48,397,,2624,43:44:00,047. Lecture 4A -Encoder - Binary Encoder.mp4
+DL,49,398,,1668,27:48:00,048. Lecture 4B - Encoder - Priority Encoder.mp4
+DL,50,399,,3610,01:00:10,049. Lecture 5A - Decoder.mp4
+DL,51,400,,1580,26:20:00,050. Lecture 5B - Active Low Decoder i.e. NAND gate Deco.mp4
+DL,52,401,,1526,25:26:00,051. Lecture 5C - Function Realization using Decoder.mp4
+DL,53,402,,4047,01:07:27,052. Lecture 6 - Propagation Delay & Timing Diagrams.mp4
+DL,54,403,,2460,41:00:00,053. Lecture 7A - Adder - Half Adder.mp4
+DL,55,404,,3841,01:04:01,054. Lecture 7B - Adder - Full Adder.mp4
+DL,56,405,,4223,01:10:23,055. Lecture 7C - Adder - Ripple Carry Adder.mp4
+DL,57,406,,1432,23:52,056_Lecture_7D_Carry_Look_Ahead_Adder_Part_1_Carry_Gener.mp4
+DL,58,407,,3429,57:09:00,057_Lecture_7E_Carry_Look_Ahead_Adder_Part_2_Carry_Gener.mp4
+DL,59,408,,1066,17:46,058_Lecture_7F_Carry_Look_Ahead_Adder_Part_3_Few_Questio.mp4
+DL,60,409,,153,02:33,059_GATE_CSE_2007_Question_35_Look_Ahead_Carry_Generator.mp4
+DL,61,410,,129,02:09,060. GATE CSE 2016 Question 33 - Carry Look-Ahead Adder.mp4
+DL,62,411,,1291,21:31,061_GRE_Computer_Science_Ripple_Carry_Adder_Delay_Questi.mp4
+DL,63,412,,1592,26:32:00,062. Lecture 8 - Adder for Signed Addition.mp4
+DL,64,413,,3200,53:20:00,063_Lecture_1_Introduction_Combinational_Circuits_Vs_Seq.mp4
+DL,65,414,,1632,27:12:00,064_Lecture_2A_One_Bit_Storage_Device_Cross_Coupled_Inve.mp4
+DL,66,415,,3252,54:12:00,065. Lecture 2B - SR Latch - Cross Coupled NOR gates.mp4
+DL,67,416,,1739,28:59:00,066_Lecture_2C_S'R'_Latch_Cross_Coupled_NAND_gates.mp4
+DL,68,417,,4300,01:11:40,"067. Lecture 3 - Timing Diagram of SR Latch, Clock.mp4"
+DL,69,418,,5227,01:27:07,068. Lecture 4 - Flipflops - SR Flipflop.mp4
+DL,70,419,,2701,45:01:00,069. Lecture 5 - D Flipflop.mp4
+DL,71,420,,1627,27:07:00,070. Lecture 6 - Clock Triggering of flipflops.mp4
+DL,72,421,,2919,48:39:00,071. Lecture 7 - JK flipflop.mp4
+DL,73,422,,1356,22:36,072. Lecture 8A - T flipflop.mp4
+DL,74,423,,643,10:43,073. Lecture 8B - Few Important Notes for Flipflops.mp4
+DL,75,424,,4110,01:08:30,074. Lecture 9A - Flipflop Conversion.mp4
+DL,76,425,,871,14:31,075. Lecture 9B - Morris Mano PN Flip-flop Question.mp4
+DL,77,426,,1600,26:40:00,076. Lecture 9D - Flipflop Conversion - SR to T flipflop.mp4
+DL,78,427,,4080,01:08:00,077_Lecture_10A_Direct_Inputs_in_flipflops_Preset_&_Clea.mp4
+DL,79,428,,987,16:27,078. Lecture 10B - Practice Questions on Flipflops.mp4
+DL,80,429,,4425,01:13:45,079_Lecture_11A_Master_Slave_Flipflops_to_Implement_Edge.mp4
+DL,81,430,,2301,38:21:00,080. Lecture 11B - Race Around Condition in JK Flipflops.mp4
+DL,82,431,,1326,22:06,081_Lecture_15A_Counters_Introduction_Asynchronous_Count.mp4
+DL,83,432,,2145,35:45:00,082_Lecture_16A_Asynchronous_Counters_Part_1_Divide_by_2.mp4
+DL,84,433,,2429,40:29:00,083_Lecture_16B_Asynchronous_Counters_Part_2_Mod_4_Async.mp4
+DL,85,434,,8032,02:13:52,084_Lecture_16C_Asynchronous_Counters_Part_3_Binary_Ripp.mp4
+DL,86,435,,4081,01:08:01,085_Lecture_16D_Asynchronous_Counters_Part_4_Binary_Up_R.mp4
+DL,87,436,,365,06:05,086_Lecture_16E_Asynchronous_Counters_Part_5_Cascading_C.mp4
+DL,88,437,,776,12:56,087_Lecture_16F_Asynchronous_Counters_Part_6_Counting_fr.mp4
+DL,89,438,,378,06:18,088. GATE ECE 1987 - Ripple Counter Question.mp4
+DL,90,439,,198,03:18,089. GATE ECE 1990 - Ripple Counter Question.mp4
+DL,91,440,,183,03:03,090. GATE ECE 1993 - Ripple Counter Question.mp4
+DL,92,441,,260,04:20,091. GATE ECE 1999 - Ripple Counter Question.mp4
+DL,93,442,,3288,54:48:00,092. Lecture 17A - Synchronous Counters - The Analysis.mp4
+DL,94,443,,1545,25:45:00,093_Lecture_17B_GATE_CSE_1990_Synchronous_Counter_Questi.mp4
+DL,95,444,,784,13:04,094. GATE CSE 2021 - Synchronous Counter Question.mp4
+DL,96,445,,5009,01:23:29,095. Lecture 17C - Synchronous Counters - Design.mp4
+DL,97,446,,4500,01:15:00,096. Lecture 18A - Ring Counter - Synchronous Counters.mp4
+DL,98,447,,4169,01:09:29,097. Lecture 18B - Johnson Counter - Synchronous Counter.mp4
+C PROGRAMMING,1,507,,1691,28:11:00,000_Lecture_1a_Why_we_need_to_study_C_programming_Why_we.mp4
+C PROGRAMMING,2,508,,1008,16:48,001. Lecture 1b - First C Program.mp4
+C PROGRAMMING,3,509,,1810,30:10:00,002. Lecture 1c. Detour - Number System .mp4
+C PROGRAMMING,4,510,,2146,35:46:00,003. Lecture 1d. Detour - Number System .mp4
+C PROGRAMMING,5,511,,1646,27:26:00,004. Recording - LIVE_ HomeWork -1 Solution Discussion.mp4
+C PROGRAMMING,6,512,,1988,33:08:00,005. Lecture 2a.Signed and Unsigned Numbers in Memory.mp4
+C PROGRAMMING,7,513,,1799,29:59:00,006. Lecture 2b. Integer Promotion.mp4
+C PROGRAMMING,8,514,,756,12:36,007. Lecture 2c. Integer Promotion more questions.mp4
+C PROGRAMMING,9,515,,726,12:06,008_Lecture_2d_Beautiful_Intution_Behind_2's_Complement_.mp4
+C PROGRAMMING,10,516,,1026,17:06,009. Lecture 2e. Type Conversion in C Programming .mp4
+C PROGRAMMING,11,517,,1336,22:16,010. Lecture 3a. If -Else Statements.mp4
+C PROGRAMMING,12,518,,1460,24:20:00,011. Lecture 3b. Switch-Case Statements.mp4
+C PROGRAMMING,13,519,,1119,18:39,012. Lecture 3c. While and For Loops.mp4
+C PROGRAMMING,14,520,,880,14:40,"013_Lecture_3d_Do_While_Loop,_Break,_and_Continue_Statem.mp4"
+C PROGRAMMING,15,521,,3995,01:06:35,014_Recording_LIVE_HomeWork_2_Solution_Discussion_and_WQ.mp4
+C PROGRAMMING,16,522,,2185,36:25:00,015. Lecture 4a. Operators in C Programming.mp4
+C PROGRAMMING,17,523,,1526,25:26:00,016. Lecture 4b. Bitwise Operators in C Programming .mp4
+C PROGRAMMING,18,524,,1886,31:26:00,"017_Lecture_4c_Assignment,_Conditional,_and_Comma_Operat.mp4"
+C PROGRAMMING,19,525,,920,15:20,018. Lecture 4d.Sequence Points.mp4
+C PROGRAMMING,20,526,,1702,28:22:00,"019_Lecture_4e_Short_Circuiting,_Order_of_evaluation,_an.mp4"
+C PROGRAMMING,21,527,,5082,01:24:42,020. Recording - LIVE Homework 3 Solution.mp4
+C PROGRAMMING,22,528,,1176,19:36,021. Lecture 5a. Functions in C programming.mp4
+C PROGRAMMING,23,529,,473,07:53,022. Lecture 5b. GATE 2019 Question.mp4
+C PROGRAMMING,24,530,,3047,50:47:00,023_Lecture_5c_A_Journey_of_the_Program_The_Big_Picture_.mp4
+C PROGRAMMING,25,531,,2222,37:02:00,024. 5d. How Compiler Generates relocatable code _.mp4
+C PROGRAMMING,26,532,,1423,23:43,025. Lecture 6a.Memory Layout.mp4
+C PROGRAMMING,27,533,,1599,26:39:00,026. Lecture 6b. auto and register Storage classes.mp4
+C PROGRAMMING,28,534,,1778,29:38:00,027. Lecture 6c. Static Storage Class.mp4
+C PROGRAMMING,29,535,,1477,24:37:00,028. Lecture 6d. Extern Storage Class.mp4
+C PROGRAMMING,30,536,,985,16:25,029. Lecture 6e. OPTIONAL Extern with 2 files.mp4
+C PROGRAMMING,31,537,,1015,16:55,030. Lecture 6f. Practice Examples with extern keyword.mp4
+C PROGRAMMING,32,538,,5357,01:29:17,031. Recording - LIVE Session 4_ Extern Homework.mp4
+C PROGRAMMING,33,539,,1377,22:57,032. Lecture 7a. Introduction to Recursion.mp4
+C PROGRAMMING,34,540,,1421,23:41,033. Lecture 7b.Examples on Recursion.mp4
+C PROGRAMMING,35,541,,1079,17:59,034. Lecture 7c.More Examples on Recursion.mp4
+C PROGRAMMING,36,542,,3130,52:10:00,035. Recording - LIVE Session 5_ Questions on Recursion.mp4
+C PROGRAMMING,37,543,,1105,18:25,036. Lecture 8a. Introduction to Pointers.mp4
+C PROGRAMMING,38,544,,1497,24:57:00,037. Lecture 8b.Accessing the variable through the Point.mp4
+C PROGRAMMING,39,545,,1456,24:16:00,038. Lecture 8c.Passing Pointer to Function.mp4
+C PROGRAMMING,40,546,,1390,23:10,039. Lecture 8d.Introduction to Array.mp4
+C PROGRAMMING,41,547,,2060,34:20:00,040. Recording - LIVE Session 6_ Homework 5 Solution.mp4
+C PROGRAMMING,42,548,,1948,32:28:00,041. Lecture 9a.Array and Pointer together.mp4
+C PROGRAMMING,43,549,,1393,23:13,042. Lecture 9b.Sizeof Operator in C.mp4
+C PROGRAMMING,44,550,,2701,45:01:00,043. Recording - LIVE_ Solving Few Questions.mp4
+C PROGRAMMING,45,551,,1645,27:25:00,044. Lecture 9c.Any Pointer can point anywhere.mp4
+C PROGRAMMING,46,552,,1111,18:31,045. Lecture 9d.Valid Arithmetic Pointer Operations.mp4
+C PROGRAMMING,47,553,,3951,01:05:51,046. Recording - OPTIONAL LIVE Homework 6 Discussion.mp4
+C PROGRAMMING,48,554,,1839,30:39:00,047_Optional_and_Skip_10a_Little_Endian_and_Big_Endian_C.mp4
+C PROGRAMMING,49,555,,1243,20:43,048. Lecture 10b. Passing One D array to the Function.mp4
+C PROGRAMMING,50,556,,1869,31:09:00,049. Lecture 10c.Character array and strings.mp4
+C PROGRAMMING,51,557,,814,13:34,050. Lecture 10d. Double Pointer _ GATE 2008.mp4
+C PROGRAMMING,52,558,,1630,27:10:00,051. Lecture 11a. 2 D Arrays in C programming.mp4
+C PROGRAMMING,53,559,,4473,01:14:33,052_Recording_LIVE_Solution_of_Practice_Questions_on_cha.mp4
+C PROGRAMMING,54,560,,1792,29:52:00,053. Lecture 11b. Pointer to an Array.mp4
+C PROGRAMMING,55,561,,2034,33:54:00,054. Lecture 11c. Array of pointers.mp4
+C PROGRAMMING,56,562,,1020,17:00,055. Lecture 11D. Passing 2D array to the function.mp4
+C PROGRAMMING,57,563,,3430,57:10:00,056_Lecture_12_Optional_and_Advance_Pointer_Arithmetic_o.mp4
+C PROGRAMMING,58,564,,1442,24:02:00,057. Lecture 13a. Reading Complex Declarations.mp4
+C PROGRAMMING,59,565,,3850,01:04:10,058. Recording - LIVE_ Solution of above Practice Questi.mp4
+C PROGRAMMING,60,566,,647,10:47,059. Lecture 13b. Void Pointer.mp4
+C PROGRAMMING,61,567,,516,08:36,060. Lecture 13c.You think you know pointers _.mp4
+C PROGRAMMING,62,568,,2416,40:16:00,061. Lecture 13d.Malloc and Free.mp4
+C PROGRAMMING,63,569,,1106,18:26,062. Lecture 13e. Memory leak and Dangling Pointer.mp4
+C PROGRAMMING,64,570,,3459,57:39:00,063_Recording_LIVE_Solution_of_above_25_Practice_Questio.mp4
+C PROGRAMMING,65,571,,3252,54:12:00,"064_Lecture_14_Miscellaneous_topics_getchar,_putchar,_St.mp4"
+C PROGRAMMING,66,572,,1224,20:24,065. GATE 2004 Question.mp4
+C PROGRAMMING,67,573,,6106,01:41:46,066. Recording - Weekly Quiz 15 Discussion.mp4
+C PROGRAMMING,68,574,,4393,01:13:13,067. Recording - Weekly Quiz 17 Discussion.mp4
+COMPUTER NETWORKS,1,577,,6788,01:53:08,000. Recording - Lecture 1 Computer Networks.mp4
+COMPUTER NETWORKS,2,578,,8460,02:21:00,001. Lecture 2 Classless Addressing and Subnetting.mp4
+COMPUTER NETWORKS,3,579,,9895,02:44:55,002_Lecture_4_Practice_Session_on_Subnetting_and_Superne.mp4
+COMPUTER NETWORKS,4,580,,4260,01:11:00,003_Recording_Quiz_Discussion_Subnetting_and_Supernettin.mp4
+COMPUTER NETWORKS,5,581,,6459,01:47:39,004. Recording - Lecture 5 Layering in Computer Networks.mp4
+COMPUTER NETWORKS,6,582,,7136,01:58:56,005_Recording_Lecture_6_Switching_Packet_Switch_and_Circ.mp4
+COMPUTER NETWORKS,7,583,,9543,02:39:03,006_Recording_Lecture_7_Error_Control_Methods_Single_Bit.mp4
+COMPUTER NETWORKS,8,584,,2143,35:43:00,007. 8a. Idea Behind Single Error Correcting (SEC) Codes.mp4
+COMPUTER NETWORKS,9,585,,2404,40:04:00,008_8b_Optional_Minimum_Number_of_Parity_Bits_required_f.mp4
+COMPUTER NETWORKS,10,586,,3168,52:48:00,009. 8c. Construction of Hamming Code.mp4
+COMPUTER NETWORKS,11,587,,3384,56:24:00,010. 9a. Cyclic Redundency Check Method and MANY PYQs.mp4
+COMPUTER NETWORKS,12,588,,3300,55:00:00,011. 9b. ANALYSIS of Cyclic Redundancy Check _ GATE 2009.mp4
+COMPUTER NETWORKS,13,589,,7384,02:03:04,"012_Lecture_10_Checksum_Error_Control,_Delays_in_Network.mp4"
+COMPUTER NETWORKS,14,590,,7522,02:05:22,013_Recording_Lecture_11_Questions_Based_on_delays_Propa.mp4
+COMPUTER NETWORKS,15,591,,6479,01:47:59,014_Recording_Lecture_12_Few_more_Questions_on_Packet_Sw.mp4
+COMPUTER NETWORKS,16,592,,5931,01:38:51,015. Recording - Lecture 13_ Stop-Wait Protocol.mp4
+COMPUTER NETWORKS,17,593,,9254,02:34:14,016. Lecture 20__ Media Access Control Protocols - Aloha.mp4
+COMPUTER NETWORKS,18,594,,5819,01:36:59,017. Recording - Lecture 22 CSMA CD and Backoff Algorith.mp4
+COMPUTER NETWORKS,19,595,,5719,01:35:19,018_Lecture_23_Backoff_Algorithm_for_Random_Access_Proto.mp4
+COMPUTER NETWORKS,20,596,,6811,01:53:31,019. Lecture 24 Address Resolution Protocol(ARP).mp4
+COMPUTER NETWORKS,21,597,,4415,01:13:35,020_Recording_Lecture_25_Dynamic_Host_Configuration_Prot.mp4
+COMPUTER NETWORKS,22,598,,2615,43:35:00,021. Spanning Tree Protocol.mp4
+COMPUTER NETWORKS,23,599,,3690,01:01:30,022. Networking Devices.mp4
+COMPUTER NETWORKS,24,600,,9959,02:45:59,023. Recording - Lecture_ IP Header and Fragmentation.mp4
+COMPUTER NETWORKS,25,601,,5027,01:23:47,024. Recording - Lecture_ More Fragmentation Questions.mp4
+COMPUTER NETWORKS,26,602,,5997,01:39:57,025_Lecture_30_ALL_GATE_PYQs_and_Some_More_Questions_on_.mp4
+COMPUTER NETWORKS,27,603,,7029,01:57:09,026_Recording_Lecture_31_Internet_Control_Message_Protoc.mp4
+COMPUTER NETWORKS,28,604,,3770,01:02:50,027.  Lecture 31 b  Network Address Translation  NAT.mp4
+COMPUTER NETWORKS,29,605,,6538,01:48:58,028. Recording - Lecture 32 Distance Vector Routing Prot.mp4
+COMPUTER NETWORKS,30,606,,5670,01:34:30,029_Recording_Lecture_32_b_New_PYQs_on_Distance_Vector_R.mp4
+COMPUTER NETWORKS,31,607,,1295,21:35,030. Link State Routing Protocol.mp4
+COMPUTER NETWORKS,32,608,,5716,01:35:16,031. Recording - Introduction to Transport Layer and UDP.mp4
+COMPUTER NETWORKS,33,609,,6450,01:47:30,032. Lecture 34 TCP Header and Connection Establishment.mp4
+COMPUTER NETWORKS,34,610,,7356,02:02:36,033. Recording - Lecture 35_ TCP Flow Control.mp4
+COMPUTER NETWORKS,35,611,,6259,01:44:19,034. Lecture 36  TCP Congestion Control.mp4
+COMPUTER NETWORKS,36,612,,4085,01:08:05,035_Lecture_37a_More_Questions_on_TCP_Congestion_From_Ku.mp4
+COMPUTER NETWORKS,37,613,,3385,56:25:00,036_Lecture_37b_Optional_But_Please_Watch_CWND_Increment.mp4
+COMPUTER NETWORKS,38,614,,421,07:01,037. Lecture 37c. GATE 2004 Nice and Easy Question.mp4
+COMPUTER NETWORKS,39,615,,5225,01:27:05,038_Lecture_38_More_Questions_on_Congestion_Control_and_.mp4
+COMPUTER NETWORKS,40,616,,6542,01:49:02,039. Recording - Lecture 39. TCP Options or Extensions.mp4
+COMPUTER NETWORKS,41,617,,4757,01:19:17,040_Recording_Lecture_40_TCP_Timer_and_How_all_layer_wor.mp4
+COMPUTER NETWORKS,42,618,,2136,35:36:00,041_Leaky_bucket_and_Token_bucket_with_GATE_PYQs_Clear_E.mp4
+COMPUTER NETWORKS,43,619,,433,07:13,042. HTTP.mp4
+COMPUTER NETWORKS,44,620,,1343,22:23,043. DNS.mp4
+COMPUTER NETWORKS,45,621,,1247,20:47,044. SMTP & POP3.mp4
+COMPUTER NETWORKS,46,622,,361,06:01,045. FTP.mp4
+COMPILER DESIGN,1,671,,742,12:22,000. Lecture 1a. Introduction to Compiler Design.mp4
+COMPILER DESIGN,2,672,,1294,21:34,"001. Lecture 1b. Token Name, Token Attribute, and Lexeme.mp4"
+COMPILER DESIGN,3,673,,1823,30:23:00,002. Lecture 1c. Recognition of Tokens and Maximal Munch.mp4
+COMPILER DESIGN,4,674,,5409,01:30:09,003. Practice Questions on Lexical Analysis.mp4
+COMPILER DESIGN,5,675,,656,10:56,004. True False Question on Lexical Analysis.mp4
+COMPILER DESIGN,6,676,,1102,18:22,005_Lecture_2a_Introduction_to_Syntax_Analysis_and_Ambig.mp4
+COMPILER DESIGN,7,677,,994,16:34,006_Lecture_2b_Elimination_of_Ambiguity_Manually_Example.mp4
+COMPILER DESIGN,8,678,,1573,26:13:00,007_Lecture_2c_Elimination_of_Ambiguity_Manually_Example.mp4
+COMPILER DESIGN,9,679,,39.776,00:39,008. GATE 1996 Question Homework.mp4
+COMPILER DESIGN,10,680,,814,13:34,009_Lecture_2d_Elimination_of_Ambiguity_Manually_Example.mp4
+COMPILER DESIGN,11,681,,2925,48:45:00,010. Lecture 3a. Left Recursion and Left Factoring.mp4
+COMPILER DESIGN,12,682,,135.512,02:15,011. Lecture 3b. One more example on Left Factoring.mp4
+COMPILER DESIGN,13,683,,640,10:40,012. Lecture 4a. Introduction to Parsing _ Type of Parse.mp4
+COMPILER DESIGN,14,684,,879,14:39,013. Lecture 4b. Types of Top Down Parsers.mp4
+COMPILER DESIGN,15,685,,1624,27:04:00,014. Lecture 4c. Recursive Descent Parser.mp4
+COMPILER DESIGN,16,686,,4594,01:16:34,015. Lecture 5. Questions on Recursive Descent Parsers.mp4
+COMPILER DESIGN,17,687,,2676,44:36:00,016. Lecture 6a. Computing First.mp4
+COMPILER DESIGN,18,688,,2871,47:51:00,017. Lecture 6b. Computing Follow.mp4
+COMPILER DESIGN,19,689,,3716,01:01:56,018. Lecture 7a. Predictive Parsers.mp4
+COMPILER DESIGN,20,690,,1480,24:40:00,019. Lecture 7b. Implementing LL(1).mp4
+COMPILER DESIGN,21,691,,6835,01:53:55,"020_Forty_Five_Questions_on_First,_Follow,_LL1,_Ambiguit.mp4"
+COMPILER DESIGN,22,692,,7927,02:12:07,021_Lecture_8b_Questions_on_Handle_and_Working_of_Bottom.mp4
+COMPILER DESIGN,23,693,,3113,51:53:00,022. Lecture 9a. LR(0) and SLR(1) Parsing Table Examples.mp4
+COMPILER DESIGN,24,694,,1226,20:26,023. Lecture 9b. More examples on LR(0) and SLR(1) Gramm.mp4
+COMPILER DESIGN,25,695,,7088,01:58:08,024_Lecture_10_Really_Understanding_LR0_Automata_Re_Run_.mp4
+COMPILER DESIGN,26,696,,1937,32:17:00,025. Lecture 11a. More Questions on LR(0) and SLR(1).mp4
+COMPILER DESIGN,27,697,,218,03:38,026. Lecture 11b. Condition of Grammar being SLR(1).mp4
+COMPILER DESIGN,28,698,,1483,24:43:00,027. Lecture 11c. Relation between LL(1) LR(0) and SLR(1.mp4
+COMPILER DESIGN,29,699,,362,06:02,028. Lecture 11d. One more Example of LR(0) SLR(1).mp4
+COMPILER DESIGN,30,700,,1275,21:15,029. 12a. Limitations of SLR(1) Parser.mp4
+COMPILER DESIGN,31,701,,474,07:54,030. 12b. Idea behind LR(1) Parsers.mp4
+COMPILER DESIGN,32,702,,1428,23:48,031. 12c. Example on LR(1) Parsing.mp4
+COMPILER DESIGN,33,703,,956,15:56,032. 12d. -Example on LR(1) and LALR(1).mp4
+COMPILER DESIGN,34,704,,1187,19:47,033. Lecture 13 a-Example on LR(1) and LALR(1).mp4
+COMPILER DESIGN,35,705,,1303,21:43,034. Lecture 13 b-One More Example on LR(1) and LALR(1).mp4
+COMPILER DESIGN,36,706,,462,07:42,035. Lecture 13 c- Tiny LR(2) grammar.mp4
+COMPILER DESIGN,37,707,,5806,01:36:46,036. Recording - Lecture 14 Questions on LALR(1) and CLR.mp4
+COMPILER DESIGN,38,708,,4138,01:08:58,037. Recording - Lecture 14b Questions on LALR(1) and CL.mp4
+COMPILER DESIGN,39,709,,3139,52:19:00,038. Lecture 15_ Syntax Directed Definition and Translat.mp4
+COMPILER DESIGN,40,710,,3541,59:01:00,039_Lecture_16_PYQs_on_Syntax_Directed_Definition_and_Tr.mp4
+COMPILER DESIGN,41,711,,1762,29:22:00,040_Lecture_17_Inherited_and_Synthesize_attributes_with_.mp4
+COMPILER DESIGN,42,712,,4756,01:19:16,041_Recording_Lecture_1_Computer_Languages_Machine_Langu.mp4
+COMPILER DESIGN,43,713,,7651,02:07:31,042_Recording_Lecture_2_Broad_Overview_of_Phases_of_Comp.mp4
+COMPILER DESIGN,44,714,,6268,01:44:28,043. Recording - Lecture 3A - Intermediate Representatio.mp4
+COMPILER DESIGN,45,715,,6056,01:40:56,044. Recording - Lecture 3B - Three Address Code.mp4
+COMPILER DESIGN,46,716,,9481,02:38:01,045_Recording_Lecture_3D_Static_Single_Assignment_Form_S.mp4
+COMPILER DESIGN,47,717,,8710,02:25:10,046. Recording - Lecture 3D - Control Flow Graph CFG.mp4
+COMPILER DESIGN,48,718,,787,13:07,048_Lecture_5A_Dead_Code_Elimination_&_Liveness_Analysis.mp4
+COMPILER DESIGN,49,719,,9032,02:30:32,049_Lecture_5B_Liveness_Analysis_&_Dead_Code_Elimination.mp4
+COMPILER DESIGN,50,720,,8241,02:17:21,050. Lecture 5C - Practice Questions - Liveness Analysis.mp4
+COMPILER DESIGN,51,721,,8447,02:20:47,"051_Lecture_6_Available_Expression_Analysis,_Common_Sube.mp4"
+APTITUDE,1,753,,2938,48:58:00,000. Lecture 1 Simple Interest and Compound Interest.mp4
+APTITUDE,2,754,,3506,58:26:00,001. Lecture 2 Percentage.mp4
+APTITUDE,3,755,,4616,01:16:56,002. Lecture 3 Ratio & Proportion.mp4
+APTITUDE,4,756,,2749,45:49:00,003. Lecture 4 Profit loss and Discount.mp4
+APTITUDE,5,757,,3306,55:06:00,004. Time and Work.mp4
+APTITUDE,6,758,,2861,47:41:00,005. Time Speed and Distance.mp4
+APTITUDE,7,759,,2895,48:15:00,006. Number System.mp4
+APTITUDE,8,760,,2945,49:05:00,007. Spatial Aptitude.mp4
+APTITUDE,9,761,,3527,58:47:00,008. Analytical Aptitude(Part-1).mp4
+APTITUDE,10,762,,1894,31:34:00,009. Analytical Aptitude Part-2.mp4
+APTITUDE,11,763,,6673,01:51:13,010. Recording - Absolute Value.mp4
+APTITUDE,12,764,,6630,01:50:30,011. Recording - Floor & Ceiling Functions.mp4
+APTITUDE,13,765,,1541,25:41:00,012_Verbal_Aptitude_English_Grammar_Part_1_Many_GATE_PYQ.mp4
+APTITUDE,14,766,,2260,37:40:00,013. Verbal Aptitude Part 2.mp4
+APTITUDE,15,767,,3240,54:00:00,014. Verbal Aptitude Part 3.mp4
+DBMS,1,784,,6291,01:44:51,1_5057926446102610851.mp4
+DBMS,2,785,,2371,39:31:00,1_5057926446102610852.mp4
+DBMS,3,786,,1716,28:36:00,1_5057926446102610854.mp4
+DBMS,4,787,,714,11:54,1_5057872213550564209.mp4
+DBMS,5,788,,3464,57:44:00,1_5060352617293546536.mp4
+DBMS,6,789,,1293,21:33,1_5060352617293546537.mp4
+DBMS,7,790,,6349,01:45:49,video_2024-03-15_02-09-03_7394370298436386836.mp4
+DBMS,8,791,,3227,53:47:00,video_2024-03-15_02-14-38_7394371174609715204.mp4
+DBMS,9,792,,4342,01:12:22,video_2024-03-15_02-19-30_7394371866099449872.mp4
+DBMS,10,793,,3124,52:04:00,video_2024-03-15_02-23-30_7394372518934478992.mp4
+DBMS,11,794,,7200,02:00:00,video_2024-03-15_02-29-52_7394375727275049092.mp4
+DBMS,12,795,,8750,02:25:50,video_2024-03-15_13-20-33_7394378295665491980.mp4
+DBMS,13,796,,7256,02:00:56,video_2024-03-15_13-29-28_7394388620766871608.mp4
+DBMS,14,797,,5380,01:29:40,video_2024-03-15_13-40-40_7394405633132331032.mp4
+DBMS,15,798,,5457,01:30:57,1_5057926446102610866 (3).mp4
+DBMS,16,799,,4874,01:21:14,video_2024-03-15_13-57-38_7394710558630478032.mp4
+DBMS,17,800,,1980,33:00:00,video_2024-03-15_14-00-26_7394711589422628976.mp4
+DBMS,18,801,,1771,29:31:00,video_2024-03-15_14-06-33_7394713165675626620.mp4
+DBMS,19,802,,856,14:16,video_2024-03-15_14-08-30_7394713298819612720.mp4
+DBMS,20,803,,7199,01:59:59,video_2024-03-15_14-26-26_7395073298683396256.mp4
+DBMS,21,804,,1065,17:45,video_2024-03-15_14-30-02_7395074505569206332.mp4
+DBMS,22,805,,4913,01:21:53,video_2024-03-15_12-36-37_7395075343087829104.mp4
+DBMS,23,806,,7735,02:08:55,video_2024-03-15_12-48-16_7395076945110630488.mp4
+DBMS,24,807,,2098,34:58:00,video_2024-03-15_12-52-17_7395078465529053820.mp4
+DBMS,25,808,,4270,01:11:10,video_2024-03-15_13-09-02_7395078774766698508.mp4
+DBMS,26,809,,10399,02:53:19,video_2024-03-15_14-53-16_7396660001336459612.mp4
+DBMS,27,810,,7991,02:13:11,video_2024-03-15_15-00-39_7396665709347995760.mp4
+DBMS,28,811,,8960,02:29:20,video_2024-03-15_15-08-31_7396667191111713060.mp4
+DBMS,29,812,,6022,01:40:22,video_2024-03-15_15-17-45_7396671138186657884.mp4
+DBMS,30,813,,8223,02:17:03,video_2024-03-15_15-25-08_7396673706577100832.mp4
+DBMS,31,814,,6218,01:43:38,1_5057926446102610883.mp4
+DBMS,32,815,,7235,02:00:35,video_2024-03-16_12-40-56_7395073457597186296.mp4
+DBMS,33,816,,6097,01:41:37,video_2024-03-18_00-58-30_7395074625828290596.mp4
+DBMS,34,817,,7720,02:08:40,video_2024-03-18_01-10-40_7395076025987629084.mp4
+DBMS,35,818,,8966,02:29:26,video_2024-03-18_01-18-47_7395077086844551168.mp4
+DBMS,36,819,,3908,01:05:08,video_2024-03-18_01-23-06_7395078495593824324.mp4
+DBMS,37,820,,5697,01:34:57,video_2024-03-18_01-43-53_7396662440877883408.mp4
+DBMS,38,821,,5557,01:32:37,video_2024-03-18_01-47-20_7396665666398322768.mp4
+DBMS,39,822,,8763,02:26:03,video_2024-03-18_01-53-13_7396667019313020984.mp4
+DBMS,40,823,,1616,26:56:00,video_2024-03-18_01-54-42_7396671095236984916.mp4
+DBMS,41,824,,204,03:24,video_2024-03-18_01-54-53_7396673740936840272.mp4
+DBMS,42,825,,660,11:00,video_2024-03-18_01-56-45_7396677069536493728.mp4
+DBMS,43,826,,282,04:42,video_2024-03-18_01-57-01_7396677348709368048.mp4
+DBMS,44,827,,7173,01:59:33,video_2024-03-18_02-01-43_7396677589227536460.mp4
+DBMS,45,828,,5253,01:27:33,video_2024-03-18_02-20-35_7397814883682615300.mp4
+DBMS,46,829,,7041,01:57:21,video_2024-03-18_02-22-54_7397815673956597760.mp4
+DBMS,47,830,,4603,01:16:43,video_2024-03-18_02-25-25_7397816730518552712.mp4
+DBMS,48,831,,3406,56:46:00,video_2024-03-18_02-29-52_7397817894454690396.mp4
+DBMS,49,832,,6816,01:53:36,video_2024-03-18_09-34-09_7397818603124293696.mp4
+DBMS,50,833,,12640,03:30:40,video_2024-03-18_09-56-21_7397819595261739052.mp4
+DBMS,51,834,,8689,02:24:49,1_5057926446102610900.mp4
+DBMS,52,835,,6473,01:47:53,video_2024-03-18_10-09-10_7396676541255516172.mp4
+DBMS,53,836,,6741,01:52:21,video_2024-03-19_02-02-15_7396677395954008740.mp4
+DBMS,54,837,,11042,03:04:02,video_2024-03-19_02-24-17_7396678164753154648.mp4
+DBMS,55,838,,10156,02:49:16,video_2024-03-19_02-50-35_7397816232302346240.mp4
+DBMS,56,839,,7110,01:58:30,video_2024-03-19_08-43-12_7397817993238937664.mp4
+DBMS,57,840,,5559,01:32:39,video_2024-03-19_04-34-21_7397818830757560336.mp4
+DBMS,58,841,,5744,01:35:44,video_2024-03-19_04-42-59_7397819749880562248.mp4
+DBMS,59,842,,9810,02:43:30,video_2024-03-19_04-52-18_7397820883751927984.mp4
+DBMS,60,843,,7417,02:03:37,video_2024-03-19_08-48-19_7397822271026364416.mp4
+DBMS,61,844,,8105,02:15:05,video_2024-03-19_08-58-21_7397822365515645384.mp4
+DBMS,62,845,,4270,01:11:10,video_2024-03-19_08-25-23_7397823503681978436.mp4
+DBMS,63,846,,6385,01:46:25,video_2024-03-19_08-28-33_7397824701977854028.mp4
+DBMS,64,847,,3769,01:02:49,1_5057926446102610912.mp4
+DBMS,65,848,,8187,02:16:27,video_2024-03-19_19-45-43_7397827197353853100.mp4
+DBMS,66,849,,6218,01:43:38,1_5057926446102610914.mp4
+DBMS,67,850,,8860,02:27:40,video_2024-03-19_20-05-53_7397829331952600140.mp4
+DBMS,68,851,,4583,01:16:23,video_2024-03-19_20-09-14_7397831449371476108.mp4
+DBMS,69,852,,7061,01:57:41,video_2024-03-19_20-14-50_7397832072141733996.mp4
+DBMS,70,853,,8673,02:24:33,video_2024-03-19_20-25-06_7397833150178525532.mp4
+DBMS,71,854,,4243,01:10:43,video_2024-03-19_20-26-58_7397834537452961936.mp4
+DBMS,72,855,,4870,01:21:10,video_2024-03-19_20-34-43_7397823808624657032.mp4
+DBMS,73,856,,2041,34:01:00,072. Lecture 15 - B Tree More Questions.mp4
+DBMS,74,857,,3594,59:54:00,073. Lecture 16 - B+ Tree.mp4
+DBMS,75,858,,5847,01:37:27,074. Lecture 17 - B+ Tree Range Search.mp4
+DBMS,76,859,,3150,52:30:00,075. Lecture 18 - B+ Tree Insertion.mp4
+DBMS,77,860,,7514,02:05:14,076. Lecture 19 - B+ Tree Questions.mp4
+DBMS,78,861,,6688,01:51:28,"077. Lecture 1 - Transaction, Database Consistency.mp4"
+DBMS,79,862,,6862,01:54:22,"078. Lecture 2 - Transaction, Read Write Operations.mp4"
+DBMS,80,863,,5210,01:26:50,079. Lecture 3 - ACID Properties.mp4
+DBMS,81,864,,9117,02:31:57,"080_Lecture_4_Practice_ACID_Properties,_Database_Consist.mp4"
+DBMS,82,865,,6093,01:41:33,081. Lecture 5 - Serializability Introduction.mp4
+DBMS,83,866,,7196,01:59:56,082. Lecture 6 - Serializability In General.mp4
+DBMS,84,867,,8926,02:28:46,083. Lecture 7 - Conflict Serializability.mp4
+DBMS,85,868,,10963,03:02:43,084. Lecture 8 - View Serializability.mp4
+DBMS,86,869,,8739,02:25:39,085. Lecture 9 - Recoverability.mp4
+DBMS,87,870,,6575,01:49:35,086_Lecture_10_General_Locking_Protocol_for_Concurrency_.mp4
+DBMS,88,871,,7406,02:03:26,087. Lecture 11 - Two Phase Locking Protocol.mp4
+DBMS,89,872,,5434,01:30:34,088. Lecture 12 - Two Phase Locking Protocol Variations.mp4
+DBMS,90,873,,4458,01:14:18,089. Lecture 13 - Deadlock Handling.mp4
+DBMS,91,874,,8836,02:27:16,090_Lecture_14_Timestamp_Based_Protocols_for_Concurrency.mp4
+DBMS,92,875,,10772,02:59:32,091. Lecture 15 - 50 Questions on Timestamp Protocol.mp4
+DBMS,93,876,,10955,03:02:35,092. Lecture 1 - ER Model.mp4
+DBMS,94,877,,6198,01:43:18,093. Lecture 2 - Weak Entity Set in ER Model.mp4
+DBMS,95,878,,15511,04:18:31,094. Lecture 3 - ER Model to Relational Model Conversion.mp4
+DSA,1,882,,200.061,03:20,000. 1a. Introduction to Data Structures.mp4
+DSA,2,883,,1845.1,30:45:00,001. 2 Introduction to Linked list.mp4
+DSA,3,884,,1513.933,25:13:00,002. 1c. Why we need Linked list _ Array vs Linked list.mp4
+DSA,4,885,,705.8,11:45,003. 1d. Printing and Finding Length of Linked List.mp4
+DSA,5,886,,1407.833,23:27,004. 2a. Insertions in linked list.mp4
+DSA,6,887,,1115.767,18:35,005. 2b.Deletion in Linked list.mp4
+DSA,7,888,,235.433,03:55,006. OPTIONAL _ Linked list C code.mp4
+DSA,8,889,,1213.033,20:13,007. 2c. Recursion in Linked list_ Printing the linked list.mp4
+DSA,9,890,,403.033,06:43,008_2d_Recursion_in_Linkedlist_Sum_and_length_of_linked_list.mp4
+DSA,10,891,,2165.833,36:05:00,009. 3a. Recursion in Linkedlist- insert at the end.mp4
+DSA,11,892,,545.633,09:05,010_3b_Recursion_in_Linkedlist_Question_2_based_on_recursion.mp4
+DSA,12,893,,403.833,06:43,011_3c_Recursion_in_Linkedlist_Question_3_based_on_recursion.mp4
+DSA,13,894,,402.8,06:42,012_3d_Recursion_in_Linkedlist_Question_based_on_recursion.mp4
+DSA,14,895,,391.766,06:31,013_3e_Recursion_in_Linkedlist_Swap_pairwise_Leetcode_question.mp4
+DSA,15,896,,927.533,15:27,014. Lecture 4a. GATE 2022 Reverse a Linked List.mp4
+DSA,16,897,,2921.966,48:41:00,015_Lecture_4b_Reverse_a_Linked_List_using_Recursion_Four_Variations.mp4
+DSA,17,898,,2053.166,34:13:00,016. 4c. Circular Linked List.mp4
+DSA,18,899,,1683.8,28:03:00,017. 4d. Doubly Linked List.mp4
+DSA,19,900,,5761.2,01:36:01,018. Recording - LIVE_ Linked List Practice Set Discussion.mp4
+DSA,20,901,,3711.8,01:01:51,019_Fundamental_Section_Lecture_Logarithms_Definition_and_All_Properties.mp4
+DSA,21,902,,1568.233,26:08:00,020_Fundamental_Section_Lecture_Logarithm_Exercise_Questions.mp4
+DSA,22,903,,2564.066,42:44:00,"021_Fundamental_Section_Lecture_Logarithm_Questions,_Graph,_and.mp4"
+DSA,23,904,,1013.3,16:53,022. DS Videos_ 5a. Introduction to Asymptotic Analysis.mp4
+DSA,24,905,,2337.666,38:57:00,023_DS_Videos_5b_Big_oh_and_Big_omega_Asymptotic_Notations.mp4
+DSA,25,906,,799.6,13:19,024. DS Videos_ 5c. Theta Asymptotic notation.mp4
+DSA,26,907,,1882.099,31:22:00,025_DS_Videos_5d_What_is_Asymptotic_comparison_how_LOG_works_rice.mp4
+DSA,27,908,,3196.333,53:16:00,026_DS_Videos_5e_Comparing_Different_Functions_Asymptotically.mp4
+DSA,28,909,,2209.733,36:49:00,027_DS_Videos_5f_Little_Oh_Little_Omega_Properties_of_asymptotic.mp4
+DSA,29,910,,402.4,06:42,028. DS Videos_ 6a.Formal set notation of Asymptote symbols.mp4
+DSA,30,911,,1263.8,21:03,"029_DS_Videos_6b_Asymptotic_Notations_GATE_PYQs_1994,_96,_2000,1.mp4"
+DSA,31,912,,1745.333,29:05:00,030. DS Videos_ 6c. Analysing the loops time complexity.mp4
+DSA,32,913,,1030.833,17:10,031. 6d. Time Complexity of loops -2.mp4
+DSA,33,914,,1372,22:52,"032. DS Videos_ 7a. Brief about Best Case, Worst Case.mp4"
+DSA,34,915,,1604.5,26:44:00,"033. DS Videos_ 7b. More about Best Case, Worst Case.mp4"
+DSA,35,916,,302.366,05:02,034. DS Videos_ 7c. Questions on Algorithmic notations.mp4
+DSA,36,917,,6217.72,01:43:37,035_Recording_LIVE_Asymptotic_Notations_Practice_Set_Discussion.mp4
+DSA,37,918,,3766.96,01:02:46,036_Recording_LIVE_Asymptotic_Notations_Practice_Set_Discussion.mp4
+DSA,38,919,,1850.699,30:50:00,037. 8a. Introduction to Stack and Stack Permutations.mp4
+DSA,39,920,,1568.8,26:08:00,038. 8b. Implementation of Stack using Array and Linked list.mp4
+DSA,40,921,,2490.633,41:30:00,039. 9a. Introduction to Queue.mp4
+DSA,41,922,,1480.199,24:40:00,040. 9b. Implementation of Queue using Array.mp4
+DSA,42,923,,1491.7,24:51:00,041_9c_Queue_another_Implementation_using_Array_with_F=R=0_GATE.mp4
+DSA,43,924,,629.733,10:29,042. 9d. Implementing Queue using Linked List.mp4
+DSA,44,925,,931.733,15:31,043. 9e. Queue using two stacks.mp4
+DSA,45,926,,725.166,12:05,044. 10a. Stack using two queues.mp4
+DSA,46,927,,778.966,12:58,045. 10b. Balancing parentheses and Two Stacks in one array.mp4
+DSA,47,928,,1836.433,30:36:00,"046_10c_Infix,_Prefix_&_Postfix_and_Conversion_to_each_other.mp4"
+DSA,48,929,,862.866,14:22,047_10d_Infix_to_Postfix_using_Stack_and_Postfix_evaluation_using.mp4
+DSA,49,930,,6468.56,01:47:48,048_Recording_LIVE_Stack_and_Queue_Practice_Set_Discussion.mp4
+DSA,50,931,,6580.72,01:49:40,049. LIVE Stack and Queue Practice Set Discussion 2.mp4
+DSA,51,932,,2032.466,33:52:00,050. 11a. Introduction to Binary trees.mp4
+DSA,52,933,,1798.366,29:58:00,051. 11b. Some questions and representation of tree.mp4
+DSA,53,934,,2077.466,34:37:00,052. 11c. Questions on Binary trees.mp4
+DSA,54,935,,1453.6,24:13:00,053. 11d. Questions on Binary trees 2.mp4
+DSA,55,936,,1232.933,20:32,054. 12a. Binary Tree Traversals.mp4
+DSA,56,937,,1627,27:07:00,055_12b_Binary_tree_construction_using_preorder_postorder_and_inorder.mp4
+DSA,57,938,,1319.133,21:59,056_12c_Binary_tree_construction_using_preorder_postorder_and_inorder.mp4
+DSA,58,939,,1118.433,18:38,057. 13a. Introduction to Binary Search Tree.mp4
+DSA,59,940,,1939.866,32:19:00,058_13b_Range_Search_in_Binary_Search_Tree_GATE_2014_GATE_2020.mp4
+DSA,60,941,,1261.8,21:01,059. 13c. BST Deletion.mp4
+DSA,61,942,,1207.933,20:07,060. 14a. GATE 1996 Possible probe sequences.mp4
+DSA,62,943,,1181.1,19:41,"061. 14b. BST PYQs 1997, 2001, 06, 07, 16.mp4"
+DSA,63,944,,1121.033,18:41,062. 14c. BST Time Complexities.mp4
+DSA,64,945,,4817.44,01:20:17,063_Recording_LIVEBinary_Tree_and_Binary_Search_Tree_Practice_Set.mp4
+DSA,65,946,,3971.56,01:06:11,064_Recording_LIVE_Binary_Tree_and_Binary_Search_Tree_Practice_Set.mp4
+DSA,66,947,,5778.36,01:36:18,065. Recording - LIVE AVL tree Practice Set Discussion.mp4
+DSA,67,948,,1672.833,27:52:00,066. 16 a. Introduction to Heaps.mp4
+DSA,68,949,,1658.333,27:38:00,067. 16 b. Kth Minimum in min heap _ GATE 2020.mp4
+DSA,69,950,,1241.033,20:41,068. 16 c. Insertion in Heap and Top Down build heap.mp4
+DSA,70,951,,773.766,12:53,069. 17 a. Heapify Method.mp4
+DSA,71,952,,680.866,11:20,070. 17 b. Build Heap Procedure.mp4
+DSA,72,953,,2005.533,33:25:00,071. 17 c. Build Heap (Bottom-up) time complexity.mp4
+DSA,73,954,,587.033,09:47,072. 17 d. Delete Min in min Heap.mp4
+DSA,74,955,,2625.1,43:45:00,073. 18 a. Number of Min Heaps _ GATE 2018 _ TIFR 2014.mp4
+DSA,75,956,,524.233,08:44,074. 18 b. Number of Binary tees.mp4
+DSA,76,957,,1420.033,23:40,075_18_c_Optional_Average_Time_complexity_in_heap_insertion.mp4
+DSA,77,958,,1231.033,20:31,076. 19 a. Heap Time Complexities.mp4
+DSA,78,959,,319.4,05:19,077. 19 b. Heap Sort.mp4
+DSA,79,960,,728.9,12:08,078. 19 c. Heap vs BST _ Merging two heaps.mp4
+DSA,80,961,,1050.466,17:30,079. 27b. Video From DS Course_ Priority Queues.mp4
+DSA,81,962,,5042.56,01:24:02,080. Recording - LIVE Heap_ Practice Set Discussion.mp4
+DSA,82,963,,4853.2,01:20:53,081. Recording - LIVE Heap_ Practice Set Discussion (Part 2).mp4
+DSA,83,964,,5443.56,01:30:43,082. Recording - LIVE Heap_ Practice Set Discussion (Part 3).mp4
+DSA,84,965,,926.333,15:26,083. 20a. Motivation to hashing and Direct address table.mp4
+DSA,85,966,,1295.466,21:35,084. 20b. Introduction to hashing.mp4
+DSA,86,967,,688.066,11:28,085. 20c. Collision resolution techniques.mp4
+DSA,87,968,,1825.233,30:25:00,086. 20d. Avg case performance chaining.mp4
+DSA,88,969,,1659.9,27:39:00,087. 21a. Linear Probing.mp4
+DSA,89,970,,1251.066,20:51,088. 21 b. Quadratic probing and Double hashing.mp4
+DSA,90,971,,784.733,13:04,089. 21c. Possible Number of probes.mp4
+DSA,91,972,,2170.966,36:10:00,090_22a_Optional_but_please_watch_UnSucessfull_search_time_open.mp4
+DSA,92,973,,391.266,06:31,091_22b_Optional_but_please_watch_Successful_search_time_open_addressing.mp4
+DSA,93,974,,4620.5,01:17:00,092_23_a_Probability_Background_video_from_Probability_course_Bernoulli.mp4
+DSA,94,975,,1086.866,18:06,093. 23b. Three popular expectation questions in hashing.mp4
+DSA,95,976,,649.166,10:49,094. 24a. Row major and Column major 2D Arrays.mp4
+DSA,96,977,,1363.4,22:43,095. 24b. ND Arrays.mp4
+DSA,97,978,,723.9,12:03,"096. 24c. Examples and GATE PYQs 1998, 94.mp4"
+DSA,98,979,,6120.84,01:42:00,097. Recording - Stack and Queue PYQs.mp4
+DSA,99,980,,4444.4,01:14:04,098. Recording - Stack and Queue PYQs Part 2.mp4
+DSA,100,981,,5368.84,01:29:28,099. Recording - DS Test Series Test 4 Discussion.mp4
+DSA,101,982,,6197.4,01:43:17,100_Recording_DS_Test_Series_Test_1_Discussion_Linked_List.mp4
+ALGORITHM,1,1015,,804,13:24,000. 1a. Why Study Algorithms.mp4
+ALGORITHM,2,1016,,564,09:24,001_1b_An_algorithm_that_changed_history_And_Child's_alg.mp4
+ALGORITHM,3,1017,,1013,16:53,002. 5a. Introduction to Asymptotic Analysis.mp4
+ALGORITHM,4,1018,,2338,38:58:00,003. 5b. Big oh and Big omega Asymptotic Notations.mp4
+ALGORITHM,5,1019,,800,13:20,004. 5c. Theta Asymptotic notation.mp4
+ALGORITHM,6,1020,,1882,31:22:00,005_5d_What_is_Asymptotic_comparison_how_LOG_works_rice_.mp4
+ALGORITHM,7,1021,,3196,53:16:00,006. 5e. Comparing Different Functions Asymptotically.mp4
+ALGORITHM,8,1022,,2210,36:50:00,007_5f_Little_Oh_Little_Omega_Properties_of_asymptotic_n.mp4
+ALGORITHM,9,1023,,402,06:42,008. 6a.Formal set notation of Asymptote symbols.mp4
+ALGORITHM,10,1024,,1264,21:04,"009_6b_Asymptotic_Notations_GATE_CSE_PYQs_1994,_96,_2000.mp4"
+ALGORITHM,11,1025,,1745,29:05:00,010. 6c. Analysing the loops time complexity.mp4
+ALGORITHM,12,1026,,1031,17:11,011. 6d. Time Complexity of loops -2.mp4
+ALGORITHM,13,1027,,1372,22:52,"012. 7a. Brief about Best Case, Worst Case.mp4"
+ALGORITHM,14,1028,,1605,26:45:00,"013. 7b. More about Best Case, Worst Case.mp4"
+ALGORITHM,15,1029,,302,05:02,014. 7c. Questions on Algorithmic notations.mp4
+ALGORITHM,16,1030,,6218,01:43:38,015_Recording_LIVE_Asymptotic_Notations_Practice_Set_Dis.mp4
+ALGORITHM,17,1031,,3767,01:02:47,016_Recording_LIVE_Asymptotic_Notations_Practice_Set_Dis.mp4
+ALGORITHM,18,1032,,926,15:26,017. 2a. Introduction to recurrence relations.mp4
+ALGORITHM,19,1033,,598,09:58,018. 2b. Solving recurrence using Iteration Method.mp4
+ALGORITHM,20,1034,,607,10:07,019. 2c. More Examples of Iteration Method.mp4
+ALGORITHM,21,1035,,1472,24:32:00,020. 3a. Solving recurrence using Tree Method.mp4
+ALGORITHM,22,1036,,976,16:16,021. 3b. More Examples Tree Method.mp4
+ALGORITHM,23,1037,,344,05:44,022. 3c. Even More Examples Tree Method.mp4
+ALGORITHM,24,1038,,735,12:15,023. 3d. More Examples Tree Method.mp4
+ALGORITHM,25,1039,,1628,27:08:00,024. 4a. Masters Theorem Idea and examples.mp4
+ALGORITHM,26,1040,,297,04:57,025. 4b. Examples On Master Theorem.mp4
+ALGORITHM,27,1041,,972,16:12,026. 4c. Proof of Master Theorem.mp4
+ALGORITHM,28,1042,,404,06:44,027. 5a. Generalised Master Theorem.mp4
+ALGORITHM,29,1043,,919,15:19,028. 5b. [Optional but watch] Extended Master Theorem.mp4
+ALGORITHM,30,1044,,471,07:51,029. 5c. Various Examples of Master Theorem.mp4
+ALGORITHM,31,1045,,308,05:08,030. 5d. Problems that master theorem can not solve.mp4
+ALGORITHM,32,1046,,909,15:09,031. 6a. Introduction to change to variable method.mp4
+ALGORITHM,33,1047,,723,12:03,032. 6b. Examples on Change of Variable.mp4
+ALGORITHM,34,1048,,318,05:18,033. 6c. Few more examples on change of variable method.mp4
+ALGORITHM,35,1049,,1054,17:34,034. 6d. Some More variation.mp4
+ALGORITHM,36,1050,,1475,24:35:00,035. 7a. Introduction to Divide and Conquer Algorithm.mp4
+ALGORITHM,37,1051,,630,10:30,036. 7b. Maximum of an array using D and C.mp4
+ALGORITHM,38,1052,,313,05:13,037. 7c. Example 2- Sum of an array.mp4
+ALGORITHM,39,1053,,380,06:20,038. 7d. Example 3- Search in an array.mp4
+ALGORITHM,40,1054,,488,08:08,039. 7e. Example 4 - Dumb Sort.mp4
+ALGORITHM,41,1055,,682,11:22,040. 8a. Introduction to Merge Sort algorithm.mp4
+ALGORITHM,42,1056,,1018,16:58,041. 8b.Heart of Merge Sort- Merge Procedure.mp4
+ALGORITHM,43,1057,,1411,23:31,042. 8c. Merge Procedure -2.mp4
+ALGORITHM,44,1058,,826,13:46,043. 8d. Merge Sort Recursive tree with example.mp4
+ALGORITHM,45,1059,,1265,21:05,044. 8e. Merge Sort Analysis (Contd..).mp4
+ALGORITHM,46,1060,,662,11:02,045. 9a. Merge Sort questions -1.mp4
+ALGORITHM,47,1061,,884,14:44,046. 9b. Merge Sort questions -2.mp4
+ALGORITHM,48,1062,,1568,26:08:00,047. 9c. More Questions on Merge sort.mp4
+ALGORITHM,49,1063,,710,11:50,048. 10a. Iterative (or Bottom-up) Merge sort.mp4
+ALGORITHM,50,1064,,142,02:22,049. 10b. GATE 1999 question on Bottom up Merge Sort.mp4
+ALGORITHM,51,1065,,1049,17:29,050. 10c. Time Complexity of Iterative Merge sort.mp4
+ALGORITHM,52,1066,,830,13:50,051_10d_Optional_and_Skip_Implementation_of_Iterative_Me.mp4
+ALGORITHM,53,1067,,1325,22:05,052. 11a. Merging k sorted arrays Part 1.mp4
+ALGORITHM,54,1068,,1339,22:19,053. 11b. Merging k sorted arrays Part 2.mp4
+ALGORITHM,55,1069,,1074,17:54,054. 11d. Definition of Stable and In-place sorting.mp4
+ALGORITHM,56,1070,,313,05:13,055. [DELETED] In Place and Space Complexity.mp4
+ALGORITHM,57,1071,,1173,19:33,056. 12a. Maximum and Second Max of an array.mp4
+ALGORITHM,58,1072,,1880,31:20:00,057. 12b. Second maximum using Tournament Method.mp4
+ALGORITHM,59,1073,,620,10:20,058_12c_Optional_How_to_keep_track_for_candidates_of_Sec.mp4
+ALGORITHM,60,1074,,2121,35:21:00,059. 12d. Maximum and Minimum of an array.mp4
+ALGORITHM,61,1075,,1502,25:02:00,060_13a_Tournament_Method_and_D&C_for_Max_Min_in_an_arra.mp4
+ALGORITHM,62,1076,,464,07:44,061. 13b. Cormen questions.mp4
+ALGORITHM,63,1077,,690,11:30,"062. 13c. GATE 2007, 2014, 2021 Questions.mp4"
+ALGORITHM,64,1078,,1873,31:13:00,063. 14a. Algorithm Analysis.mp4
+ALGORITHM,65,1079,,302,05:02,064. 14b. Questions on Algorithmic notations.mp4
+ALGORITHM,66,1080,,1043,17:23,065. 15a. Counting inversion with Netflix and Amazon Exa.mp4
+ALGORITHM,67,1081,,940,15:40,066. 15b. Numerical questions on Counting Inversion.mp4
+ALGORITHM,68,1082,,763,12:43,067. 15c. Counting Inversions using BruteForce method.mp4
+ALGORITHM,69,1083,,1468,24:28:00,068. 16a. Heart of counting Inversion.mp4
+ALGORITHM,70,1084,,801,13:21,069_16b_Working_Example_of_Counting_Inversion_using_D_an.mp4
+ALGORITHM,71,1085,,652,10:52,070. 16c. Counting Inversion question.mp4
+ALGORITHM,72,1086,,1981,33:01:00,071. 17a. Closest pair in 2 D.mp4
+ALGORITHM,73,1087,,1090,18:10,072. 17b. Closest pair-2.mp4
+ALGORITHM,74,1088,,438,07:18,073. 17c. Exponent of a number.mp4
+ALGORITHM,75,1089,,1284,21:24,074. 17d. Matrix Multiplication.mp4
+ALGORITHM,76,1090,,1720,28:40:00,075. 12a. Introduction to Quick Sort.mp4
+ALGORITHM,77,1091,,1817,30:17:00,076. 12b. Working Example of Quick Sort.mp4
+ALGORITHM,78,1092,,2403,40:03:00,077. 12c. Quick sort Analysis and Randomised quick sort.mp4
+ALGORITHM,79,1093,,665,11:05,078. 12d. GATE 2014 question.mp4
+ALGORITHM,80,1094,,1419,23:39,079. 12e. Questions on quick sort.mp4
+ALGORITHM,81,1095,,312,05:12,080_12f_Optional_and_Skip_Average_case_analysis_of_quick.mp4
+ALGORITHM,82,1096,,1544,25:44:00,081. 13a. The Select algorithm.mp4
+ALGORITHM,83,1097,,1739,28:59:00,082. 13b. Binary Search.mp4
+ALGORITHM,84,1098,,1643,27:23:00,083. 21a .Bubble Sort.mp4
+ALGORITHM,85,1099,,1497,24:57:00,084. 21b .Insertion Sort.mp4
+ALGORITHM,86,1100,,2089,34:49:00,085. 21c .Bubble Sort and Insertion Sort.mp4
+ALGORITHM,87,1101,,2272,37:52:00,086. 21d. Selection Sort and Heap Sort.mp4
+ALGORITHM,88,1102,,3166,52:46:00,087. 21e. Decision Tree.mp4
+ALGORITHM,89,1103,,2056,34:16:00,088. 21f. [Optional] Counting Sort and Radix Sort.mp4
+ALGORITHM,90,1104,,1168,19:28,089. 14a. Introduction to Graphs _ Adjacency List and Ma.mp4
+ALGORITHM,91,1105,,1455,24:15:00,090. 14b. intuition for graph search methods.mp4
+ALGORITHM,92,1106,,1401,23:21,091. 14c. Introduction to DFS.mp4
+ALGORITHM,93,1107,,2438,40:38:00,092_14d_DFS_Implementation_Recursive_and_explicit_stack_.mp4
+ALGORITHM,94,1108,,1682,28:02:00,093. 15a. DFS Parentheses Theorem _ GATE 2006.mp4
+ALGORITHM,95,1109,,1652,27:32:00,094. 15b. DFS Edge Classifications.mp4
+ALGORITHM,96,1110,,1815,30:15:00,095. 15c. Questions on DFS Edge Classification.mp4
+ALGORITHM,97,1111,,1103,18:23,096. 15d. [Optional] Back-edge and cycle question.mp4
+ALGORITHM,98,1112,,1920,32:00:00,097. 16a. DFS Application 1- Cycles in graph.mp4
+ALGORITHM,99,1113,,1276,21:16,098. 16b. GATE 2007 question on DAG finish time.mp4
+ALGORITHM,100,1114,,1140,19:00,099. 16c. DFS Application 2 Topological sort _ GATE 2014.mp4
+ALGORITHM,101,1115,,2782,46:22:00,100. 16d. DFS Application 3 Articulation Point _ GATE 20.mp4
+ALGORITHM,102,1116,,1709,28:29:00,101. 17a. Introduction to BFS.mp4
+ALGORITHM,103,1117,,2265,37:45:00,102_17b_BFS_few_ObservationsProperties_and_BFS_Edge_Clas.mp4
+ALGORITHM,104,1118,,1792,29:52:00,103. 17c. BFS Applications.mp4
+ALGORITHM,105,1119,,3388,56:28:00,104_18a_Introduction_to_Greedy_Algorithms_Introduction_a.mp4
+ALGORITHM,106,1120,,1035,17:15,105. 18b. Dijkstra code and Working Example 1.mp4
+ALGORITHM,107,1121,,921,15:21,106. 18c. Dijkstra Working Example 2.mp4
+ALGORITHM,108,1122,,570,09:30,107. 18d. Dijkstra Working Example 3.mp4
+ALGORITHM,109,1123,,2680,44:40:00,108. 19a. Dijkstra on negative weights.mp4
+ALGORITHM,110,1124,,1050,17:30,109. 19b. Video From DS Course_ Priority Queues.mp4
+ALGORITHM,111,1125,,2024,33:44:00,110. 19c. Dijkstra Time Complexity.mp4
+ALGORITHM,112,1126,,618,10:18,111_19d_Dijkstra_Time_Complexity_on_more_variant_data_st.mp4
+ALGORITHM,113,1127,,1072,17:52,112_20a_DAG_Shortest_Path_Shortest_Path_in_Directed_Acyc.mp4
+ALGORITHM,114,1128,,1706,28:26:00,113. 20b. Intuition Behind Bellman Ford Algorithm.mp4
+ALGORITHM,115,1129,,2181,36:21:00,114. 20c. Examples of Bellman Ford _ Time complexity.mp4
+ALGORITHM,116,1130,,1415,23:35,115. 20d. Bellman ford proof and Early termination.mp4
+ALGORITHM,117,1131,,1355,22:35,116. 29a. Why Minimum Spanning Trees.mp4
+ALGORITHM,118,1132,,1370,22:50,117. 29b. Cut and Cycle properties of MST.mp4
+ALGORITHM,119,1133,,1451,24:11:00,118. 29c. Kruskal Algorithm.mp4
+ALGORITHM,120,1134,,1397,23:17,119. 30a. Questions on MSTs.mp4
+ALGORITHM,121,1135,,1648,27:28:00,120. 30b. Prims Algorithm.mp4
+ALGORITHM,122,1136,,2381,39:41:00,121. 30c. Prims and Dijkstra Similarity.mp4
+ALGORITHM,123,1137,,501,08:21,122_30d_Single_Example_for_Prims_and_Dijkstra_both_MST_v.mp4
+ALGORITHM,124,1138,,1882,31:22:00,123_31a_Interesting_Questions_on_MSTs_GATE_2000_MIT_Ques.mp4
+ALGORITHM,125,1139,,2306,38:26:00,124_31b_Two_Most_Popular_Template_Questions_in_MSTs_TIFR.mp4
+ALGORITHM,126,1140,,3499,58:19:00,125. 31c. Four Cases in MSTs _ GATE 2020.mp4
+ALGORITHM,127,1141,,1947,32:27:00,126_32a_Huffman_Encoding_Concept_and_Questions_Interesti.mp4
+ALGORITHM,128,1142,,226,03:46,127. 32b. Question on Huffman Encoding.mp4
+ALGORITHM,129,1143,,447,07:27,128. 32c. Huffman Encoding Time Complexity.mp4
+ALGORITHM,130,1144,,497,08:17,129. 32d. Nice Questions on Huffman Encoding.mp4
+ALGORITHM,131,1145,,445,07:25,130. 33a. Berkeley and MIT Questions on Huffman Encoding.mp4
+ALGORITHM,132,1146,,1546,25:46:00,131_33b_Optional_Huffman_Encoding_Question_Based_on_Tree.mp4
+ALGORITHM,133,1147,,346,05:46,132. 33c. Optimal Merge Pattern.mp4
+ALGORITHM,134,1148,,2170,36:10:00,133_34a_Interval_Scheduling_Problem_Activity_Selection_P.mp4
+ALGORITHM,135,1149,,511,08:31,134. 34b. Interval Scheduling Problem Algorithm.mp4
+ALGORITHM,136,1150,,1492,24:52:00,135_34c_Optional_Proving_Optimality_using_Exchange_Techn.mp4
+ALGORITHM,137,1151,,712,11:52,136. 34d. Other Variants of Interview Scheduling.mp4
+ALGORITHM,138,1152,,932,15:32,137. 34e. Job Scheduling With Deadlines.mp4
+ALGORITHM,139,1153,,1667,27:47:00,138. 35a.Fractional Knapsack.mp4
+ALGORITHM,140,1154,,764,12:44,139. 35b. [Optional] Fractional Knapsack in O(n).mp4
+ALGORITHM,141,1155,,1861,31:01:00,140_36a_Introduction_to_DP_Two_Approaches_Why_we_call_it.mp4
+ALGORITHM,142,1156,,590,09:50,141. 36b. Example 1- Climbing Stairs.mp4
+ALGORITHM,143,1157,,605,10:05,142. 36c. Example 2 MCQ on DP.mp4
+ALGORITHM,144,1158,,709,11:49,143. 36d. Example 3- Climbing Stairs Cost.mp4
+ALGORITHM,145,1159,,1357,22:37,144_37a_Example_4_One_Nice_question_on_Total_Probability.mp4
+ALGORITHM,146,1160,,1381,23:01,145_37b_Order_of_Table_Filling_MIT_Questions_Top_Down_vs.mp4
+ALGORITHM,147,1161,,1381,23:01,146. 37c. DP vs Divide and Conquer _ Elements in DP.mp4
+ALGORITHM,148,1162,,1589,26:29:00,147. 38a. Longest Common Subsequence _ BruteForce Method.mp4
+ALGORITHM,149,1163,,2125,35:25:00,148_38b_Longest_Common_Subsequence_using_Dynamic_Program.mp4
+ALGORITHM,150,1164,,506,08:26,149. 38c. Total Calls vs Unique Calls in LCS.mp4
+ALGORITHM,151,1165,,63.159,01:03,150. 38d. GATE 2009 Easy Question.mp4
+ALGORITHM,152,1166,,1635,27:15:00,151. 39a. Running Example on LCS.mp4
+ALGORITHM,153,1167,,271,04:31,152. 39b. GATE 2014 Question on LCS.mp4
+ALGORITHM,154,1168,,83.314,01:23,153. 39c. LCS Applications.mp4
+ALGORITHM,155,1169,,781,13:01,154. 39d. [Optional] Another way of writting LCS Recursi.mp4
+ALGORITHM,156,1170,,2319,38:39:00,155. 40a. Introduction to Matrix Chain Multiplication.mp4
+ALGORITHM,157,1171,,616,10:16,156. 40b. Number of Ways to Multiply n Matrices.mp4
+ALGORITHM,158,1172,,3090,51:30:00,157_40c_Recursive_Formulation_of_Matrix_Chain_Multiplica.mp4
+ALGORITHM,159,1173,,571,09:31,158. 40d.Example on Matrix Chain Multiplication.mp4
+ALGORITHM,160,1174,,855,14:15,159. 40e. Time Complexity of Matrix chain Multiplication.mp4
+ALGORITHM,161,1175,,955,15:55,160. 41a. Greedy Strategy on 0-1 Knapsack Problem.mp4
+ALGORITHM,162,1176,,1439,23:59,161. 41b. Recursive Formulation of 0-1 Knapsack and Exam.mp4
+ALGORITHM,163,1177,,485,08:05,162. 41c. One More Running Example on 0-1 Knapsack.mp4
+ALGORITHM,164,1178,,633,10:33,"163_41d_Total_Calls_in_Knapsack,_Unique_Calls_in_Knapsac.mp4"
+ALGORITHM,165,1179,,1106,18:26,164. 41e. Solving 0-1 Knapsack with Bottom Up Approach.mp4
+ALGORITHM,166,1180,,1756,29:16:00,165. 42a. Subset Sum Problem.mp4
+ALGORITHM,167,1181,,835,13:55,166. 42b. Coin Change Problem.mp4
+ALGORITHM,168,1182,,1403,23:23,167. 42c. DP Vs Greedy vs Divide and Conquer.mp4
+ALGORITHM,169,1183,,951,15:51,168. 42d. Floyd Warshall Algorithm.mp4
+ALGORITHM,170,1184,,395,06:35,169. 42e. Travelling Salesman.mp4

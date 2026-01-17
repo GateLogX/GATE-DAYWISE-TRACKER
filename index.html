@@ -267,9 +267,7 @@
 
       const markCompleteBtn = document.getElementById('markCompleteBtn');
       if (markCompleteBtn) markCompleteBtn.addEventListener('click', () => {
-        backlogDays[selectedDay].completed = !backlogDays[selectedDay].completed;
-        saveProgress();
-        render();
+        handleMarkComplete(selectedDay);
       });
 
       document.querySelectorAll('.view-day-btn').forEach(btn => {
@@ -294,24 +292,87 @@
       if (showBacklogVideosBtn) showBacklogVideosBtn.addEventListener('click', () => { showDayBacklog = true; render(); });
     }
 
+    // Move uncompleted videos of a day to the next day when marking complete
+    function handleMarkComplete(dayIdx) {
+      const day = backlogDays[dayIdx];
+      if (!day) return;
+
+      const uncompleted = day.videos.filter(v => !completedVideos[v.messageId]);
+
+      // toggle completed flag
+      day.completed = !day.completed;
+
+      if (day.completed && uncompleted.length > 0) {
+        moveBacklogsForward(dayIdx, uncompleted);
+      }
+
+      saveProgress();
+      render();
+    }
+
+    function moveBacklogsForward(dayIdx, uncompletedVideos) {
+      // Remove uncompleted videos from current day
+      backlogDays[dayIdx].videos = backlogDays[dayIdx].videos.filter(v => completedVideos[v.messageId]);
+
+      // Find target day (dayIdx + 1). If doesn't exist, create a new day with these videos
+      const targetIdx = dayIdx + 1;
+      if (targetIdx < backlogDays.length) {
+        // Append videos to next day
+        backlogDays[targetIdx].videos = backlogDays[targetIdx].videos.concat(uncompletedVideos);
+      } else {
+        const newDayNumber = backlogDays.length + 1;
+        const newDay = {
+          day: newDayNumber,
+          subject: 'Backlog',
+          videos: uncompletedVideos,
+          completed: false
+        };
+        backlogDays.push(newDay);
+      }
+
+      // Recalculate day numbers and totals for all days
+      backlogDays.forEach((d, idx) => {
+        d.day = idx + 1;
+        recalcDayTotals(d);
+      });
+
+      // Keep daySchedule in sync (used by UI counts)
+      daySchedule = backlogDays.map(d => ({ day: d.day, subject: d.subject, videos: d.videos.slice(), totalSeconds: d.totalSeconds || 0, totalHours: d.totalHours || (d.totalSeconds ? (d.totalSeconds/3600).toFixed(2) : '0.00'), originalHours: d.originalHours || (d.totalSeconds ? ((d.totalSeconds*2)/3600).toFixed(2) : '0.00') }));
+    }
+
+    function recalcDayTotals(day) {
+      const totalSeconds = (day.videos || []).reduce((s, v) => s + (v.durationSeconds / 2), 0);
+      day.totalSeconds = totalSeconds;
+      day.totalHours = (totalSeconds / 3600).toFixed(2);
+      day.originalHours = ((totalSeconds * 2) / 3600).toFixed(2);
+    }
+
     // Save progress to localStorage
     function saveProgress() {
       localStorage.setItem('completedVideos', JSON.stringify(completedVideos));
       localStorage.setItem('backlogDays', JSON.stringify(backlogDays));
     }
 
-    // Load progress from localStorage
+    // Load progress from localStorage (restores backlogDays and completedVideos)
     function loadProgress() {
       const saved = localStorage.getItem('completedVideos');
       if (saved) completedVideos = JSON.parse(saved);
       const savedDays = localStorage.getItem('backlogDays');
       if (savedDays) {
-        const parsed = JSON.parse(savedDays);
-        backlogDays = backlogDays.map((day, idx) => ({
-          ...day,
-          completed: parsed[idx]?.completed || false
-        }));
+        try {
+          const parsed = JSON.parse(savedDays);
+          if (Array.isArray(parsed) && parsed.length > 0) {
+            backlogDays = parsed;
+            // Recalculate totals and ensure proper structure
+            backlogDays.forEach(d => recalcDayTotals(d));
+            daySchedule = backlogDays.map(d => ({ day: d.day, subject: d.subject, videos: d.videos.slice(), totalSeconds: d.totalSeconds, totalHours: d.totalHours, originalHours: d.originalHours }));
+            return;
+          }
+        } catch (e) {
+          console.error('Error loading backlogDays from storage', e);
+        }
       }
+      // If no saved days, leave backlogDays as generated from schedule
     }
 
     function handleFileUpload(event) {
@@ -418,7 +479,23 @@
       return { completed, total, percentage: total > 0 ? ((completed / total) * 100).toFixed(1) : 0 };
     }
 
+    // Try to auto-load CSV from project root (file placed in same folder)
+    async function tryAutoLoadCSV() {
+      try {
+        const resp = await fetch('video_durations_detailed.csv');
+        if (!resp.ok) return;
+        const text = await resp.text();
+        if (text && text.trim()) {
+          parseCSVData(text);
+        }
+      } catch (e) {
+        // fetch may fail on file:// or blocked; ignore silently
+        console.warn('Auto-load CSV failed', e);
+      }
+    }
+
     render();
+    tryAutoLoadCSV();
   </script>
 </body>
 </html>
