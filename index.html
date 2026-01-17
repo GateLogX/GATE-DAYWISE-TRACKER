@@ -90,13 +90,22 @@
         <div class="mb-6">
           <h3 class="text-xl font-bold text-white mb-3">Select Day:</h3>
           <div class="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-2 max-h-96 overflow-y-auto p-2 bg-white/5 rounded-lg">
-            ${daySchedule.map((d, idx) => `
-              <button class="day-btn p-3 rounded-lg font-semibold transition-all text-sm ${
+            ${daySchedule.map((d, idx) => {
+                const backlogCount = (backlogDays[idx]?.videos || []).filter(v => !completedVideos[v.messageId]).length;
+                const hasBacklog = backlogCount > 0;
+                // show short subject under the day label (truncate to ~18 chars)
+                const subjectLabel = (d.subject || '').length > 18 ? (d.subject.slice(0, 16) + '…') : (d.subject || '');
+                return `
+              <button title="${d.subject || ''}" class="day-btn flex flex-col items-center p-3 rounded-lg font-semibold transition-all text-sm ${
                 selectedDay === idx ? 'bg-purple-600 text-white shadow-lg' : 
                 backlogDays[idx]?.completed ? 'bg-green-600/50 text-white' : 
+                hasBacklog ? 'bg-red-600/40 text-white' :
                 'bg-white/5 text-purple-200 hover:bg-white/10'
-              }" data-idx="${idx}">Day ${d.day}</button>
-            `).join('')}
+              }" data-idx="${idx}">
+                <div class="leading-tight">Day ${d.day}${hasBacklog ? ' • ' + backlogCount : ''}</div>
+                <div class="text-[11px] mt-1 opacity-90 leading-4 max-h-8 overflow-hidden break-words text-center">${subjectLabel}</div>
+              </button>
+            `}).join('')}
           </div>
         </div>
 
@@ -126,14 +135,14 @@
             </div>
             <div class="space-y-2 max-h-96 overflow-y-auto">
               ${(showDayBacklog ? day.videos.filter(v => !completedVideos[v.messageId]) : day.videos).map((video) => `
-                <div class="bg-white/5 rounded p-3 border ${completedVideos[video.messageId] ? 'border-green-500/50 bg-green-900/20' : 'border-white/10'} hover:bg-white/10 transition-all">
+                <div class="rounded p-3 border ${video.isBacklog && !completedVideos[video.messageId] ? 'border-red-500/70 bg-red-900/10' : (completedVideos[video.messageId] ? 'border-green-500/50 bg-green-900/20' : 'bg-white/5 border-white/10')} hover:bg-white/10 transition-all">
                   <div class="flex items-center justify-between">
                     <div class="flex items-center gap-3 flex-1">
                       <button class="video-complete-btn w-6 h-6 rounded-full border-2 flex items-center justify-center transition-all ${completedVideos[video.messageId] ? 'bg-green-500 border-green-500 text-white' : 'border-white/40 hover:border-green-400'}" data-id="${video.messageId}">
                         ${completedVideos[video.messageId] ? '✓' : ''}
                       </button>
                       <div class="flex-1">
-                        <div class="text-white font-semibold text-sm ${completedVideos[video.messageId] ? 'line-through opacity-60' : ''}">Video ${video.videoNumber}: ${video.fileName}</div>
+                        <div class="text-white font-semibold text-sm ${completedVideos[video.messageId] ? 'line-through opacity-60' : ''}">Video ${video.videoNumber}: ${video.fileName} ${video.isBacklog && !completedVideos[video.messageId] ? '<span class="text-red-300 text-xs ml-2">(Backlog)</span>' : ''}</div>
                         <div class="text-purple-200 text-xs mt-1">ID: ${video.messageId}</div>
                       </div>
                     </div>
@@ -163,24 +172,49 @@
     }
 
     function renderBacklogView(stats) {
+      // Build subject-level progress using videoData (total videos and completed videos)
+      const subjectGroups = {};
+      (videoData || []).forEach(v => {
+        const s = v.subject || 'Unknown';
+        if (!subjectGroups[s]) subjectGroups[s] = { total: 0, completed: 0, seconds: 0 };
+        subjectGroups[s].total += 1;
+        subjectGroups[s].seconds += (v.durationSeconds || 0) / 2; // at 2x
+        if (completedVideos[v.messageId]) subjectGroups[s].completed += 1;
+      });
+
+      const subjects = Object.keys(subjectGroups).sort((a,b) => subjectGroups[b].seconds - subjectGroups[a].seconds);
+
       return `
         <div class="bg-white/5 rounded-xl p-6 border border-white/10">
-          <h3 class="text-xl font-bold text-white mb-4">All Days:</h3>
-          <div class="space-y-2 max-h-[600px] overflow-y-auto">
-            ${backlogDays.map((day, idx) => `
-              <div class="rounded-lg p-4 border transition-all ${day.completed ? 'bg-green-600/20 border-green-400/30' : 'bg-white/5 border-white/10'}">
-                <div class="flex items-center justify-between">
-                  <div class="flex items-center gap-4 flex-1">
-                    <div class="w-10 h-10 rounded-full flex items-center justify-center font-bold ${day.completed ? 'bg-green-600 text-white' : 'bg-white/10 text-purple-300'}">${day.day}</div>
-                    <div class="flex-1">
-                      <span class="text-white font-semibold">${day.subject}</span>
-                      <div class="text-sm text-purple-200">${day.videos.length} videos • ${day.totalHours}h</div>
+          <h3 class="text-xl font-bold text-white mb-4">Progress By Subject:</h3>
+          <div class="space-y-3 max-h-[600px] overflow-y-auto">
+            ${subjects.map(subj => {
+              const g = subjectGroups[subj];
+              const pct = g.total > 0 ? Math.round((g.completed / g.total) * 100) : 0;
+              const hours = (g.seconds / 3600).toFixed(2);
+              return `
+                <div class="rounded-lg p-4 border bg-white/5 border-white/10 flex items-center justify-between">
+                  <div class="flex-1 pr-4">
+                    <div class="flex items-center justify-between">
+                      <div>
+                        <div class="text-white font-semibold">${subj}</div>
+                        <div class="text-sm text-purple-200">${g.completed}/${g.total} videos • ${hours}h</div>
+                      </div>
+                      <div class="text-right">
+                        <div class="text-white font-bold">${pct}%</div>
+                      </div>
+                    </div>
+                    <div class="mt-3 bg-white/10 rounded-full h-3 overflow-hidden">
+                      <div class="h-3 bg-green-500" style="width: ${pct}%"></div>
                     </div>
                   </div>
-                  <button class="view-day-btn px-4 py-2 rounded-lg font-semibold transition-all ${day.completed ? 'bg-green-600 text-white' : 'bg-purple-600 text-white hover:bg-purple-700'}" data-idx="${idx}">${day.completed ? '✓ Done' : 'View'}</button>
+                  <div class="ml-4">
+                    <button class="view-subject-btn px-4 py-2 rounded-lg font-semibold bg-purple-600 text-white hover:bg-purple-700" data-subject="${subj}">View</button>
+                  </div>
                 </div>
-              </div>
-            `).join('')}
+              `;
+            }).join('')}
+            ${subjects.length === 0 ? '<div class="text-center text-purple-200 py-6">No subject data available yet.</div>' : ''}
           </div>
         </div>
       `;
@@ -196,7 +230,7 @@
       if (backlogViewBtn) backlogViewBtn.addEventListener('click', () => { showBacklog = true; render(); });
 
       document.querySelectorAll('.day-btn').forEach(btn => {
-        btn.addEventListener('click', (e) => { selectedDay = parseInt(e.target.dataset.idx); render(); });
+        btn.addEventListener('click', (e) => { selectedDay = parseInt(e.currentTarget.dataset.idx); render(); });
       });
 
       const markCompleteBtn = document.getElementById('markCompleteBtn');
@@ -205,7 +239,22 @@
       });
 
       document.querySelectorAll('.view-day-btn').forEach(btn => {
-        btn.addEventListener('click', (e) => { selectedDay = parseInt(e.target.dataset.idx); showBacklog = false; showDayBacklog = false; render(); });
+        btn.addEventListener('click', (e) => { selectedDay = parseInt(e.currentTarget.dataset.idx); showBacklog = false; showDayBacklog = false; render(); });
+      });
+
+      // View subject from backlog/progress view
+      document.querySelectorAll('.view-subject-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          const subj = e.currentTarget.dataset.subject;
+          // find first day with this subject
+          const idx = backlogDays.findIndex(d => d.subject === subj);
+          if (idx >= 0) {
+            selectedDay = idx;
+            showBacklog = false;
+            showDayBacklog = false;
+            render();
+          }
+        });
       });
 
       // Video complete buttons
@@ -245,20 +294,25 @@
     }
 
     function moveBacklogsForward(dayIdx, uncompletedVideos) {
-      // Remove uncompleted videos from current day
+      // Remove uncompleted videos from current day (keep only completed ones)
       backlogDays[dayIdx].videos = backlogDays[dayIdx].videos.filter(v => completedVideos[v.messageId]);
+
+      // Mark moved videos as backlog so they can be highlighted on the target day
+      const marked = uncompletedVideos.map(v => ({ ...v, isBacklog: true }));
 
       // Find target day (dayIdx + 1). If doesn't exist, create a new day with these videos
       const targetIdx = dayIdx + 1;
       if (targetIdx < backlogDays.length) {
-        // Append videos to next day
-        backlogDays[targetIdx].videos = backlogDays[targetIdx].videos.concat(uncompletedVideos);
+        // Append videos to next day but avoid duplicates by messageId
+        const existingIds = new Set(backlogDays[targetIdx].videos.map(v => v.messageId));
+        const toAppend = marked.filter(v => !existingIds.has(v.messageId));
+        backlogDays[targetIdx].videos = backlogDays[targetIdx].videos.concat(toAppend);
       } else {
         const newDayNumber = backlogDays.length + 1;
         const newDay = {
           day: newDayNumber,
           subject: 'Backlog',
-          videos: uncompletedVideos,
+          videos: marked,
           completed: false
         };
         backlogDays.push(newDay);
@@ -283,8 +337,22 @@
 
     // Save progress to localStorage
     function saveProgress() {
+      // Ensure day.completed flags reflect current completedVideos state
+      updateDayCompletedFlags();
       localStorage.setItem('completedVideos', JSON.stringify(completedVideos));
       localStorage.setItem('backlogDays', JSON.stringify(backlogDays));
+    }
+
+    // Update each day's `completed` flag when all videos are completed (or no videos remain)
+    function updateDayCompletedFlags() {
+      if (!Array.isArray(backlogDays)) return;
+      backlogDays.forEach(d => {
+        const videos = d.videos || [];
+        const allCompleted = videos.length === 0 || videos.every(v => completedVideos[v.messageId]);
+        d.completed = !!allCompleted;
+      });
+      // Keep daySchedule sync for UI counts
+      daySchedule = backlogDays.map(d => ({ day: d.day, subject: d.subject, videos: d.videos.slice(), totalSeconds: d.totalSeconds, totalHours: d.totalHours, originalHours: d.originalHours }));
     }
 
     // Load progress from localStorage (restores backlogDays and completedVideos)
