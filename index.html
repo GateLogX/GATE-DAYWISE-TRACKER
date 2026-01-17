@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daywise Tracker</title>
+  <title>Day-Wise-Tracker</title>
+    <link rel="icon" type="image/png" href="https://yt3.ggpht.com/boe6sh9sdsw5e1Oli6YbWzTQ4w82uV8_K8JQsLdcCaABmMl3THcWPiQApKEFgGAWvwISdNR1=s600-c-k-c0x00ffffff-no-rj-rp-mo" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
@@ -16,70 +17,16 @@
     let selectedDay = 0;
     let showBacklog = false;
     let backlogDays = [];
-    let fileUploaded = false;
-    let showPasteArea = false;
     let completedVideos = {}; // Track completed videos by messageId
     let showDayBacklog = false; // Show backlog videos for current day
 
     function render() {
       const app = document.getElementById('app');
-      if (!fileUploaded) {
-        app.innerHTML = renderUploadScreen();
-      } else {
-        app.innerHTML = renderScheduleScreen();
-      }
+      app.innerHTML = renderScheduleScreen();
       attachEventListeners();
     }
 
-    function renderUploadScreen() {
-      return `
-        <div class="min-h-screen p-4 md:p-8 flex items-center justify-center">
-          <div class="max-w-3xl w-full bg-white/10 backdrop-blur-lg rounded-2xl p-6 md:p-8 shadow-2xl border border-white/20">
-            <div class="text-center">
-              <img src="daywise-logo.png" alt="Daywise Tracker" class="w-16 h-16 mx-auto mb-4 rounded-full shadow-lg"/>
-              <h1 class="text-3xl font-bold text-white mb-4">Daywise Tracker</h1>
-              <p class="text-purple-200 mb-6">Upload the CSV file or paste the data to generate your schedule</p>
-              
-              <label class="cursor-pointer inline-block mb-4">
-                <div class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-4 px-8 rounded-lg transition-all inline-flex items-center gap-3">
-                  <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M17 8l-5-5-5 5M12 3v12"/>
-                  </svg>
-                  Upload CSV File
-                </div>
-                <input type="file" accept=".csv" id="fileInput" class="hidden" />
-              </label>
-
-              <div class="flex items-center gap-4 my-6">
-                <div class="flex-1 h-px bg-white/20"></div>
-                <span class="text-white/60 font-semibold">OR</span>
-                <div class="flex-1 h-px bg-white/20"></div>
-              </div>
-
-              <button id="togglePaste" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg transition-all inline-flex items-center gap-3 mb-4">
-                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
-                </svg>
-                Paste CSV Data
-              </button>
-
-              <div id="pasteArea" class="${showPasteArea ? '' : 'hidden'} mt-6 text-left">
-                <label class="text-white font-semibold mb-2 block">Paste your CSV content here:</label>
-                <textarea id="csvText" placeholder="Subject,Video_Number,Message_ID,Date,Duration_Seconds,Duration_Formatted,File_Name&#10;DBMS,1,12345,2024-01-01,5400,1:30:00,Intro to DBMS" class="w-full h-64 bg-white/5 border border-white/20 rounded-lg p-4 text-white font-mono text-sm resize-none"></textarea>
-                <button id="generateBtn" class="mt-4 bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition-all">Generate Schedule</button>
-              </div>
-
-              <div class="mt-8 bg-blue-600/20 border border-blue-400/30 rounded-lg p-4 text-left">
-                <h3 class="text-white font-bold mb-2">Expected CSV Format:</h3>
-                <div class="text-blue-100 text-sm space-y-1">
-                  <p>• Subject, Video_Number, Message_ID, Date, Duration_Seconds, Duration_Formatted, File_Name</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      `;
-    }
+    // Upload/paste UI removed — app now always shows the schedule and auto-loads the CSV from project root
 
     function renderScheduleScreen() {
       const stats = getCompletionStats();
@@ -240,18 +187,7 @@
     }
 
     function attachEventListeners() {
-      const fileInput = document.getElementById('fileInput');
-      if (fileInput) fileInput.addEventListener('change', handleFileUpload);
-
-      const togglePaste = document.getElementById('togglePaste');
-      if (togglePaste) togglePaste.addEventListener('click', () => { showPasteArea = !showPasteArea; render(); });
-
-      const generateBtn = document.getElementById('generateBtn');
-      if (generateBtn) generateBtn.addEventListener('click', () => {
-        const csvText = document.getElementById('csvText').value;
-        if (csvText.trim()) parseCSVData(csvText);
-        else alert('Please paste CSV data first');
-      });
+      // Upload/paste event listeners removed — app auto-loads CSV from project root
 
       const scheduleViewBtn = document.getElementById('scheduleViewBtn');
       if (scheduleViewBtn) scheduleViewBtn.addEventListener('click', () => { showBacklog = false; render(); });
@@ -373,13 +309,7 @@
       // If no saved days, leave backlogDays as generated from schedule
     }
 
-    function handleFileUpload(event) {
-      const file = event.target.files[0];
-      if (!file) return;
-      const reader = new FileReader();
-      reader.onload = (e) => parseCSVData(e.target.result);
-      reader.readAsText(file);
-    }
+    // handleFileUpload removed because manual upload UI is no longer used
 
     function parseCSVData(csvContent) {
       try {
@@ -398,7 +328,6 @@
           videoData = videos;
           generateDaySchedule(videos);
           loadProgress();
-          fileUploaded = true;
           render();
         } else {
           alert('No valid video data found.');
