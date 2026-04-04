@@ -421,7 +421,7 @@
           durationSeconds: parseFloat(row.Duration_Seconds) || 0,
           durationFormatted: row.Duration_Formatted || '',
           fileName: String(row.File_Name || 'Unknown').trim()
-        })).filter(v => v.subject && v.durationSeconds > 0);
+        })).filter(v => v.subject);
 
         if (videos.length > 0) {
           videoData = videos;
