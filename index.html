@@ -257,13 +257,58 @@
         });
       });
 
-      // Video complete buttons
+      // Video complete buttons - UPDATE IN-PLACE without full re-render to preserve scroll
       document.querySelectorAll('.video-complete-btn').forEach(btn => {
         btn.addEventListener('click', (e) => {
           const id = e.currentTarget.dataset.id;
-          completedVideos[id] = !completedVideos[id];
+          const isNowComplete = !completedVideos[id];
+          completedVideos[id] = isNowComplete;
+          
+          // Update button appearance
+          const button = e.currentTarget;
+          button.innerHTML = isNowComplete ? '✓' : '';
+          button.className = `video-complete-btn w-6 h-6 rounded-full border-2 flex items-center justify-center transition-all ${isNowComplete ? 'bg-green-500 border-green-500 text-white' : 'border-white/40 hover:border-green-400'}`;
+          
+          // Update video row appearance
+          const row = button.closest('.rounded.p-3');
+          const titleDiv = row.querySelector('.text-white.font-semibold');
+          if (isNowComplete) {
+            row.classList.add('border-green-500/50', 'bg-green-900/20');
+            row.classList.remove('bg-white/5', 'border-white/10', 'border-red-500/70', 'bg-red-900/10');
+            titleDiv?.classList.add('line-through', 'opacity-60');
+          } else {
+            row.classList.remove('border-green-500/50', 'bg-green-900/20');
+            row.classList.add('bg-white/5', 'border-white/10');
+            titleDiv?.classList.remove('line-through', 'opacity-60');
+          }
+          
+          // Update counts without re-render
+          const day = daySchedule[selectedDay];
+          if (day) {
+            const completedCount = day.videos.filter(v => completedVideos[v.messageId]).length;
+            const backlogCount = day.videos.filter(v => !completedVideos[v.messageId]).length;
+            
+            // Update footer counts
+            const footer = document.querySelector('.mt-3.pt-3.border-t');
+            if (footer) {
+              footer.innerHTML = `
+                <div class="flex justify-between items-center text-sm">
+                  <div>
+                    <span class="text-green-300">${completedCount}/${day.videos.length} completed</span>
+                    <span class="text-purple-200 ml-3">Backlog: ${backlogCount}</span>
+                  </div>
+                  <div>
+                    <span class="text-green-300 font-bold">${day.totalHours}h at 2x</span>
+                  </div>
+                </div>`;
+            }
+            
+            // Update backlog button count
+            const backlogBtn = document.getElementById('showBacklogVideosBtn');
+            if (backlogBtn) backlogBtn.textContent = `Backlog (${backlogCount})`;
+          }
+          
           saveProgress();
-          render();
         });
       });
 
