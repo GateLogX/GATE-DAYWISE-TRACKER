@@ -863,91 +863,91 @@ ALGORITHM,167,1181,,835,13:55,166. 42b. Coin Change Problem.mp4
 ALGORITHM,168,1182,,1403,23:23,167. 42c. DP Vs Greedy vs Divide and Conquer.mp4
 ALGORITHM,169,1183,,951,15:51,168. 42d. Floyd Warshall Algorithm.mp4
 ALGORITHM,170,1184,,395,06:35,169. 42e. Travelling Salesman.mp4
-LINEAR_ALGEBRA,1,1185,,1330,22:10,Lecture 1A - Why Study Linear Algebra.mp4
-LINEAR_ALGEBRA,2,1186,,885,14:45,Lecture 1B - Linear Algebra for GATE & Interviews.mp4
-LINEAR_ALGEBRA,3,1187,,4527,75:27,Lecture 1C - Linearly Independent and Linearly Dependent.mp4
-LINEAR_ALGEBRA,4,1188,,2664,44:24,Lecture 2A - Filling the Space Part 1.mp4
-LINEAR_ALGEBRA,5,1189,,1696,28:16,Lecture 2B - Filling the Space Part 2.mp4
-LINEAR_ALGEBRA,6,1190,,752,12:32,Lecture 2C - Summary so far.mp4
-LINEAR_ALGEBRA,7,1191,,1593,26:33,Lecture 2D - Multiplying a Matrix & a Vector.mp4
-LINEAR_ALGEBRA,8,1192,,1377,22:57,Lecture 3B - Why Solve System Of Linear Equations.mp4
-LINEAR_ALGEBRA,9,1193,,1483,24:43,Lecture 3C - Writing as Ax=b Geometric Interpretation and Possible Solutions.mp4
-LINEAR_ALGEBRA,10,1194,,2693,44:53,Lecture 3D - Understanding Ax=b intuitively.mp4
-LINEAR_ALGEBRA,11,1195,,1094,18:14,4A. Multiplying 2 Matrices - My Walmart Interview Question.mp4
-LINEAR_ALGEBRA,12,1196,,966,16:06,4B. GATE 2016 Question.mp4
-LINEAR_ALGEBRA,13,1197,,846,14:06,4C. GATE 2014 Question.mp4
-LINEAR_ALGEBRA,14,1198,,1736,28:56,4D. Two conceptual questions.mp4
-LINEAR_ALGEBRA,15,1199,,1730,28:50,4E. Linear Combination of Independent vectors is unique.mp4
-LINEAR_ALGEBRA,16,1200,,257,04:17,4F. GATE 2017 Question.mp4
-LINEAR_ALGEBRA,17,1201,,2273,37:53,5A. Echelon Form and Pivot Columns.mp4
-LINEAR_ALGEBRA,18,1202,,1575,26:15,5B. Gaussian Elimination.mp4
-LINEAR_ALGEBRA,19,1203,,687,11:27,5C. Rank - GATE 1994 Question - Rank Nullity Theorem.mp4
-LINEAR_ALGEBRA,20,1204,,2035,33:55,5D. Finally Solving Ax=b - Five Different Questions.mp4
-LINEAR_ALGEBRA,21,1205,,1925,32:05,5E. More than one free variable in Ax=0 solution.mp4
-LINEAR_ALGEBRA,22,1206,,1174,19:34,6A. GATE 2021 Question - Free variables in Non homogeneous.mp4
-LINEAR_ALGEBRA,23,1207,,1125,18:45,6B. Solutions based on Rank(A) and Rank(A|b).mp4
-LINEAR_ALGEBRA,24,1208,,495,08:15,6C. Few Questions related to rank(A) and Number of solutions.mp4
-LINEAR_ALGEBRA,25,1209,,1460,24:20,6D. Linearly Independent Columns with Gaussian Elimination.mp4
-LINEAR_ALGEBRA,26,1210,,1702,28:22,6E. Row Reduced Echelon Form.mp4
-LINEAR_ALGEBRA,27,1211,,6042,100:42,Lecture 7A. Determinant.mp4
-LINEAR_ALGEBRA,28,1212,,1618,26:58,Lecture 7C. Crammers rule.mp4
-LINEAR_ALGEBRA,29,1213,,1409,23:29,Lecture 8A. Introduction to Eigenvalues and Eigenvectors.mp4
-LINEAR_ALGEBRA,30,1214,,905,15:05,Lecture 8B. Characteristic Equation.mp4
-LINEAR_ALGEBRA,31,1215,,1328,22:08,Lecture 8C. Solving for Eigenvalues and Eigenvectors.mp4
-LINEAR_ALGEBRA,32,1216,,1316,21:56,Lecture 9A. Linearly Independent Eigen vectors with repeating eigenvalues.mp4
-LINEAR_ALGEBRA,33,1217,,1817,30:17,Lecture 9B. Three Different Examples With Repeating Lambda.mp4
-LINEAR_ALGEBRA,34,1218,,728,12:08,Lecture 9C. Symmetric Matrices has n LI Eigen Vectors.mp4
-LINEAR_ALGEBRA,35,1219,,731,12:11,Lecture 9D. Two Magical Properties.mp4
-LINEAR_ALGEBRA,36,1220,,1320,22:00,Lecture 10A. Rank and Eigen Values.mp4
-LINEAR_ALGEBRA,37,1221,,931,15:31,Lecture 10B. Examples on Rank and Eigen Values.mp4
-LINEAR_ALGEBRA,38,1222,,986,16:26,Lecture 10C. CAYLEY-HAMILTON THEOREM.mp4
-LINEAR_ALGEBRA,39,1223,,1926,32:06,Lecture 10D. Eigen Values of AB and BA.mp4
-LINEAR_ALGEBRA,40,1224,,1020,17:00,Lecture 10E. Eigen Values of Powers of A.mp4
-LINEAR_ALGEBRA,41,1225,,1523,25:23,Lecture 11A. LU Decomposition.mp4
-LINEAR_ALGEBRA,42,1226,,5091,84:51,Lecture 11B. Type Of Matrices.mp4
-LINEAR_ALGEBRA,43,1227,,3775,62:55,LIVE Practice Questions on Linear Dependent Vectors.mp4
-LINEAR_ALGEBRA,44,1228,,3706,61:46,LIVE Practice Questions on Solutions of Ax = b.mp4
-LINEAR_ALGEBRA,45,1229,,3196,53:16,LIVE Class on Practice Questions for GATE all Branches.mp4
-LINEAR_ALGEBRA,46,1230,,4766,79:26,More GATE PYQs from all Branches.mp4
-PROBABILITY,1,1231,,1723,28:43,Lecture 1A. Probability Definition Sample Space and Events.mp4
-PROBABILITY,2,1232,,2231,37:11,Lecture 1B. Inclusion Exclusion Principle Demorgans Law.mp4
-PROBABILITY,3,1233,,2072,34:32,Lecture 2A. Conditional Probability Introduction.mp4
-PROBABILITY,4,1234,,1562,26:02,Lecture 2B. Conditional Probability Examples.mp4
-PROBABILITY,5,1235,,1949,32:29,Lecture 2C. Introduction to Tree Diagram.mp4
-PROBABILITY,6,1236,,2215,36:55,Lecture 3A. Total Probability.mp4
-PROBABILITY,7,1237,,2023,33:43,Lecture 3B. Conditional Probability Examples.mp4
-PROBABILITY,8,1238,,2965,49:25,Optional My LinkedIn Interview.mp4
-PROBABILITY,9,1239,,2582,43:02,Lecture 4A. Independence of events.mp4
-PROBABILITY,10,1240,,1926,32:06,Lecture 4B. Conditional Independence.mp4
-PROBABILITY,11,1241,,1342,22:22,Lecture 4C. Independence Does not imply Conditional Independence.mp4
-PROBABILITY,12,1242,,1766,29:26,Lecture 5A. Practice Questions on Random Variables.mp4
-PROBABILITY,13,1243,,4050,67:30,Lecture 5B. More Practice Questions on Random Variables.mp4
-PROBABILITY,14,1244,,579,09:39,Lecture 6A. Types of Random Variables.mp4
-PROBABILITY,15,1245,,1217,20:17,Lecture 6B. Probability Mass Function Questions Part 1.mp4
-PROBABILITY,16,1246,,911,15:11,Lecture 6C. Probability Mass Function Questions Part 2.mp4
-PROBABILITY,17,1247,,1196,19:56,Lecture 7A. Expectation of Discrete Random Variable.mp4
-PROBABILITY,18,1248,,2453,40:53,Lecture 7B Expectation vs Average.mp4
-PROBABILITY,19,1249,,529,08:49,Lecture 7C. Expectation as center of mass.mp4
-PROBABILITY,20,1250,,799,13:19,Lecture 7D. MIT Question and GATE 2021 Question.mp4
-PROBABILITY,21,1251,,1086,18:06,Lecture 7E. Expectation of Random Variable which is a Function of Random Variable.mp4
-PROBABILITY,22,1252,,1269,21:09,Lecture 8A. Question number 8.mp4
-PROBABILITY,23,1253,,1031,17:11,Lecture 8B. Question number 9 10 11.mp4
-PROBABILITY,24,1254,,1837,30:37,Lecture 8C. Question number 12 13.mp4
-PROBABILITY,25,1255,,1879,31:19,Lecture 9A. Cumulative Distribution Function.mp4
-PROBABILITY,26,1256,,3155,52:35,Lecture 9B. Variance Intuition and Formula.mp4
-PROBABILITY,27,1257,,2290,38:10,Lecture 9C. Variance Main Formula and Questions.mp4
-PROBABILITY,28,1258,,2718,45:18,Lecture 9D. Variance Questions.mp4
-PROBABILITY,29,1259,,4620,77:00,10A. Discrete random variable Bernoulli and Binomial RVs.mp4
-PROBABILITY,30,1260,,1012,16:52,Lecture 10B. MIT Question on Binomial RV.mp4
-PROBABILITY,31,1261,,1142,19:02,Lecture 10C. Optional and Skip - Question on Plot of PMF.mp4
-PROBABILITY,32,1262,,1732,28:52,Lecture 10D. Poisson Random Variable.mp4
-PROBABILITY,33,1263,,906,15:06,Lecture 10E. Discrete Uniform Random Variable Introduction.mp4
-PROBABILITY,34,1264,,1931,32:11,Lecture 11A. Introduction to Continuous Distributions - Intuition about PDF.mp4
-PROBABILITY,35,1265,,1547,25:47,Lecture 11B. Continuous Uniform Distribution.mp4
-PROBABILITY,36,1266,,2592,43:12,Lecture 11C. Normal Distribution.mp4
-PROBABILITY,37,1267,,1056,17:36,Lecture 11D. Normal Distribution - 2.mp4
-PROBABILITY,38,1268,,1085,18:05,Lecture 11E. Exponential Distribution.mp4
-PROBABILITY,39,1269,,2152,35:52,Lecture 12. Statistics - Mean Mode Median.mp4
-CALCULUS,1,1270,,6999,116:39,Lecture 1 Finding Limit of a function.mp4
-CALCULUS,2,1271,,5487,91:27,Lecture 4 Continuity and Introduction to Differentiability.mp4
-CALCULUS,3,1272,,6466,107:46,Lecture 6 Integration.mp4
+ENGINEERING_MATHEMATICS,1,1185,,1330,22:10,Lecture 1A - Why Study Linear Algebra.mp4
+ENGINEERING_MATHEMATICS,2,1186,,885,14:45,Lecture 1B - Linear Algebra for GATE & Interviews.mp4
+ENGINEERING_MATHEMATICS,3,1187,,4527,75:27,Lecture 1C - Linearly Independent and Linearly Dependent.mp4
+ENGINEERING_MATHEMATICS,4,1188,,2664,44:24,Lecture 2A - Filling the Space Part 1.mp4
+ENGINEERING_MATHEMATICS,5,1189,,1696,28:16,Lecture 2B - Filling the Space Part 2.mp4
+ENGINEERING_MATHEMATICS,6,1190,,752,12:32,Lecture 2C - Summary so far.mp4
+ENGINEERING_MATHEMATICS,7,1191,,1593,26:33,Lecture 2D - Multiplying a Matrix & a Vector.mp4
+ENGINEERING_MATHEMATICS,8,1192,,1377,22:57,Lecture 3B - Why Solve System Of Linear Equations.mp4
+ENGINEERING_MATHEMATICS,9,1193,,1483,24:43,Lecture 3C - Writing as Ax=b Geometric Interpretation and Possible Solutions.mp4
+ENGINEERING_MATHEMATICS,10,1194,,2693,44:53,Lecture 3D - Understanding Ax=b intuitively.mp4
+ENGINEERING_MATHEMATICS,11,1195,,1094,18:14,4A. Multiplying 2 Matrices - My Walmart Interview Question.mp4
+ENGINEERING_MATHEMATICS,12,1196,,966,16:06,4B. GATE 2016 Question.mp4
+ENGINEERING_MATHEMATICS,13,1197,,846,14:06,4C. GATE 2014 Question.mp4
+ENGINEERING_MATHEMATICS,14,1198,,1736,28:56,4D. Two conceptual questions.mp4
+ENGINEERING_MATHEMATICS,15,1199,,1730,28:50,4E. Linear Combination of Independent vectors is unique.mp4
+ENGINEERING_MATHEMATICS,16,1200,,257,04:17,4F. GATE 2017 Question.mp4
+ENGINEERING_MATHEMATICS,17,1201,,2273,37:53,5A. Echelon Form and Pivot Columns.mp4
+ENGINEERING_MATHEMATICS,18,1202,,1575,26:15,5B. Gaussian Elimination.mp4
+ENGINEERING_MATHEMATICS,19,1203,,687,11:27,5C. Rank - GATE 1994 Question - Rank Nullity Theorem.mp4
+ENGINEERING_MATHEMATICS,20,1204,,2035,33:55,5D. Finally Solving Ax=b - Five Different Questions.mp4
+ENGINEERING_MATHEMATICS,21,1205,,1925,32:05,5E. More than one free variable in Ax=0 solution.mp4
+ENGINEERING_MATHEMATICS,22,1206,,1174,19:34,6A. GATE 2021 Question - Free variables in Non homogeneous.mp4
+ENGINEERING_MATHEMATICS,23,1207,,1125,18:45,6B. Solutions based on Rank(A) and Rank(A|b).mp4
+ENGINEERING_MATHEMATICS,24,1208,,495,08:15,6C. Few Questions related to rank(A) and Number of solutions.mp4
+ENGINEERING_MATHEMATICS,25,1209,,1460,24:20,6D. Linearly Independent Columns with Gaussian Elimination.mp4
+ENGINEERING_MATHEMATICS,26,1210,,1702,28:22,6E. Row Reduced Echelon Form.mp4
+ENGINEERING_MATHEMATICS,27,1211,,6042,100:42,Lecture 7A. Determinant.mp4
+ENGINEERING_MATHEMATICS,28,1212,,1618,26:58,Lecture 7C. Crammers rule.mp4
+ENGINEERING_MATHEMATICS,29,1213,,1409,23:29,Lecture 8A. Introduction to Eigenvalues and Eigenvectors.mp4
+ENGINEERING_MATHEMATICS,30,1214,,905,15:05,Lecture 8B. Characteristic Equation.mp4
+ENGINEERING_MATHEMATICS,31,1215,,1328,22:08,Lecture 8C. Solving for Eigenvalues and Eigenvectors.mp4
+ENGINEERING_MATHEMATICS,32,1216,,1316,21:56,Lecture 9A. Linearly Independent Eigen vectors with repeating eigenvalues.mp4
+ENGINEERING_MATHEMATICS,33,1217,,1817,30:17,Lecture 9B. Three Different Examples With Repeating Lambda.mp4
+ENGINEERING_MATHEMATICS,34,1218,,728,12:08,Lecture 9C. Symmetric Matrices has n LI Eigen Vectors.mp4
+ENGINEERING_MATHEMATICS,35,1219,,731,12:11,Lecture 9D. Two Magical Properties.mp4
+ENGINEERING_MATHEMATICS,36,1220,,1320,22:00,Lecture 10A. Rank and Eigen Values.mp4
+ENGINEERING_MATHEMATICS,37,1221,,931,15:31,Lecture 10B. Examples on Rank and Eigen Values.mp4
+ENGINEERING_MATHEMATICS,38,1222,,986,16:26,Lecture 10C. CAYLEY-HAMILTON THEOREM.mp4
+ENGINEERING_MATHEMATICS,39,1223,,1926,32:06,Lecture 10D. Eigen Values of AB and BA.mp4
+ENGINEERING_MATHEMATICS,40,1224,,1020,17:00,Lecture 10E. Eigen Values of Powers of A.mp4
+ENGINEERING_MATHEMATICS,41,1225,,1523,25:23,Lecture 11A. LU Decomposition.mp4
+ENGINEERING_MATHEMATICS,42,1226,,5091,84:51,Lecture 11B. Type Of Matrices.mp4
+ENGINEERING_MATHEMATICS,43,1227,,3775,62:55,LIVE Practice Questions on Linear Dependent Vectors.mp4
+ENGINEERING_MATHEMATICS,44,1228,,3706,61:46,LIVE Practice Questions on Solutions of Ax = b.mp4
+ENGINEERING_MATHEMATICS,45,1229,,3196,53:16,LIVE Class on Practice Questions for GATE all Branches.mp4
+ENGINEERING_MATHEMATICS,46,1230,,4766,79:26,More GATE PYQs from all Branches.mp4
+ENGINEERING_MATHEMATICS,47,1231,,1723,28:43,Lecture 1A. Probability Definition Sample Space and Events.mp4
+ENGINEERING_MATHEMATICS,48,1232,,2231,37:11,Lecture 1B. Inclusion Exclusion Principle Demorgans Law.mp4
+ENGINEERING_MATHEMATICS,49,1233,,2072,34:32,Lecture 2A. Conditional Probability Introduction.mp4
+ENGINEERING_MATHEMATICS,50,1234,,1562,26:02,Lecture 2B. Conditional Probability Examples.mp4
+ENGINEERING_MATHEMATICS,51,1235,,1949,32:29,Lecture 2C. Introduction to Tree Diagram.mp4
+ENGINEERING_MATHEMATICS,52,1236,,2215,36:55,Lecture 3A. Total Probability.mp4
+ENGINEERING_MATHEMATICS,53,1237,,2023,33:43,Lecture 3B. Conditional Probability Examples.mp4
+ENGINEERING_MATHEMATICS,54,1238,,2965,49:25,Optional My LinkedIn Interview.mp4
+ENGINEERING_MATHEMATICS,55,1239,,2582,43:02,Lecture 4A. Independence of events.mp4
+ENGINEERING_MATHEMATICS,56,1240,,1926,32:06,Lecture 4B. Conditional Independence.mp4
+ENGINEERING_MATHEMATICS,57,1241,,1342,22:22,Lecture 4C. Independence Does not imply Conditional Independence.mp4
+ENGINEERING_MATHEMATICS,58,1242,,1766,29:26,Lecture 5A. Practice Questions on Random Variables.mp4
+ENGINEERING_MATHEMATICS,59,1243,,4050,67:30,Lecture 5B. More Practice Questions on Random Variables.mp4
+ENGINEERING_MATHEMATICS,60,1244,,579,09:39,Lecture 6A. Types of Random Variables.mp4
+ENGINEERING_MATHEMATICS,61,1245,,1217,20:17,Lecture 6B. Probability Mass Function Questions Part 1.mp4
+ENGINEERING_MATHEMATICS,62,1246,,911,15:11,Lecture 6C. Probability Mass Function Questions Part 2.mp4
+ENGINEERING_MATHEMATICS,63,1247,,1196,19:56,Lecture 7A. Expectation of Discrete Random Variable.mp4
+ENGINEERING_MATHEMATICS,64,1248,,2453,40:53,Lecture 7B Expectation vs Average.mp4
+ENGINEERING_MATHEMATICS,65,1249,,529,08:49,Lecture 7C. Expectation as center of mass.mp4
+ENGINEERING_MATHEMATICS,66,1250,,799,13:19,Lecture 7D. MIT Question and GATE 2021 Question.mp4
+ENGINEERING_MATHEMATICS,67,1251,,1086,18:06,Lecture 7E. Expectation of Random Variable which is a Function of Random Variable.mp4
+ENGINEERING_MATHEMATICS,68,1252,,1269,21:09,Lecture 8A. Question number 8.mp4
+ENGINEERING_MATHEMATICS,69,1253,,1031,17:11,Lecture 8B. Question number 9 10 11.mp4
+ENGINEERING_MATHEMATICS,70,1254,,1837,30:37,Lecture 8C. Question number 12 13.mp4
+ENGINEERING_MATHEMATICS,71,1255,,1879,31:19,Lecture 9A. Cumulative Distribution Function.mp4
+ENGINEERING_MATHEMATICS,72,1256,,3155,52:35,Lecture 9B. Variance Intuition and Formula.mp4
+ENGINEERING_MATHEMATICS,73,1257,,2290,38:10,Lecture 9C. Variance Main Formula and Questions.mp4
+ENGINEERING_MATHEMATICS,74,1258,,2718,45:18,Lecture 9D. Variance Questions.mp4
+ENGINEERING_MATHEMATICS,75,1259,,4620,77:00,10A. Discrete random variable Bernoulli and Binomial RVs.mp4
+ENGINEERING_MATHEMATICS,76,1260,,1012,16:52,Lecture 10B. MIT Question on Binomial RV.mp4
+ENGINEERING_MATHEMATICS,77,1261,,1142,19:02,Lecture 10C. Optional and Skip - Question on Plot of PMF.mp4
+ENGINEERING_MATHEMATICS,78,1262,,1732,28:52,Lecture 10D. Poisson Random Variable.mp4
+ENGINEERING_MATHEMATICS,79,1263,,906,15:06,Lecture 10E. Discrete Uniform Random Variable Introduction.mp4
+ENGINEERING_MATHEMATICS,80,1264,,1931,32:11,Lecture 11A. Introduction to Continuous Distributions - Intuition about PDF.mp4
+ENGINEERING_MATHEMATICS,81,1265,,1547,25:47,Lecture 11B. Continuous Uniform Distribution.mp4
+ENGINEERING_MATHEMATICS,82,1266,,2592,43:12,Lecture 11C. Normal Distribution.mp4
+ENGINEERING_MATHEMATICS,83,1267,,1056,17:36,Lecture 11D. Normal Distribution - 2.mp4
+ENGINEERING_MATHEMATICS,84,1268,,1085,18:05,Lecture 11E. Exponential Distribution.mp4
+ENGINEERING_MATHEMATICS,85,1269,,2152,35:52,Lecture 12. Statistics - Mean Mode Median.mp4
+ENGINEERING_MATHEMATICS,86,1270,,6999,116:39,Lecture 1 Finding Limit of a function.mp4
+ENGINEERING_MATHEMATICS,87,1271,,5487,91:27,Lecture 4 Continuity and Introduction to Differentiability.mp4
+ENGINEERING_MATHEMATICS,88,1272,,6466,107:46,Lecture 6 Integration.mp4
