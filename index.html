@@ -400,26 +400,12 @@
       daySchedule = backlogDays.map(d => ({ day: d.day, subject: d.subject, videos: d.videos.slice(), totalSeconds: d.totalSeconds, totalHours: d.totalHours, originalHours: d.originalHours }));
     }
 
-    // Load progress from localStorage (restores backlogDays and completedVideos)
+    // Load progress from localStorage (only restores completedVideos, schedule is regenerated from CSV)
     function loadProgress() {
       const saved = localStorage.getItem('completedVideos');
       if (saved) completedVideos = JSON.parse(saved);
-      const savedDays = localStorage.getItem('backlogDays');
-      if (savedDays) {
-        try {
-          const parsed = JSON.parse(savedDays);
-          if (Array.isArray(parsed) && parsed.length > 0) {
-            backlogDays = parsed;
-            // Recalculate totals and ensure proper structure
-            backlogDays.forEach(d => recalcDayTotals(d));
-            daySchedule = backlogDays.map(d => ({ day: d.day, subject: d.subject, videos: d.videos.slice(), totalSeconds: d.totalSeconds, totalHours: d.totalHours, originalHours: d.originalHours }));
-            return;
-          }
-        } catch (e) {
-          console.error('Error loading backlogDays from storage', e);
-        }
-      }
-      // If no saved days, leave backlogDays as generated from schedule
+      // Note: backlogDays are now always regenerated from CSV to pick up new subjects
+      // Only completedVideos state is preserved across sessions
     }
 
     // handleFileUpload removed because manual upload UI is no longer used
