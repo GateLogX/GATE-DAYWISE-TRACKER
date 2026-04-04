@@ -952,237 +952,345 @@ ENGG_MATH,86,1270,,6999,116:39,Lecture 1 Finding Limit of a function.mp4
 ENGG_MATH,87,1271,,5487,91:27,Lecture 4 Continuity and Introduction to Differentiability.mp4
 ENGG_MATH,88,1272,,6466,107:46,Lecture 6 Integration.mp4
 DISCRETE_MATH,1,1273,,8154,135:54,Recording - Lecture 6 - Proof Techniques Part 1 Direct Proofs.mp4
-DISCRETE_MATH,2,1274,,3180,53:00,Lecture 2 - Proposition & Propositional Variable.mp4
-DISCRETE_MATH,3,1275,,1613,26:53,Lecture 3 - Atomic & Compound Propositions.mp4
-DISCRETE_MATH,4,1276,,1310,21:50,Lecture 4 - Negation Operator - Logical Connectives.mp4
-DISCRETE_MATH,5,1277,,1576,26:16,Lecture 5 - Conjunction (AND) Operator - Logical Connectives.mp4
-DISCRETE_MATH,6,1278,,823,13:43,Lecture 6 - Disjunction (OR) Operator - Logical Connectives.mp4
-DISCRETE_MATH,7,1279,,2115,35:15,Lecture 7 - Exclusive-OR Operator - Logical Connectives.mp4
-DISCRETE_MATH,8,1280,,440,7:20,Lecture 8 - NAND NOR Operator - Logical Connectives.mp4
-DISCRETE_MATH,9,1281,,3490,58:10,Lecture 9 - Implication Operator - Logical Connectives.mp4
-DISCRETE_MATH,10,1282,,1153,19:13,Lecture 10 - Implication Operator Continued.mp4
-DISCRETE_MATH,11,1283,,1253,20:53,Lecture 11 - Important Points about Implication Operator.mp4
-DISCRETE_MATH,12,1284,,1689,28:09,Lecture 13 - Various English Translations of Implication Statement.mp4
-DISCRETE_MATH,13,1285,,1615,26:55,Lecture 14 - Bi-implication Operator - Logical Connective.mp4
-DISCRETE_MATH,14,1286,,2663,44:23,Lecture 17 - Propositional Formula Revisited.mp4
-DISCRETE_MATH,15,1287,,1550,25:50,Lecture 18 - Truth Table.mp4
-DISCRETE_MATH,16,1288,,3597,59:57,Lecture 19 - Tautology Contradiction Contingency.mp4
-DISCRETE_MATH,17,1289,,1798,29:58,Lecture 20 - By Case Method.mp4
-DISCRETE_MATH,18,1290,,1797,29:57,Lecture 21 - By Case Method Practice.mp4
-DISCRETE_MATH,19,1291,,2829,47:09,Lecture 22 - Logical Equivalence.mp4
-DISCRETE_MATH,20,1292,,1931,32:11,Lecture 23 - Logical Equivalence Practice.mp4
-DISCRETE_MATH,21,1293,,1846,30:46,Lecture 27 - Logical Laws - Commutative Property.mp4
-DISCRETE_MATH,22,1294,,1799,29:59,Lecture 28 - Logical Laws - Associative Property.mp4
-DISCRETE_MATH,23,1295,,732,12:12,Lecture 29 - Logical Laws - Idempotent Property.mp4
-DISCRETE_MATH,24,1296,,1844,30:44,Lecture 30 - Logical Laws - Distributive Law.mp4
-DISCRETE_MATH,25,1297,,1254,20:54,Lecture 31 - Logical Laws - De Morgans Laws.mp4
-DISCRETE_MATH,26,1298,,593,9:53,Lecture 32 - Logical Laws - Implication Laws.mp4
-DISCRETE_MATH,27,1299,,3220,53:40,Lecture 33 - Simplification Using Logical Laws.mp4
-DISCRETE_MATH,28,1300,,2688,44:48,Lecture 34 - Analysis of Implication.mp4
-DISCRETE_MATH,29,1301,,2692,44:52,Lecture 35 - Logical Arguments.mp4
-DISCRETE_MATH,30,1302,,2651,44:11,Lecture 36 - Rules of Inference - Logical Arguments.mp4
-DISCRETE_MATH,31,1303,,1085,18:05,Lecture 37 - The Inference Symbol.mp4
-DISCRETE_MATH,32,1304,,1715,28:35,Lecture 2 - Objects & Domain in First Order Logic.mp4
-DISCRETE_MATH,33,1305,,3176,52:56,Lecture 3 - Predicates in First Order Logic.mp4
-DISCRETE_MATH,34,1306,,1361,22:41,Lecture 4 - Creating Proposition from predicate.mp4
-DISCRETE_MATH,35,1307,,998,16:38,Lecture 5 - Quantifiers Introduction.mp4
-DISCRETE_MATH,36,1308,,2815,46:55,Lecture 6 - Universal Quantifier.mp4
-DISCRETE_MATH,37,1309,,2493,41:33,Lecture 7 - Existential Quantifier.mp4
-DISCRETE_MATH,38,1310,,2302,38:22,Lecture 8 - Quantifiers Practice.mp4
-DISCRETE_MATH,39,1311,,770,12:50,Lecture 9 - Quantifiers Summary.mp4
-DISCRETE_MATH,40,1312,,1957,32:37,Lecture 10 - Quantifiers Tricky Points.mp4
-DISCRETE_MATH,41,1313,,222,3:42,Lecture 11 - English-FOL Translation Part 1.mp4
-DISCRETE_MATH,42,1314,,2839,47:19,Lecture 12 - English-FOL Translation Part 2.mp4
-DISCRETE_MATH,43,1315,,929,15:29,Lecture 13 - English-FOL Translation Part 3.mp4
-DISCRETE_MATH,44,1316,,1686,28:06,Lecture 14 - English-FOL Translation Part 4.mp4
-DISCRETE_MATH,45,1317,,994,16:34,Lecture 15 - English-FOL Translation Part 5.mp4
-DISCRETE_MATH,46,1318,,1420,23:40,Lecture 16 - English-FOL Translation Part 6.mp4
-DISCRETE_MATH,47,1319,,978,16:18,Lecture 17 - English-FOL Translation Part 7.mp4
-DISCRETE_MATH,48,1320,,1779,29:39,Lecture 20 - Bounded Variable.mp4
-DISCRETE_MATH,49,1321,,2932,48:52,Lecture 21 - Free Variable Vs Bounded Variable.mp4
-DISCRETE_MATH,50,1322,,2010,33:30,Lecture 22 - Practice - Bounded Variable Free Variable.mp4
-DISCRETE_MATH,51,1323,,1162,19:22,Lecture 23 - Important Note About Free Variables.mp4
-DISCRETE_MATH,52,1324,,2994,49:54,Lecture 24 - Scope of a Quantifier.mp4
-DISCRETE_MATH,53,1325,,2683,44:43,Lecture 30 - Practice - Free Variable Bounded Variable Scope.mp4
-DISCRETE_MATH,54,1326,,3046,50:46,Lecture 31 - Negation of quantifiers.mp4
-DISCRETE_MATH,55,1327,,1791,29:51,Lecture 32 - Validity Satisfiability of a FOL Expression.mp4
-DISCRETE_MATH,56,1328,,2299,38:19,Lecture 33 - Validity Satisfiability of a FOL Expression Part 2.mp4
-DISCRETE_MATH,57,1329,,1378,22:58,Lecture 34 - Validity of FOL Expression Involving Implication.mp4
-DISCRETE_MATH,58,1330,,679,11:19,Lecture 35 - Equivalence of FOL Expressions.mp4
-DISCRETE_MATH,59,1331,,2731,45:31,Lecture 36 - Distributive Properties of Quantifiers.mp4
-DISCRETE_MATH,60,1332,,1801,30:01,Lecture 1 - Set Definition.mp4
-DISCRETE_MATH,61,1333,,592,9:52,Lecture 2 - Finite Set Infinite Set.mp4
-DISCRETE_MATH,62,1334,,546,9:06,Lecture 3 - Cardinality of a Set.mp4
-DISCRETE_MATH,63,1335,,2165,36:05,Lecture 4 - Set Representations.mp4
-DISCRETE_MATH,64,1336,,1451,24:11,Lecture 5 - Subset.mp4
-DISCRETE_MATH,65,1337,,1113,18:33,Lecture 6 - Powerset of a Set.mp4
-DISCRETE_MATH,66,1338,,3083,51:23,Lecture 7 - Set Operations.mp4
-DISCRETE_MATH,67,1339,,1945,32:25,Lecture 8 - Set Equality.mp4
-DISCRETE_MATH,68,1340,,1114,18:34,Lecture 13 - Ordered Pairs.mp4
-DISCRETE_MATH,69,1341,,2482,41:22,Lecture 14 - Cartesian Product of Sets.mp4
-DISCRETE_MATH,70,1342,,1617,26:57,Lecture 15 - Relations.mp4
-DISCRETE_MATH,71,1343,,336,5:36,Lecture 16 - Counting Number of Relations.mp4
-DISCRETE_MATH,72,1344,,1998,33:18,Lecture 17 - Relation on a Set.mp4
-DISCRETE_MATH,73,1345,,1873,31:13,Lecture 18 - Understanding Relations Part 1.mp4
-DISCRETE_MATH,74,1346,,2829,47:09,Lecture 19 - Understanding Relations Part 2.mp4
-DISCRETE_MATH,75,1347,,149,2:29,Lecture 20 - Types of Binary Relations.mp4
-DISCRETE_MATH,76,1348,,2804,46:44,Lecture 21 - Reflexive Relation.mp4
-DISCRETE_MATH,77,1349,,1792,29:52,Lecture 22 - Symmetric Relation.mp4
-DISCRETE_MATH,78,1350,,292,4:52,Lecture 23 - Antisymmetric Relation.mp4
-DISCRETE_MATH,79,1351,,681,11:21,Lecture 24 - Antisymmetric Relation Definition 2.mp4
-DISCRETE_MATH,80,1352,,1978,32:58,Lecture 25 - Asymmetric Relation.mp4
-DISCRETE_MATH,81,1353,,947,15:47,Example 1 - Symmetric Antisymmetric Asymmetric.mp4
-DISCRETE_MATH,82,1354,,1654,27:34,Lecture 26 - Transitive Relation.mp4
-DISCRETE_MATH,83,1355,,406,6:46,Example 1 - Transitive Relation.mp4
-DISCRETE_MATH,84,1356,,1133,18:53,Lecture 27 - Equivalence Relation Definition.mp4
-DISCRETE_MATH,85,1357,,4688,78:08,Lecture 29 - Equivalence Relation Complete Analysis Part 1.mp4
-DISCRETE_MATH,86,1358,,2140,35:40,Lecture 34 - Total Order Relation.mp4
-DISCRETE_MATH,87,1359,,3181,53:01,Lecture 35 - Hasse Diagram of POSET.mp4
-DISCRETE_MATH,88,1360,,1523,25:23,Lecture 36 - Special Elements of POSET.mp4
-DISCRETE_MATH,89,1361,,3732,62:12,Lecture 38 - Upper Bound Lower Bound LUB GLB.mp4
-DISCRETE_MATH,90,1362,,2085,34:45,Lecture 39 - Practice Questions on GLB LUB.mp4
-DISCRETE_MATH,91,1363,,1600,26:40,Lecture 40 - Hasse Diagram of a Total Order Relation.mp4
-DISCRETE_MATH,92,1364,,914,15:14,Lecture 41 - Lattice.mp4
-DISCRETE_MATH,93,1365,,434,7:14,Lecture 42 - Hasse Diagram to Partial Order Relation.mp4
-DISCRETE_MATH,94,1366,,1896,31:36,Lecture 43 - Hasse Diagram to Partial Order Relation Part 2.mp4
-DISCRETE_MATH,95,1367,,1692,28:12,Lecture 44 - Properties of Lattices.mp4
-DISCRETE_MATH,96,1368,,2678,44:38,Lecture 45 - Sublattice.mp4
-DISCRETE_MATH,97,1369,,883,14:43,Lecture 46 - Questions on Minimal Maximal Elements in POSET Part 1.mp4
-DISCRETE_MATH,98,1370,,1321,22:01,Lecture 49 - Properties of Every Lattice.mp4
-DISCRETE_MATH,99,1371,,1812,30:12,Lecture 50 - Practice Questions on Sublattice.mp4
-DISCRETE_MATH,100,1372,,537,8:57,Lecture 51 - Types of Lattices.mp4
-DISCRETE_MATH,101,1373,,2300,38:20,Lecture 52 - Bounded Lattice.mp4
-DISCRETE_MATH,102,1374,,1259,20:59,Lecture 54 - Complemented Lattice.mp4
-DISCRETE_MATH,103,1375,,2102,35:02,Lecture 1 - Function Definition & Terminology.mp4
-DISCRETE_MATH,104,1376,,994,16:34,Lecture 2 - Number of Functions.mp4
-DISCRETE_MATH,105,1377,,1320,22:00,Lecture 3 - Representations of Function Image of a Subset of Domain.mp4
-DISCRETE_MATH,106,1378,,2196,36:36,Lecture 4 - Types of Functions - Injective Surjective Bijective.mp4
-DISCRETE_MATH,107,1379,,2085,34:45,Lecture 5 - Practice Questions on Types of Functions.mp4
-DISCRETE_MATH,108,1380,,829,13:49,Lecture 6 - Set Operations on Relations.mp4
-DISCRETE_MATH,109,1381,,3150,52:30,Lecture 7 - Composition Operation.mp4
-DISCRETE_MATH,110,1382,,1983,33:03,OPTIONAL Lecture 1 - Abstract Algebra - Introduction & Motivation.mp4
-DISCRETE_MATH,111,1383,,944,15:44,OPTIONAL Lecture 2 - Abstract Algebra Origin & The Galois Story.mp4
-DISCRETE_MATH,112,1384,,536,8:56,Lecture 3 - Abstract Algebra GATE Syllabus.mp4
-DISCRETE_MATH,113,1385,,1421,23:41,Lecture 4 - Binary Operation & The Closure Property.mp4
-DISCRETE_MATH,114,1386,,463,7:43,Lecture 5 - The Associative Property.mp4
-DISCRETE_MATH,115,1387,,1864,31:04,Lecture 6 - The Identity Property.mp4
-DISCRETE_MATH,116,1388,,1357,22:37,Lecture 7 - Practice Questions on Binary Operation.mp4
-DISCRETE_MATH,117,1389,,758,12:38,Lecture 8 - Important Properties of Identity Element.mp4
-DISCRETE_MATH,118,1390,,1797,29:57,Lecture 9 - The Inverse Property.mp4
-DISCRETE_MATH,119,1391,,187,3:07,Lecture 10 - The Commutative Property.mp4
-DISCRETE_MATH,120,1392,,1861,31:01,Lecture 11 - Classification of Binary Algebraic Structures.mp4
-DISCRETE_MATH,121,1393,,1181,19:41,Lecture 12 - Practice Questions on Binary Operations.mp4
-DISCRETE_MATH,122,1394,,668,11:08,Lecture 13 - Properties of Monoid.mp4
-DISCRETE_MATH,123,1395,,597,9:57,Lecture 15 - Practice Questions on Monoid Group.mp4
-DISCRETE_MATH,124,1396,,1835,30:35,Lecture 16 - nth Roots of Unity is an Abelian Group under Multiplication.mp4
-DISCRETE_MATH,125,1397,,659,10:59,Lecture 17 - Addition Modulo n Group.mp4
-DISCRETE_MATH,126,1398,,1333,22:13,Lecture 19 - Associativity & Parentheses.mp4
-DISCRETE_MATH,127,1399,,1607,26:47,Lecture 20 - Cayley Table.mp4
-DISCRETE_MATH,128,1400,,1631,27:11,Lecture 21 - Group Properties Part 2.mp4
-DISCRETE_MATH,129,1401,,875,14:35,Lecture 22 - Checking Associative Property in the Cayley Table.mp4
-DISCRETE_MATH,130,1402,,1576,26:16,Lecture 23A - Cayley Table of a Group.mp4
-DISCRETE_MATH,131,1403,,300,5:00,Lecture 24 - Monoid Vs Group.mp4
-DISCRETE_MATH,132,1404,,919,15:19,Lecture 25A - Groups of Small Order.mp4
-DISCRETE_MATH,133,1405,,1330,22:10,Lecture 25B - Groups of Order 4.mp4
-DISCRETE_MATH,134,1406,,1392,23:12,Lecture 26 - Power of an Element in a Group.mp4
-DISCRETE_MATH,135,1407,,2129,35:29,Lecture 27A - Subgroup.mp4
-DISCRETE_MATH,136,1408,,943,15:43,Lecture 31 - Practice Question on Subgroup Generated by an Element.mp4
-DISCRETE_MATH,137,1409,,2567,42:47,Lecture 32A - Order of an Element in a Group.mp4
-DISCRETE_MATH,138,1410,,790,13:10,Lecture 32B - Summary Lecture - Order of an Element.mp4
-DISCRETE_MATH,139,1411,,2017,33:37,Lecture 33 - Cyclic Group.mp4
-DISCRETE_MATH,140,1412,,1104,18:24,Lecture 35B - Some More Practice Questions on Groups.mp4
-DISCRETE_MATH,141,1413,,1291,21:31,Lecture 36 - Lagranges Theorem.mp4
-DISCRETE_MATH,142,1414,,401,6:41,Lecture 39 - Intersection of Subgroups.mp4
-DISCRETE_MATH,143,1415,,469,7:49,Lecture 40 - Alternative Definitions of Subgroup.mp4
-DISCRETE_MATH,144,1416,,473,7:53,Lecture 1 - Introduction to Combinatorics.mp4
-DISCRETE_MATH,145,1417,,1886,31:26,Lecture 2 - The Sum Rule.mp4
-DISCRETE_MATH,146,1418,,1852,30:52,Lecture 3A - The Product Rule.mp4
-DISCRETE_MATH,147,1419,,685,11:25,Lecture 3B - Practice Questions.mp4
-DISCRETE_MATH,148,1420,,1883,31:23,Lecture 4 - The Subtraction Rule.mp4
-DISCRETE_MATH,149,1421,,1813,30:13,Lecture 5 - Practice Questions.mp4
-DISCRETE_MATH,150,1422,,1505,25:05,Lecture 6 - Counting By Case.mp4
-DISCRETE_MATH,151,1423,,3281,54:41,Lecture 7 - The Complement Rule.mp4
-DISCRETE_MATH,152,1424,,889,14:49,Lecture 8A - The Division Rule.mp4
-DISCRETE_MATH,153,1425,,3092,51:32,Lecture 8B - The Division Rule.mp4
-DISCRETE_MATH,154,1426,,872,14:32,Lecture 9 - Factorial nCr nPr.mp4
-DISCRETE_MATH,155,1427,,1711,28:31,Lecture 10 - Permutation & Combination.mp4
-DISCRETE_MATH,156,1428,,1299,21:39,Lecture 11 - Combination.mp4
-DISCRETE_MATH,157,1429,,3894,64:54,Lecture 12 - Practice Questions & the Most Common Mistake.mp4
-DISCRETE_MATH,158,1430,,1139,18:59,Lecture 13 - Two Standard Templates & More Practice Questions.mp4
-DISCRETE_MATH,159,1431,,1617,26:57,Lecture 15 - Binomial Theorem.mp4
-DISCRETE_MATH,160,1432,,838,13:58,Lecture 16 - Bijective Proofs.mp4
-DISCRETE_MATH,161,1433,,1646,27:26,Lecture 17 - Permutation with Repetition.mp4
-DISCRETE_MATH,162,1434,,2037,33:57,Lecture 19A - Distributing Objects into Boxes - DODB.mp4
-DISCRETE_MATH,163,1435,,1820,30:20,Lecture 20A - IODB Template - Star Bar Problem.mp4
-DISCRETE_MATH,164,1436,,1847,30:47,Lecture 20B - Combination with Repetition - IODB Template 2.mp4
-DISCRETE_MATH,165,1437,,1858,30:58,Lecture 20C - Non-Negative Integer Solutions - IODB Template 3.mp4
-DISCRETE_MATH,166,1438,,657,10:57,Lecture 20D - Multiset Problem - IODB Template 4.mp4
-DISCRETE_MATH,167,1439,,1437,23:57,Lecture 20E - Non-Decreasing integer Sequence - IODB Template 5.mp4
-DISCRETE_MATH,168,1440,,2065,34:25,Lecture 20F - Practice Questions - IODB.mp4
-DISCRETE_MATH,169,1441,,1225,20:25,Lecture 20G - Integer Composition - IODB Template 6.mp4
-DISCRETE_MATH,170,1442,,1125,18:45,Lecture 22 - IOIB Problem.mp4
-DISCRETE_MATH,171,1443,,3365,56:05,Lecture 24C - Derangement - Inclusion Exclusion Principle Application.mp4
-DISCRETE_MATH,172,1444,,2422,40:22,Lecture 25A - Generating Function.mp4
-DISCRETE_MATH,173,1445,,1816,30:16,Lecture 25B - Generating Function Part 2.mp4
-DISCRETE_MATH,174,1446,,856,14:16,Lecture 25C - Generating Function Part 3.mp4
-DISCRETE_MATH,175,1447,,2002,33:22,Lecture 25D - Practice Questions - Generating Function Part 4.mp4
-DISCRETE_MATH,176,1448,,2184,36:24,Lecture 25E - AGP Series & Generating Function Part 5.mp4
-DISCRETE_MATH,177,1449,,2437,40:37,Lecture 25F - Extended Binomial Theorem - Generating Function - Part 6.mp4
-DISCRETE_MATH,178,1450,,666,11:06,Lecture 25G - Summary of Generating Function.mp4
-DISCRETE_MATH,179,1451,,2702,45:02,Lecture 1 - Why Study Graph Theory - The Motivation.mp4
-DISCRETE_MATH,180,1452,,2077,34:37,Lecture 2 - Basic Terminology - Graph Theory.mp4
-DISCRETE_MATH,181,1453,,1270,21:10,Lecture 2B - Basics - Degree Adjacency.mp4
-DISCRETE_MATH,182,1454,,1175,19:35,Lecture 3A - Handshaking Theorem.mp4
-DISCRETE_MATH,183,1455,,697,11:37,Lecture 3B - Handshaking Theorem for Directed Graphs.mp4
-DISCRETE_MATH,184,1456,,1875,31:15,Lecture 4A - Cycle Path Walk in Simple Graphs.mp4
-DISCRETE_MATH,185,1457,,1539,25:39,Lecture 4B - Walk Path Revise & Practice.mp4
-DISCRETE_MATH,186,1458,,958,15:58,Lecture 4C - Distance and Diameter.mp4
-DISCRETE_MATH,187,1459,,1298,21:38,Lecture 5A - Special Type of Graphs.mp4
-DISCRETE_MATH,188,1460,,2740,45:40,Lecture 5B - Special Type of Graphs Part 2.mp4
-DISCRETE_MATH,189,1461,,1196,19:56,Lecture 6 - GATE & TIFR Questions on Degree Concept.mp4
-DISCRETE_MATH,190,1462,,2147,35:47,Lecture 7 - Subgraph.mp4
-DISCRETE_MATH,191,1463,,389,6:29,GATE CSE 2001 - Number of Simple Graphs.mp4
-DISCRETE_MATH,192,1464,,3532,58:52,Lecture 8A - Graph Isomorphism Part 1 - Definition.mp4
-DISCRETE_MATH,193,1465,,259,4:19,Lecture 8B - GATE 2012 Question - Graph Isomorphism.mp4
-DISCRETE_MATH,194,1466,,793,13:13,Lecture 8D - Graph Complement and Self Complementary Graph.mp4
-DISCRETE_MATH,195,1467,,622,10:22,Lecture 8E - Practice - Graph Isomorphism.mp4
-DISCRETE_MATH,196,1468,,1451,24:11,Lecture 9A - Connected Components.mp4
-DISCRETE_MATH,197,1469,,92,1:32,Lecture 9D - A Simple Practice Question.mp4
-DISCRETE_MATH,198,1470,,2013,33:33,Lecture 10A - Bipartite Graphs.mp4
-DISCRETE_MATH,199,1471,,554,9:14,Lecture 10B - Complete Bipartite Graph.mp4
-DISCRETE_MATH,200,1472,,2495,41:35,Lecture 10C - Practice Questions - Bipartite Graphs.mp4
-DISCRETE_MATH,201,1473,,707,11:47,Lecture 11A - Trees - Part 1 - Cyclic Graphs Acyclic Graph.mp4
-DISCRETE_MATH,202,1474,,515,8:35,Lecture 11B - Trees - Part 2 - Tree and Forest Definitions.mp4
-DISCRETE_MATH,203,1475,,4453,74:13,Lecture 11C - Trees - Part 3 - Many Definitions of Tree.mp4
-DISCRETE_MATH,204,1476,,605,10:05,Lecture 11D - Tree Part 4 - Every Tree has at least two vertices of degree 1.mp4
-DISCRETE_MATH,205,1477,,3270,54:30,Lecture 11E - ALL Questions - Trees Forest.mp4
-DISCRETE_MATH,206,1478,,1787,29:47,Lecture 12A - Rooted Trees.mp4
-DISCRETE_MATH,207,1479,,2781,46:21,Lecture 12B - Rooted Tree Part 2 - Binary Tree Full Binary Tree.mp4
-DISCRETE_MATH,208,1480,,1074,17:54,Lecture 13A - Questions Related to Components.mp4
-DISCRETE_MATH,209,1481,,2083,34:43,Lecture 13B - Questions on Rooted Trees.mp4
-DISCRETE_MATH,210,1482,,2592,43:12,Lecture 14A - Clique Independent Set - Part 1.mp4
-DISCRETE_MATH,211,1483,,674,11:14,Lecture 14B - UGC NET CSE 2016 Clique Question.mp4
-DISCRETE_MATH,212,1484,,1130,18:50,Lecture 14C - Clique Independent Set - Part 3.mp4
-DISCRETE_MATH,213,1485,,2803,46:43,Lecture 15A - Vertex Cover Edge Cover - Part 1.mp4
-DISCRETE_MATH,214,1486,,1738,28:58,Lecture 15B - Vertex Cover Edge Cover - Part 2 - Analysis.mp4
-DISCRETE_MATH,215,1487,,1370,22:50,Lecture 15C - Relation between Vertex Cover & Independent Set.mp4
-DISCRETE_MATH,216,1488,,29,0:29,Meme - Relation between Vertex Cover & Independent Set.mp4
-DISCRETE_MATH,217,1489,,3096,51:36,Lecture 16A - Matching Part 1 - Perfect Matching Matching Number.mp4
-DISCRETE_MATH,218,1490,,3759,62:39,Lecture 16B - Matching Part 2 - Matching & Covering Analysis.mp4
-DISCRETE_MATH,219,1491,,2829,47:09,Lecture 17A - Graph Coloring Part 1 - Vertex Coloring.mp4
-DISCRETE_MATH,220,1492,,2463,41:03,Lecture 17B - Graph Coloring Part 2 - Greedy Algorithm for Vertex Coloring.mp4
-DISCRETE_MATH,221,1493,,3236,53:56,Lecture 17C - Graph Coloring Part 3 - All GATE TIFR Questions.mp4
-DISCRETE_MATH,222,1494,,596,9:56,Lecture 17D - Graph Coloring Part 4 - Brooks Theorem for Vertex Coloring.mp4
-DISCRETE_MATH,223,1495,,2454,40:54,Lecture 17E - Graph Coloring Part 5 - Edge Coloring.mp4
-DISCRETE_MATH,224,1496,,4394,73:14,Lecture 18 - Graph Realization Problem - Havel Hakimi Theorem.mp4
-DISCRETE_MATH,225,1497,,3737,62:17,Lecture 19A - Cut Vertex Cut Edge.mp4
-DISCRETE_MATH,226,1498,,4197,69:57,Lecture 19B - Connectivity Number Vertex Cut Edge Cut.mp4
-DISCRETE_MATH,227,1499,,3565,59:25,Lecture 20A - Strongly Connected Components - Part 1.mp4
-DISCRETE_MATH,228,1500,,261,4:21,Lecture 20B - Weakly Connected Graph.mp4
-DISCRETE_MATH,229,1501,,1587,26:27,Lecture 20C - Strongly Connected Components - Part 3 - Associated DAG.mp4
-DISCRETE_MATH,230,1502,,2308,38:28,Lecture 22A - Planar Graph Introduction.mp4
-DISCRETE_MATH,231,1503,,2999,49:59,Lecture 22D - Planar Graphs - Some Important Results & Four Color Theorem.mp4
-DISCRETE_MATH,232,1504,,457,7:37,Lecture 23A - Adjacency Matrix Adjacency List.mp4
-DISCRETE_MATH,233,1505,,54,0:54,Lecture 23B - GATE 1987-9d Adjacency List.mp4
-DISCRETE_MATH,234,1506,,46,0:46,Lecture 23C - GATE 1988-2xvi Adjacency Matrix.mp4
-DISCRETE_MATH,235,1507,,362,6:02,Lecture 23D - TIFR CSE 2015 Adjacency Matrix.mp4
+DISCRETE_MATH,2,1274,,0,0:00,Lecture 1B - Proof Techniques Part 2 - Proof by Contrapositive & Contradiction.mp4
+DISCRETE_MATH,3,1275,,0,0:00,Lecture 1C - Proof by Mathematical Induction - Proof Technique.mp4
+DISCRETE_MATH,4,1276,,0,0:00,Lecture 2 - Practice Questions on Proof Techniques.mp4
+DISCRETE_MATH,5,1277,,0,0:00,Lecture 1 - Introduction to Discrete Mathematics.mp4
+DISCRETE_MATH,6,1278,,0,0:00,Summary Lecture 1 - Introduction to Discrete Mathematics.mp4
+DISCRETE_MATH,7,1279,,0,0:00,Lecture 1 - Introduction to Mathematical Logic.mp4
+DISCRETE_MATH,8,1280,,0,0:00,Summary Lecture 1 - Introduction to Mathematical Logic.mp4
+DISCRETE_MATH,9,1281,,3180,53:00,Lecture 2 - Proposition & Propositional Variable.mp4
+DISCRETE_MATH,10,1282,,0,0:00,Summary Lecture 2 - Proposition & Propositional Variable Truth Value.mp4
+DISCRETE_MATH,11,1283,,1613,26:53,Lecture 3 - Atomic & Compound Propositions.mp4
+DISCRETE_MATH,12,1284,,0,0:00,Summary Lecture 3A - Atomic Proposition. Compound Proposition.mp4
+DISCRETE_MATH,13,1285,,0,0:00,Summary Lecture 3B - Logical Connectives.mp4
+DISCRETE_MATH,14,1286,,1310,21:50,Lecture 4 - Negation Operator - Logical Connectives.mp4
+DISCRETE_MATH,15,1287,,1576,26:16,Lecture 5 - Conjunction (AND) Operator - Logical Connectives.mp4
+DISCRETE_MATH,16,1288,,823,13:43,Lecture 6 - Disjunction (OR) Operator - Logical Connectives.mp4
+DISCRETE_MATH,17,1289,,2115,35:15,Lecture 7 - Exclusive-OR Operator - Logical Connectives.mp4
+DISCRETE_MATH,18,1290,,440,7:20,Lecture 8 - NAND NOR Operator - Logical Connectives.mp4
+DISCRETE_MATH,19,1291,,3490,58:10,Lecture 9 - Implication Operator - Logical Connectives.mp4
+DISCRETE_MATH,20,1292,,1153,19:13,Lecture 10 - Implication Operator Continued.mp4
+DISCRETE_MATH,21,1293,,1253,20:53,Lecture 11 - Important Points about Implication Operator.mp4
+DISCRETE_MATH,22,1294,,0,0:00,Lecture 12 - Necessary & Sufficient Condition - Implication Operator.mp4
+DISCRETE_MATH,23,1295,,1689,28:09,Lecture 13 - Various English Translations of Implication Statement.mp4
+DISCRETE_MATH,24,1296,,1615,26:55,Lecture 14 - Bi-implication Operator - Logical Connective.mp4
+DISCRETE_MATH,25,1297,,0,0:00,Lecture 15 - Property Vs Definition - Implication Vs Bi-implication Statements.mp4
+DISCRETE_MATH,26,1298,,0,0:00,Lecture 16 - Propositional Variable Vs Propositional Formula.mp4
+DISCRETE_MATH,27,1299,,2663,44:23,Lecture 17 - Propositional Formula Revisited.mp4
+DISCRETE_MATH,28,1300,,1550,25:50,Lecture 18 - Truth Table.mp4
+DISCRETE_MATH,29,1301,,3597,59:57,Lecture 19 - Tautology Contradiction Contingency.mp4
+DISCRETE_MATH,30,1302,,1798,29:58,Lecture 20 - By Case Method.mp4
+DISCRETE_MATH,31,1303,,1797,29:57,Lecture 21 - By Case Method Practice.mp4
+DISCRETE_MATH,32,1304,,2829,47:09,Lecture 22 - Logical Equivalence.mp4
+DISCRETE_MATH,33,1305,,1931,32:11,Lecture 23 - Logical Equivalence Practice.mp4
+DISCRETE_MATH,34,1306,,0,0:00,Lecture 24 - Converse Contrapositive of Conditional Statement.mp4
+DISCRETE_MATH,35,1307,,0,0:00,Lecture 25 - English-Logic Translation.mp4
+DISCRETE_MATH,36,1308,,0,0:00,Lecture 26 - Unless Word - English-Logic Translation.mp4
+DISCRETE_MATH,37,1309,,1846,30:46,Lecture 27 - Logical Laws - Commutative Property.mp4
+DISCRETE_MATH,38,1310,,1799,29:59,Lecture 28 - Logical Laws - Associative Property.mp4
+DISCRETE_MATH,39,1311,,732,12:12,Lecture 29 - Logical Laws - Idempotent Property.mp4
+DISCRETE_MATH,40,1312,,1844,30:44,Lecture 30 - Logical Laws - Distributive Law.mp4
+DISCRETE_MATH,41,1313,,1254,20:54,Lecture 31 - Logical Laws - De Morgans Laws.mp4
+DISCRETE_MATH,42,1314,,593,9:53,Lecture 32 - Logical Laws - Implication Laws.mp4
+DISCRETE_MATH,43,1315,,3220,53:40,Lecture 33 - Simplification Using Logical Laws.mp4
+DISCRETE_MATH,44,1316,,2688,44:48,Lecture 34 - Analysis of Implication.mp4
+DISCRETE_MATH,45,1317,,2692,44:52,Lecture 35 - Logical Arguments.mp4
+DISCRETE_MATH,46,1318,,2651,44:11,Lecture 36 - Rules of Inference - Logical Arguments.mp4
+DISCRETE_MATH,47,1319,,1085,18:05,Lecture 37 - The Inference Symbol.mp4
+DISCRETE_MATH,48,1320,,0,0:00,OPTIONAL Lecture 1 - Overview & Need of First Order Logic.mp4
+DISCRETE_MATH,49,1321,,1715,28:35,Lecture 2 - Objects & Domain in First Order Logic.mp4
+DISCRETE_MATH,50,1322,,3176,52:56,Lecture 3 - Predicates in First Order Logic.mp4
+DISCRETE_MATH,51,1323,,1361,22:41,Lecture 4 - Creating Proposition from predicate.mp4
+DISCRETE_MATH,52,1324,,998,16:38,Lecture 5 - Quantifiers Introduction.mp4
+DISCRETE_MATH,53,1325,,2815,46:55,Lecture 6 - Universal Quantifier.mp4
+DISCRETE_MATH,54,1326,,2493,41:33,Lecture 7 - Existential Quantifier.mp4
+DISCRETE_MATH,55,1327,,2302,38:22,Lecture 8 - Quantifiers Practice.mp4
+DISCRETE_MATH,56,1328,,770,12:50,Lecture 9 - Quantifiers Summary.mp4
+DISCRETE_MATH,57,1329,,1957,32:37,Lecture 10 - Quantifiers Tricky Points.mp4
+DISCRETE_MATH,58,1330,,222,3:42,Lecture 11 - English-FOL Translation Part 1.mp4
+DISCRETE_MATH,59,1331,,2839,47:19,Lecture 12 - English-FOL Translation Part 2.mp4
+DISCRETE_MATH,60,1332,,929,15:29,Lecture 13 - English-FOL Translation Part 3.mp4
+DISCRETE_MATH,61,1333,,1686,28:06,Lecture 14 - English-FOL Translation Part 4.mp4
+DISCRETE_MATH,62,1334,,994,16:34,Lecture 15 - English-FOL Translation Part 5.mp4
+DISCRETE_MATH,63,1335,,1420,23:40,Lecture 16 - English-FOL Translation Part 6.mp4
+DISCRETE_MATH,64,1336,,978,16:18,Lecture 17 - English-FOL Translation Part 7.mp4
+DISCRETE_MATH,65,1337,,0,0:00,Lecture 18 - Revision of English-FOL Translation.mp4
+DISCRETE_MATH,66,1338,,0,0:00,Lecture 19 - A LOT of Practice of English-FOL Translation.mp4
+DISCRETE_MATH,67,1339,,1779,29:39,Lecture 20 - Bounded Variable.mp4
+DISCRETE_MATH,68,1340,,2932,48:52,Lecture 21 - Free Variable Vs Bounded Variable.mp4
+DISCRETE_MATH,69,1341,,2010,33:30,Lecture 22 - Practice - Bounded Variable Free Variable.mp4
+DISCRETE_MATH,70,1342,,1162,19:22,Lecture 23 - Important Note About Free Variables.mp4
+DISCRETE_MATH,71,1343,,2994,49:54,Lecture 24 - Scope of a Quantifier.mp4
+DISCRETE_MATH,72,1344,,0,0:00,Lecture 25 - Nested Quantifiers Part 1 - Need of Nested Quantifiers.mp4
+DISCRETE_MATH,73,1345,,0,0:00,Lecture 26 - Nested Quantifiers Part 2 - All Four Standard Templates.mp4
+DISCRETE_MATH,74,1346,,0,0:00,Lecture 27 - Nested Quantifiers Part 3 - Examples Variations.mp4
+DISCRETE_MATH,75,1347,,0,0:00,Lecture 28 - More Practice of English - FOL Translation.mp4
+DISCRETE_MATH,76,1348,,0,0:00,Lecture 29 - Even More Practice of English - FOL Translation.mp4
+DISCRETE_MATH,77,1349,,2683,44:43,Lecture 30 - Practice - Free Variable Bounded Variable Scope.mp4
+DISCRETE_MATH,78,1350,,3046,50:46,Lecture 31 - Negation of quantifiers.mp4
+DISCRETE_MATH,79,1351,,1791,29:51,Lecture 32 - Validity Satisfiability of a FOL Expression.mp4
+DISCRETE_MATH,80,1352,,2299,38:19,Lecture 33 - Validity Satisfiability of a FOL Expression Part 2.mp4
+DISCRETE_MATH,81,1353,,1378,22:58,Lecture 34 - Validity of FOL Expression Involving Implication.mp4
+DISCRETE_MATH,82,1354,,679,11:19,Lecture 35 - Equivalence of FOL Expressions.mp4
+DISCRETE_MATH,83,1355,,2731,45:31,Lecture 36 - Distributive Properties of Quantifiers.mp4
+DISCRETE_MATH,84,1356,,0,0:00,Lecture 37 - Practice - First Order Logic.mp4
+DISCRETE_MATH,85,1357,,0,0:00,Lecture 38 - Null Quantification Rule.mp4
+DISCRETE_MATH,86,1358,,0,0:00,Lecture 39 - Arguments in First Order Logic.mp4
+DISCRETE_MATH,87,1359,,0,0:00,OPTIONAL Lecture 1 - Interpretation Model in Propositional Logic.mp4
+DISCRETE_MATH,88,1360,,0,0:00,OPTIONAL Lecture 2 - Interpretation Model in First Order Logic.mp4
+DISCRETE_MATH,89,1361,,0,0:00,OPTIONAL Lecture 3 - Uniqueness Quantifier.mp4
+DISCRETE_MATH,90,1362,,0,0:00,Optional Lecture 4 - Tautology in First Order Logic.mp4
+DISCRETE_MATH,91,1363,,1801,30:01,Lecture 1 - Set Definition.mp4
+DISCRETE_MATH,92,1364,,592,9:52,Lecture 2 - Finite Set Infinite Set.mp4
+DISCRETE_MATH,93,1365,,546,9:06,Lecture 3 - Cardinality of a Set.mp4
+DISCRETE_MATH,94,1366,,2165,36:05,Lecture 4 - Set Representations.mp4
+DISCRETE_MATH,95,1367,,1451,24:11,Lecture 5 - Subset.mp4
+DISCRETE_MATH,96,1368,,1113,18:33,Lecture 6 - Powerset of a Set.mp4
+DISCRETE_MATH,97,1369,,3083,51:23,Lecture 7 - Set Operations.mp4
+DISCRETE_MATH,98,1370,,1945,32:25,Lecture 8 - Set Equality.mp4
+DISCRETE_MATH,99,1371,,0,0:00,Lecture 9 - Understanding Set Operations.mp4
+DISCRETE_MATH,100,1372,,0,0:00,Lecture 10 - Proofs involving Sets Set Equality Subset.mp4
+DISCRETE_MATH,101,1373,,0,0:00,Lecture 11 - Set Identities.mp4
+DISCRETE_MATH,102,1374,,0,0:00,Lecture 12 - Proofs involving Power Sets.mp4
+DISCRETE_MATH,103,1375,,1114,18:34,Lecture 13 - Ordered Pairs.mp4
+DISCRETE_MATH,104,1376,,2482,41:22,Lecture 14 - Cartesian Product of Sets.mp4
+DISCRETE_MATH,105,1377,,1617,26:57,Lecture 15 - Relations.mp4
+DISCRETE_MATH,106,1378,,336,5:36,Lecture 16 - Counting Number of Relations.mp4
+DISCRETE_MATH,107,1379,,1998,33:18,Lecture 17 - Relation on a Set.mp4
+DISCRETE_MATH,108,1380,,1873,31:13,Lecture 18 - Understanding Relations Part 1.mp4
+DISCRETE_MATH,109,1381,,2829,47:09,Lecture 19 - Understanding Relations Part 2.mp4
+DISCRETE_MATH,110,1382,,149,2:29,Lecture 20 - Types of Binary Relations.mp4
+DISCRETE_MATH,111,1383,,2804,46:44,Lecture 21 - Reflexive Relation.mp4
+DISCRETE_MATH,112,1384,,1792,29:52,Lecture 22 - Symmetric Relation.mp4
+DISCRETE_MATH,113,1385,,292,4:52,Lecture 23 - Antisymmetric Relation.mp4
+DISCRETE_MATH,114,1386,,681,11:21,Lecture 24 - Antisymmetric Relation Definition 2.mp4
+DISCRETE_MATH,115,1387,,1978,32:58,Lecture 25 - Asymmetric Relation.mp4
+DISCRETE_MATH,116,1388,,947,15:47,Example 1 - Symmetric Antisymmetric Asymmetric.mp4
+DISCRETE_MATH,117,1389,,0,0:00,Example 2 - Symmetric Antisymmetric Asymmetric.mp4
+DISCRETE_MATH,118,1390,,1654,27:34,Lecture 26 - Transitive Relation.mp4
+DISCRETE_MATH,119,1391,,406,6:46,Example 1 - Transitive Relation.mp4
+DISCRETE_MATH,120,1392,,1133,18:53,Lecture 27 - Equivalence Relation Definition.mp4
+DISCRETE_MATH,121,1393,,0,0:00,Lecture 28 - Partition of a Set.mp4
+DISCRETE_MATH,122,1394,,0,0:00,Summary Lecture - Partition of a Set.mp4
+DISCRETE_MATH,123,1395,,4688,78:08,Lecture 29 - Equivalence Relation Complete Analysis Part 1.mp4
+DISCRETE_MATH,124,1396,,0,0:00,Lecture 30 - Equivalence Relation Complete Analysis Part 2.mp4
+DISCRETE_MATH,125,1397,,0,0:00,Lecture 31 - Graph of Equivalence Relation.mp4
+DISCRETE_MATH,126,1398,,0,0:00,Lecture 32 - Practice Equivalence Relation.mp4
+DISCRETE_MATH,127,1399,,0,0:00,Summary Lecture - Equivalence Relations.mp4
+DISCRETE_MATH,128,1400,,0,0:00,Lecture 33 - Partial Order Relation.mp4
+DISCRETE_MATH,129,1401,,2140,35:40,Lecture 34 - Total Order Relation.mp4
+DISCRETE_MATH,130,1402,,3181,53:01,Lecture 35 - Hasse Diagram of POSET.mp4
+DISCRETE_MATH,131,1403,,1523,25:23,Lecture 36 - Special Elements of POSET.mp4
+DISCRETE_MATH,132,1404,,0,0:00,Lecture 37 - Practice Questions on Hasse Diagrams.mp4
+DISCRETE_MATH,133,1405,,3732,62:12,Lecture 38 - Upper Bound Lower Bound LUB GLB.mp4
+DISCRETE_MATH,134,1406,,2085,34:45,Lecture 39 - Practice Questions on GLB LUB.mp4
+DISCRETE_MATH,135,1407,,1600,26:40,Lecture 40 - Hasse Diagram of a Total Order Relation.mp4
+DISCRETE_MATH,136,1408,,914,15:14,Lecture 41 - Lattice.mp4
+DISCRETE_MATH,137,1409,,434,7:14,Lecture 42 - Hasse Diagram to Partial Order Relation.mp4
+DISCRETE_MATH,138,1410,,1896,31:36,Lecture 43 - Hasse Diagram to Partial Order Relation Part 2.mp4
+DISCRETE_MATH,139,1411,,1692,28:12,Lecture 44 - Properties of Lattices.mp4
+DISCRETE_MATH,140,1412,,2678,44:38,Lecture 45 - Sublattice.mp4
+DISCRETE_MATH,141,1413,,883,14:43,Lecture 46 - Questions on Minimal Maximal Elements in POSET Part 1.mp4
+DISCRETE_MATH,142,1414,,0,0:00,Lecture 47 - Questions on Minimal Maximal Elements in POSET Part 2.mp4
+DISCRETE_MATH,143,1415,,0,0:00,Lecture 48 - Questions - Maximal Greatest Elements in a Lattice.mp4
+DISCRETE_MATH,144,1416,,1321,22:01,Lecture 49 - Properties of Every Lattice.mp4
+DISCRETE_MATH,145,1417,,1812,30:12,Lecture 50 - Practice Questions on Sublattice.mp4
+DISCRETE_MATH,146,1418,,537,8:57,Lecture 51 - Types of Lattices.mp4
+DISCRETE_MATH,147,1419,,2300,38:20,Lecture 52 - Bounded Lattice.mp4
+DISCRETE_MATH,148,1420,,0,0:00,Lecture 53 - Identity Property in Lattices Domination Law.mp4
+DISCRETE_MATH,149,1421,,1259,20:59,Lecture 54 - Complemented Lattice.mp4
+DISCRETE_MATH,150,1422,,0,0:00,Lecture 55 - Distributive Lattice.mp4
+DISCRETE_MATH,151,1423,,0,0:00,Lecture 56 - Practice Questions on Types of Lattice.mp4
+DISCRETE_MATH,152,1424,,0,0:00,Lecture 57 - Boolean Lattice.mp4
+DISCRETE_MATH,153,1425,,0,0:00,Lecture 58 - Why Boolean Lattice is called a Boolean Algebra.mp4
+DISCRETE_MATH,154,1426,,0,0:00,Lecture 59 - Complete Analysis of Total Order Relation.mp4
+DISCRETE_MATH,155,1427,,0,0:00,Lecture 60 - Complete Analysis of Powerset Lattice.mp4
+DISCRETE_MATH,156,1428,,0,0:00,Lecture 61 - Complete Analysis of Divisibility Relation - Part 1.mp4
+DISCRETE_MATH,157,1429,,0,0:00,Lecture 62 - Complete Analysis of Divisibility Relation - Part 2.mp4
+DISCRETE_MATH,158,1430,,0,0:00,Lecture 63 - Refinement of a Partition GATE 2007 1998.mp4
+DISCRETE_MATH,159,1431,,0,0:00,Lecture 64 - Constructing Total Order from Partial Order - GATE 2024 1997.mp4
+DISCRETE_MATH,160,1432,,2102,35:02,Lecture 1 - Function Definition & Terminology.mp4
+DISCRETE_MATH,161,1433,,994,16:34,Lecture 2 - Number of Functions.mp4
+DISCRETE_MATH,162,1434,,1320,22:00,Lecture 3 - Representations of Function Image of a Subset of Domain.mp4
+DISCRETE_MATH,163,1435,,2196,36:36,Lecture 4 - Types of Functions - Injective Surjective Bijective.mp4
+DISCRETE_MATH,164,1436,,2085,34:45,Lecture 5 - Practice Questions on Types of Functions.mp4
+DISCRETE_MATH,165,1437,,829,13:49,Lecture 6 - Set Operations on Relations.mp4
+DISCRETE_MATH,166,1438,,3150,52:30,Lecture 7 - Composition Operation.mp4
+DISCRETE_MATH,167,1439,,0,0:00,Lecture 8 - Inverse of a Function.mp4
+DISCRETE_MATH,168,1440,,1983,33:03,OPTIONAL Lecture 1 - Abstract Algebra - Introduction & Motivation.mp4
+DISCRETE_MATH,169,1441,,944,15:44,OPTIONAL Lecture 2 - Abstract Algebra Origin & The Galois Story.mp4
+DISCRETE_MATH,170,1442,,536,8:56,Lecture 3 - Abstract Algebra GATE Syllabus.mp4
+DISCRETE_MATH,171,1443,,1421,23:41,Lecture 4 - Binary Operation & The Closure Property.mp4
+DISCRETE_MATH,172,1444,,463,7:43,Lecture 5 - The Associative Property.mp4
+DISCRETE_MATH,173,1445,,1864,31:04,Lecture 6 - The Identity Property.mp4
+DISCRETE_MATH,174,1446,,1357,22:37,Lecture 7 - Practice Questions on Binary Operation.mp4
+DISCRETE_MATH,175,1447,,758,12:38,Lecture 8 - Important Properties of Identity Element.mp4
+DISCRETE_MATH,176,1448,,1797,29:57,Lecture 9 - The Inverse Property.mp4
+DISCRETE_MATH,177,1449,,187,3:07,Lecture 10 - The Commutative Property.mp4
+DISCRETE_MATH,178,1450,,1861,31:01,Lecture 11 - Classification of Binary Algebraic Structures.mp4
+DISCRETE_MATH,179,1451,,1181,19:41,Lecture 12 - Practice Questions on Binary Operations.mp4
+DISCRETE_MATH,180,1452,,0,0:00,Summary Lecture 1 - Introduction to Algebraic Structure.mp4
+DISCRETE_MATH,181,1453,,0,0:00,Summary Lecture 2 - Binary Operation Closure Property.mp4
+DISCRETE_MATH,182,1454,,0,0:00,Summary Lecture 3 - Questions on Binary Operation.mp4
+DISCRETE_MATH,183,1455,,0,0:00,Summary Lecture 4 - More Questions on Binary Operation.mp4
+DISCRETE_MATH,184,1456,,0,0:00,Summary Lecture 5 - Associative Commutative Property.mp4
+DISCRETE_MATH,185,1457,,0,0:00,Summary Lecture 6 - Questions on Associative Commutative Property.mp4
+DISCRETE_MATH,186,1458,,668,11:08,Lecture 13 - Properties of Monoid.mp4
+DISCRETE_MATH,187,1459,,0,0:00,Lecture 14 - Group Theory Practice Set-1 Question 25 Solution.mp4
+DISCRETE_MATH,188,1460,,597,9:57,Lecture 15 - Practice Questions on Monoid Group.mp4
+DISCRETE_MATH,189,1461,,1835,30:35,Lecture 16 - nth Roots of Unity is an Abelian Group under Multiplication.mp4
+DISCRETE_MATH,190,1462,,659,10:59,Lecture 17 - Addition Modulo n Group.mp4
+DISCRETE_MATH,191,1463,,0,0:00,Lecture 18 - Group Properties.mp4
+DISCRETE_MATH,192,1464,,1333,22:13,Lecture 19 - Associativity & Parentheses.mp4
+DISCRETE_MATH,193,1465,,1607,26:47,Lecture 20 - Cayley Table.mp4
+DISCRETE_MATH,194,1466,,1631,27:11,Lecture 21 - Group Properties Part 2.mp4
+DISCRETE_MATH,195,1467,,875,14:35,Lecture 22 - Checking Associative Property in the Cayley Table.mp4
+DISCRETE_MATH,196,1468,,1576,26:16,Lecture 23A - Cayley Table of a Group.mp4
+DISCRETE_MATH,197,1469,,0,0:00,Lecture 23B - Practice Question Cayley Table.mp4
+DISCRETE_MATH,198,1470,,300,5:00,Lecture 24 - Monoid Vs Group.mp4
+DISCRETE_MATH,199,1471,,919,15:19,Lecture 25A - Groups of Small Order.mp4
+DISCRETE_MATH,200,1472,,1330,22:10,Lecture 25B - Groups of Order 4.mp4
+DISCRETE_MATH,201,1473,,0,0:00,Lecture 25C - Practice Question - Group of Small Order.mp4
+DISCRETE_MATH,202,1474,,1392,23:12,Lecture 26 - Power of an Element in a Group.mp4
+DISCRETE_MATH,203,1475,,2129,35:29,Lecture 27A - Subgroup.mp4
+DISCRETE_MATH,204,1476,,0,0:00,Lecture 27B - Subgroup Generated by an Element.mp4
+DISCRETE_MATH,205,1477,,0,0:00,Lecture 28 - Relatively Prime Integers Coprime Numbers.mp4
+DISCRETE_MATH,206,1478,,0,0:00,Lecture 29 - Multiplication Modulo n Group - Unit Group Un.mp4
+DISCRETE_MATH,207,1479,,0,0:00,Lecture 30 - Practice Question - Multiplication Modulo Group Un.mp4
+DISCRETE_MATH,208,1480,,943,15:43,Lecture 31 - Practice Question on Subgroup Generated by an Element.mp4
+DISCRETE_MATH,209,1481,,2567,42:47,Lecture 32A - Order of an Element in a Group.mp4
+DISCRETE_MATH,210,1482,,790,13:10,Lecture 32B - Summary Lecture - Order of an Element.mp4
+DISCRETE_MATH,211,1483,,2017,33:37,Lecture 33 - Cyclic Group.mp4
+DISCRETE_MATH,212,1484,,0,0:00,Lecture 34 - Practice Question on Subgroup.mp4
+DISCRETE_MATH,213,1485,,0,0:00,Lecture 35A - A lot of Practice Questions on Groups.mp4
+DISCRETE_MATH,214,1486,,1104,18:24,Lecture 35B - Some More Practice Questions on Groups.mp4
+DISCRETE_MATH,215,1487,,1291,21:31,Lecture 36 - Lagranges Theorem.mp4
+DISCRETE_MATH,216,1488,,0,0:00,Lecture 37 - Summary - Groups of Specific Orders.mp4
+DISCRETE_MATH,217,1489,,0,0:00,Lecture 38 - Alternative Definitions of Abelian Group.mp4
+DISCRETE_MATH,218,1490,,401,6:41,Lecture 39 - Intersection of Subgroups.mp4
+DISCRETE_MATH,219,1491,,469,7:49,Lecture 40 - Alternative Definitions of Subgroup.mp4
+DISCRETE_MATH,220,1492,,473,7:53,Lecture 1 - Introduction to Combinatorics.mp4
+DISCRETE_MATH,221,1493,,1886,31:26,Lecture 2 - The Sum Rule.mp4
+DISCRETE_MATH,222,1494,,1852,30:52,Lecture 3A - The Product Rule.mp4
+DISCRETE_MATH,223,1495,,685,11:25,Lecture 3B - Practice Questions.mp4
+DISCRETE_MATH,224,1496,,1883,31:23,Lecture 4 - The Subtraction Rule.mp4
+DISCRETE_MATH,225,1497,,1813,30:13,Lecture 5 - Practice Questions.mp4
+DISCRETE_MATH,226,1498,,1505,25:05,Lecture 6 - Counting By Case.mp4
+DISCRETE_MATH,227,1499,,3281,54:41,Lecture 7 - The Complement Rule.mp4
+DISCRETE_MATH,228,1500,,889,14:49,Lecture 8A - The Division Rule.mp4
+DISCRETE_MATH,229,1501,,3092,51:32,Lecture 8B - The Division Rule.mp4
+DISCRETE_MATH,230,1502,,872,14:32,Lecture 9 - Factorial nCr nPr.mp4
+DISCRETE_MATH,231,1503,,1711,28:31,Lecture 10 - Permutation & Combination.mp4
+DISCRETE_MATH,232,1504,,1299,21:39,Lecture 11 - Combination.mp4
+DISCRETE_MATH,233,1505,,3894,64:54,Lecture 12 - Practice Questions & the Most Common Mistake.mp4
+DISCRETE_MATH,234,1506,,1139,18:59,Lecture 13 - Two Standard Templates & More Practice Questions.mp4
+DISCRETE_MATH,235,1507,,0,0:00,Lecture 14A - Combinatorial Arguments.mp4
+DISCRETE_MATH,236,1508,,0,0:00,Lecture 14B - Combinatorial Arguments.mp4
+DISCRETE_MATH,237,1509,,0,0:00,Lecture 14C - Combinatorial Arguments.mp4
+DISCRETE_MATH,238,1510,,0,0:00,Lecture 14D - Practice Combinatorial Arguments.mp4
+DISCRETE_MATH,239,1511,,1617,26:57,Lecture 15 - Binomial Theorem.mp4
+DISCRETE_MATH,240,1512,,838,13:58,Lecture 16 - Bijective Proofs.mp4
+DISCRETE_MATH,241,1513,,1646,27:26,Lecture 17 - Permutation with Repetition.mp4
+DISCRETE_MATH,242,1514,,0,0:00,Lecture 18A - Many Practice Questions.mp4
+DISCRETE_MATH,243,1515,,0,0:00,Lecture 18B - Grid Walk Problems in Combinatorics.mp4
+DISCRETE_MATH,244,1516,,2037,33:57,Lecture 19A - Distributing Objects into Boxes - DODB.mp4
+DISCRETE_MATH,245,1517,,0,0:00,Lecture 19B - Practice Questions on DODB Template.mp4
+DISCRETE_MATH,246,1518,,1820,30:20,Lecture 20A - IODB Template - Star Bar Problem.mp4
+DISCRETE_MATH,247,1519,,1847,30:47,Lecture 20B - Combination with Repetition - IODB Template 2.mp4
+DISCRETE_MATH,248,1520,,1858,30:58,Lecture 20C - Non-Negative Integer Solutions - IODB Template 3.mp4
+DISCRETE_MATH,249,1521,,657,10:57,Lecture 20D - Multiset Problem - IODB Template 4.mp4
+DISCRETE_MATH,250,1522,,1437,23:57,Lecture 20E - Non-Decreasing integer Sequence - IODB Template 5.mp4
+DISCRETE_MATH,251,1523,,2065,34:25,Lecture 20F - Practice Questions - IODB.mp4
+DISCRETE_MATH,252,1524,,1225,20:25,Lecture 20G - Integer Composition - IODB Template 6.mp4
+DISCRETE_MATH,253,1525,,0,0:00,Lecture 21 - DOIB Problem.mp4
+DISCRETE_MATH,254,1526,,1125,18:45,Lecture 22 - IOIB Problem.mp4
+DISCRETE_MATH,255,1527,,0,0:00,Lecture 23 - Summary - Distributing Objects into Boxes.mp4
+DISCRETE_MATH,256,1528,,0,0:00,Lecture 24A - Inclusion Exclusion Principle.mp4
+DISCRETE_MATH,257,1529,,0,0:00,Lecture 24B - Practice Questions - Inclusion Exclusion.mp4
+DISCRETE_MATH,258,1530,,3365,56:05,Lecture 24C - Derangement - Inclusion Exclusion Principle Application.mp4
+DISCRETE_MATH,259,1531,,0,0:00,Lecture 24D - Onto Functions.mp4
+DISCRETE_MATH,260,1532,,2422,40:22,Lecture 25A - Generating Function.mp4
+DISCRETE_MATH,261,1533,,1816,30:16,Lecture 25B - Generating Function Part 2.mp4
+DISCRETE_MATH,262,1534,,856,14:16,Lecture 25C - Generating Function Part 3.mp4
+DISCRETE_MATH,263,1535,,2002,33:22,Lecture 25D - Practice Questions - Generating Function Part 4.mp4
+DISCRETE_MATH,264,1536,,2184,36:24,Lecture 25E - AGP Series & Generating Function Part 5.mp4
+DISCRETE_MATH,265,1537,,0,0:00,GATE CSE 2022 Question on Generating Function.mp4
+DISCRETE_MATH,266,1538,,2437,40:37,Lecture 25F - Extended Binomial Theorem - Generating Function - Part 6.mp4
+DISCRETE_MATH,267,1539,,0,0:00,GATE CSE 2016 Question on Generating Function.mp4
+DISCRETE_MATH,268,1540,,0,0:00,GATE CSE 2017 Question on Ordinary Generating Function.mp4
+DISCRETE_MATH,269,1541,,0,0:00,GATE CSE 2018 Question on Generating Function.mp4
+DISCRETE_MATH,270,1542,,0,0:00,GATE CSE 2005 Question on Generating Function.mp4
+DISCRETE_MATH,271,1543,,0,0:00,TIFR CSE 2010 Question on Generating Function.mp4
+DISCRETE_MATH,272,1544,,666,11:06,Lecture 25G - Summary of Generating Function.mp4
+DISCRETE_MATH,273,1545,,0,0:00,Lecture 27A - Pigeonhole Principle.mp4
+DISCRETE_MATH,274,1546,,0,0:00,Lecture 27B - The Generalized Pigeonhole Principle.mp4
+DISCRETE_MATH,275,1547,,0,0:00,Lecture 27C - Practice - Pigeonhole Principle.mp4
+DISCRETE_MATH,276,1548,,2702,45:02,Lecture 1 - Why Study Graph Theory - The Motivation.mp4
+DISCRETE_MATH,277,1549,,2077,34:37,Lecture 2 - Basic Terminology - Graph Theory.mp4
+DISCRETE_MATH,278,1550,,1270,21:10,Lecture 2B - Basics - Degree Adjacency.mp4
+DISCRETE_MATH,279,1551,,0,0:00,Lecture 2C - Practice Questions - Basics.mp4
+DISCRETE_MATH,280,1552,,1175,19:35,Lecture 3A - Handshaking Theorem.mp4
+DISCRETE_MATH,281,1553,,697,11:37,Lecture 3B - Handshaking Theorem for Directed Graphs.mp4
+DISCRETE_MATH,282,1554,,1875,31:15,Lecture 4A - Cycle Path Walk in Simple Graphs.mp4
+DISCRETE_MATH,283,1555,,1539,25:39,Lecture 4B - Walk Path Revise & Practice.mp4
+DISCRETE_MATH,284,1556,,958,15:58,Lecture 4C - Distance and Diameter.mp4
+DISCRETE_MATH,285,1557,,1298,21:38,Lecture 5A - Special Type of Graphs.mp4
+DISCRETE_MATH,286,1558,,2740,45:40,Lecture 5B - Special Type of Graphs Part 2.mp4
+DISCRETE_MATH,287,1559,,1196,19:56,Lecture 6 - GATE & TIFR Questions on Degree Concept.mp4
+DISCRETE_MATH,288,1560,,2147,35:47,Lecture 7 - Subgraph.mp4
+DISCRETE_MATH,289,1561,,389,6:29,GATE CSE 2001 - Number of Simple Graphs.mp4
+DISCRETE_MATH,290,1562,,3532,58:52,Lecture 8A - Graph Isomorphism Part 1 - Definition.mp4
+DISCRETE_MATH,291,1563,,259,4:19,Lecture 8B - GATE 2012 Question - Graph Isomorphism.mp4
+DISCRETE_MATH,292,1564,,0,0:00,Lecture 8C - Graph Isomorphism is an Equivalence Relation.mp4
+DISCRETE_MATH,293,1565,,793,13:13,Lecture 8D - Graph Complement and Self Complementary Graph.mp4
+DISCRETE_MATH,294,1566,,622,10:22,Lecture 8E - Practice - Graph Isomorphism.mp4
+DISCRETE_MATH,295,1567,,1451,24:11,Lecture 9A - Connected Components.mp4
+DISCRETE_MATH,296,1568,,0,0:00,Lecture 9B - Complement of a Disconnected graph is Connected.mp4
+DISCRETE_MATH,297,1569,,0,0:00,Lecture 9C - TIFR CSE 2018 Question.mp4
+DISCRETE_MATH,298,1570,,92,1:32,Lecture 9D - A Simple Practice Question.mp4
+DISCRETE_MATH,299,1571,,2013,33:33,Lecture 10A - Bipartite Graphs.mp4
+DISCRETE_MATH,300,1572,,554,9:14,Lecture 10B - Complete Bipartite Graph.mp4
+DISCRETE_MATH,301,1573,,2495,41:35,Lecture 10C - Practice Questions - Bipartite Graphs.mp4
+DISCRETE_MATH,302,1574,,707,11:47,Lecture 11A - Trees - Part 1 - Cyclic Graphs Acyclic Graph.mp4
+DISCRETE_MATH,303,1575,,515,8:35,Lecture 11B - Trees - Part 2 - Tree and Forest Definitions.mp4
+DISCRETE_MATH,304,1576,,4453,74:13,Lecture 11C - Trees - Part 3 - Many Definitions of Tree.mp4
+DISCRETE_MATH,305,1577,,605,10:05,Lecture 11D - Tree Part 4 - Every Tree has at least two vertices of degree 1.mp4
+DISCRETE_MATH,306,1578,,3270,54:30,Lecture 11E - ALL Questions - Trees Forest.mp4
+DISCRETE_MATH,307,1579,,1787,29:47,Lecture 12A - Rooted Trees.mp4
+DISCRETE_MATH,308,1580,,2781,46:21,Lecture 12B - Rooted Tree Part 2 - Binary Tree Full Binary Tree.mp4
+DISCRETE_MATH,309,1581,,1074,17:54,Lecture 13A - Questions Related to Components.mp4
+DISCRETE_MATH,310,1582,,2083,34:43,Lecture 13B - Questions on Rooted Trees.mp4
+DISCRETE_MATH,311,1583,,2592,43:12,Lecture 14A - Clique Independent Set - Part 1.mp4
+DISCRETE_MATH,312,1584,,674,11:14,Lecture 14B - UGC NET CSE 2016 Clique Question.mp4
+DISCRETE_MATH,313,1585,,1130,18:50,Lecture 14C - Clique Independent Set - Part 3.mp4
+DISCRETE_MATH,314,1586,,2803,46:43,Lecture 15A - Vertex Cover Edge Cover - Part 1.mp4
+DISCRETE_MATH,315,1587,,1738,28:58,Lecture 15B - Vertex Cover Edge Cover - Part 2 - Analysis.mp4
+DISCRETE_MATH,316,1588,,1370,22:50,Lecture 15C - Relation between Vertex Cover & Independent Set.mp4
+DISCRETE_MATH,317,1589,,29,0:29,Meme - Relation between Vertex Cover & Independent Set.mp4
+DISCRETE_MATH,318,1590,,3096,51:36,Lecture 16A - Matching Part 1 - Perfect Matching Matching Number.mp4
+DISCRETE_MATH,319,1591,,3759,62:39,Lecture 16B - Matching Part 2 - Matching & Covering Analysis.mp4
+DISCRETE_MATH,320,1592,,2829,47:09,Lecture 17A - Graph Coloring Part 1 - Vertex Coloring.mp4
+DISCRETE_MATH,321,1593,,2463,41:03,Lecture 17B - Graph Coloring Part 2 - Greedy Algorithm for Vertex Coloring.mp4
+DISCRETE_MATH,322,1594,,3236,53:56,Lecture 17C - Graph Coloring Part 3 - All GATE TIFR Questions.mp4
+DISCRETE_MATH,323,1595,,596,9:56,Lecture 17D - Graph Coloring Part 4 - Brooks Theorem for Vertex Coloring.mp4
+DISCRETE_MATH,324,1596,,2454,40:54,Lecture 17E - Graph Coloring Part 5 - Edge Coloring.mp4
+DISCRETE_MATH,325,1597,,4394,73:14,Lecture 18 - Graph Realization Problem - Havel Hakimi Theorem.mp4
+DISCRETE_MATH,326,1598,,3737,62:17,Lecture 19A - Cut Vertex Cut Edge.mp4
+DISCRETE_MATH,327,1599,,4197,69:57,Lecture 19B - Connectivity Number Vertex Cut Edge Cut.mp4
+DISCRETE_MATH,328,1600,,3565,59:25,Lecture 20A - Strongly Connected Components - Part 1.mp4
+DISCRETE_MATH,329,1601,,261,4:21,Lecture 20B - Weakly Connected Graph.mp4
+DISCRETE_MATH,330,1602,,1587,26:27,Lecture 20C - Strongly Connected Components - Part 3 - Associated DAG.mp4
+DISCRETE_MATH,331,1603,,0,0:00,Lecture 21A - Euler Circuit & Graph.mp4
+DISCRETE_MATH,332,1604,,0,0:00,Lecture 21B - Hamiltonian Cycle & Graphs.mp4
+DISCRETE_MATH,333,1605,,2308,38:28,Lecture 22A - Planar Graph Introduction.mp4
+DISCRETE_MATH,334,1606,,0,0:00,Lecture 22B - Planar Graphs - Faces & Degree of a face.mp4
+DISCRETE_MATH,335,1607,,0,0:00,Lecture 22C - Planar Graph - Euler Formula.mp4
+DISCRETE_MATH,336,1608,,2999,49:59,Lecture 22D - Planar Graphs - Some Important Results & Four Color Theorem.mp4
+DISCRETE_MATH,337,1609,,457,7:37,Lecture 23A - Adjacency Matrix Adjacency List.mp4
+DISCRETE_MATH,338,1610,,54,0:54,Lecture 23B - GATE 1987-9d Adjacency List.mp4
+DISCRETE_MATH,339,1611,,46,0:46,Lecture 23C - GATE 1988-2xvi Adjacency Matrix.mp4
+DISCRETE_MATH,340,1612,,362,6:02,Lecture 23D - TIFR CSE 2015 Adjacency Matrix.mp4
+DISCRETE_MATH,341,1613,,0,0:00,Lecture 24A - Powers of Adjacency Matrix of a Graph.mp4
+DISCRETE_MATH,342,1614,,0,0:00,Lecture 24B - Applications of Powers of Adjacency Matrix of a Graph.mp4
+DISCRETE_MATH,343,1615,,0,0:00,Lecture 24C - Applications of Powers of Adjacency Matrix Part 2.mp4
