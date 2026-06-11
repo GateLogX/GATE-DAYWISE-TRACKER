@@ -63,7 +63,10 @@ def save_app_data():
 
 # Load persisted data on startup
 lectures_data, user_goals, current_timetable = load_app_data()
-print(f"Loaded {len(lectures_data)} lectures from storage")
+print(f"✅ Loaded {len(lectures_data)} lectures from storage")
+print(f"📚 Daily study hours: {user_goals.get('daily_study_hours', 'NOT SET')} hours/day")
+print(f"📅 Timetable days: {len(current_timetable.get('daily_schedule', {}))} days")
+print(f"🔧 App version: 2026-06-12-4hrs-120days")
 
 @app.route('/api/health', methods=['GET'])
 def health_check():
