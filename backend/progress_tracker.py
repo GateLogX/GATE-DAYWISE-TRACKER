@@ -157,3 +157,7 @@ class ProgressTracker:
                 break
         
         return streak
+    
+    def get_all_completed_lectures(self):
+        """Get list of all completed lectures with details"""
+        return self.completed_lectures

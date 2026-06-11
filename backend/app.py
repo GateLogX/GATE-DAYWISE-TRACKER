@@ -297,6 +297,18 @@ def get_stats():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
+@app.route('/api/progress', methods=['GET'])
+def get_progress():
+    """Get detailed progress data with completed lectures list"""
+    try:
+        completed = progress_tracker.get_all_completed_lectures()
+        return jsonify({
+            "success": True,
+            "completed_lectures": completed
+        })
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
 @app.route('/api/start-scheduler', methods=['POST'])
 def start_scheduler():
     """Start the daily check-in scheduler"""

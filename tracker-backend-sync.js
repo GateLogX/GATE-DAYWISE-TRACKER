@@ -85,6 +85,55 @@ async function checkWhatsAppStatus() {
     }
 }
 
+// Load completed videos FROM backend
+async function loadCompletedFromBackend() {
+    try {
+        const response = await fetch(`${BACKEND_URL}/api/stats`);
+        if (!response.ok) return;
+        
+        const data = await response.json();
+        if (!data.success || !data.stats) return;
+        
+        // Get all completed lectures from backend
+        const backendCompleted = {};
+        for (const [subject, info] of Object.entries(data.stats.by_subject || {})) {
+            // We need to fetch which specific lectures are completed
+            // For now, we'll use the progress data endpoint
+        }
+        
+        // Try to get detailed progress data
+        const progressResponse = await fetch(`${BACKEND_URL}/api/progress`);
+        if (progressResponse.ok) {
+            const progressData = await progressResponse.json();
+            
+            // Mark videos as completed in the UI
+            if (progressData.completed_lectures) {
+                progressData.completed_lectures.forEach(lecture => {
+                    // Find matching video in videoData
+                    const video = videoData.find(v => 
+                        v.subject === lecture.subject && 
+                        parseInt(v.videoNumber) === lecture.video_number
+                    );
+                    
+                    if (video && !completedVideos[video.messageId]) {
+                        completedVideos[video.messageId] = true;
+                    }
+                });
+                
+                // Save to localStorage and re-render
+                localStorage.setItem('completedVideos', JSON.stringify(completedVideos));
+                if (window.render) {
+                    window.render();
+                }
+                
+                console.log('✅ Loaded', Object.keys(completedVideos).length, 'completed videos from backend');
+            }
+        }
+    } catch (error) {
+        console.log('Could not load from backend:', error.message);
+    }
+}
+
 // Auto-sync when videos are marked complete
 function enableAutoSync() {
     // Save original render function
@@ -116,13 +165,17 @@ function addWhatsAppButton() {
 // Initialize integration
 document.addEventListener('DOMContentLoaded', () => {
     console.log('🚀 WhatsApp Integration Loaded (100% FREE)');
-    enableAutoSync();
     
-    // Add WhatsApp button after initial render
-    setTimeout(addWhatsAppButton, 500);
-    
-    // Check status
-    checkWhatsAppStatus().then(status => {
-        console.log(status.message);
+    // Load completed videos from backend FIRST
+    loadCompletedFromBackend().then(() => {
+        enableAutoSync();
+        
+        // Add WhatsApp button after initial render
+        setTimeout(addWhatsAppButton, 500);
+        
+        // Check status
+        checkWhatsAppStatus().then(status => {
+            console.log(status.message);
+        });
     });
 });
