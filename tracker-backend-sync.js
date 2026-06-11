@@ -166,22 +166,34 @@ async function loadTimetableFromBackend() {
         // Fetch complete timetable from new endpoint
         const response = await fetch(`${BACKEND_URL}/api/full-timetable`);
         if (!response.ok) {
-            console.log('⚠️ Could not load timetable from backend, using static data');
+            console.log('⚠️ Could not load timetable from backend, using local CSV data');
             return false;
         }
         
         const data = await response.json();
-        if (data.success && data.timetable && window.daySchedule) {
-            window.daySchedule = data.timetable;
-            console.log(`✅ Loaded ${data.timetable.length} days from backend (${data.goals?.daily_study_hours || 4} hrs/day)`);
-            
-            // Re-render UI with new timetable
-            if (window.render) {
-                window.render();
+        
+        // Only update if we got valid timetable data with items
+        if (data.success && data.timetable && Array.isArray(data.timetable) && data.timetable.length > 0) {
+            // Preserve the existing daySchedule structure if backend data exists
+            if (window.daySchedule && window.daySchedule.length > 0) {
+                console.log(`✅ Backend returned ${data.timetable.length} days (keeping local CSV-based schedule for now)`);
+                // Don't overwrite - CSV data is already loaded and working
+                return true;
+            } else {
+                // Only set if local schedule is empty
+                window.daySchedule = data.timetable;
+                console.log(`✅ Loaded ${data.timetable.length} days from backend`);
+                
+                // Re-render UI with new timetable
+                if (window.render) {
+                    window.render();
+                }
+                return true;
             }
-            return true;
+        } else {
+            console.log('⚠️ Backend timetable is empty, keeping local CSV data');
+            return false;
         }
-        return false;
     } catch (error) {
         console.log('⚠️ Timetable load failed:', error.message);
         return false;
@@ -192,23 +204,22 @@ async function loadTimetableFromBackend() {
 document.addEventListener('DOMContentLoaded', () => {
     console.log('🚀 WhatsApp Integration Loaded (100% FREE)');
     
-    // Load timetable FIRST, then completed videos
-    loadTimetableFromBackend().then((loaded) => {
-        if (loaded) {
-            console.log('✅ Using live timetable from backend (4 hrs/day)');
-        }
-        
-        // Load completed videos from backend
-        return loadCompletedFromBackend();
-    }).then(() => {
-        enableAutoSync();
-        
-        // Add WhatsApp button after initial render
-        setTimeout(addWhatsAppButton, 500);
-        
-        // Check status
-        checkWhatsAppStatus().then(status => {
-            console.log(status.message);
+    // Wait for CSV to load first (give it time)
+    setTimeout(() => {
+        // Load completed videos from backend first
+        loadCompletedFromBackend().then(() => {
+            // Then try to load timetable (but don't overwrite good local data)
+            return loadTimetableFromBackend();
+        }).then(() => {
+            enableAutoSync();
+            
+            // Add WhatsApp button after initial render
+            setTimeout(addWhatsAppButton, 500);
+            
+            // Check status
+            checkWhatsAppStatus().then(status => {
+                console.log(status.message);
+            });
         });
-    });
+    }, 1000); // Wait 1 second for CSV to load
 });
