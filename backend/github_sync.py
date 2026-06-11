@@ -26,26 +26,34 @@ class GitHubSync:
             
             # Check if .git exists
             git_dir = os.path.join(self.repo_path, '.git')
-            if os.path.exists(git_dir):
-                print("✅ Git already initialized")
-                self.git_initialized = True
-                return True
+            git_exists = os.path.exists(git_dir)
             
-            print("📦 Initializing git repository from scratch...")
+            if git_exists:
+                print("📦 Git directory exists, configuring remote...")
+            else:
+                print("📦 Initializing new git repository...")
+                # Initialize git repo
+                result = subprocess.run(['git', 'init'], cwd=self.repo_path, 
+                                      check=True, capture_output=True, text=True)
+                print("   ✓ Git init complete")
+            
             print(f"   Repo path: {self.repo_path}")
             print(f"   Remote: {self.github_repo}")
             
-            # Initialize git repo
-            result = subprocess.run(['git', 'init'], cwd=self.repo_path, 
-                                  check=True, capture_output=True, text=True)
-            print("   ✓ Git init complete")
-            
-            # Configure git
+            # Configure git user
             subprocess.run(['git', 'config', 'user.email', 'bot@gatetracker.com'], 
                          cwd=self.repo_path, check=True, capture_output=True)
             subprocess.run(['git', 'config', 'user.name', 'GATE Tracker Bot'], 
                          cwd=self.repo_path, check=True, capture_output=True)
             print("   ✓ Git config complete")
+            
+            # Check if remote exists, remove if it does
+            check_remote = subprocess.run(['git', 'remote', 'get-url', 'origin'], 
+                                        cwd=self.repo_path, capture_output=True)
+            if check_remote.returncode == 0:
+                print("   Removing existing remote...")
+                subprocess.run(['git', 'remote', 'remove', 'origin'], 
+                             cwd=self.repo_path, capture_output=True)
             
             # Add remote with token (hide token in logs)
             remote_url = f'https://{self.github_token}@github.com/{self.github_repo}.git'
@@ -59,10 +67,21 @@ class GitHubSync:
                          check=True, capture_output=True, text=True, timeout=30)
             print("   ✓ Fetch complete")
             
-            # Checkout main branch
-            result = subprocess.run(['git', 'checkout', '-b', 'main', '--track', 'origin/main'], 
-                         cwd=self.repo_path, check=True, capture_output=True, text=True)
-            print("   ✓ Checked out main branch")
+            # Check current branch
+            check_branch = subprocess.run(['git', 'rev-parse', '--abbrev-ref', 'HEAD'], 
+                                        cwd=self.repo_path, capture_output=True, text=True)
+            current_branch = check_branch.stdout.strip() if check_branch.returncode == 0 else ""
+            
+            if current_branch != 'main':
+                # Checkout or create main branch
+                result = subprocess.run(['git', 'checkout', '-B', 'main', 'origin/main'], 
+                             cwd=self.repo_path, check=True, capture_output=True, text=True)
+                print("   ✓ Checked out main branch")
+            else:
+                # Reset to match remote
+                subprocess.run(['git', 'reset', '--hard', 'origin/main'], 
+                             cwd=self.repo_path, check=True, capture_output=True, text=True)
+                print("   ✓ Reset to origin/main")
             
             self.git_initialized = True
             print("✅ Git repository initialized successfully!")
