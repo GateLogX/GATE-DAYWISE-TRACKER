@@ -7780,7 +7780,7 @@
   "user_goals": {
     "target_date": "2027-02-07",
     "subjects_per_month": [],
-    "daily_study_hours": 6,
+    "daily_study_hours": 4,
     "practice_time_percentage": 20.0,
     "start_date": "2026-06-07"
   },
@@ -7791,8 +7791,8 @@
     "total_lecture_hours": 398.72,
     "total_practice_hours": 99.68,
     "total_required_hours": 498.4,
-    "daily_lecture_hours": 4.8,
-    "daily_practice_hours": 1.2,
+    "daily_lecture_hours": 3.2,
+    "daily_practice_hours": 0.8,
     "daily_schedule": {
       "2026-06-07": {
         "date": "2026-06-07",
@@ -7886,7 +7886,15 @@
             "video_number": 15,
             "duration": "01:06:35",
             "file_name": "014_Recording_LIVE_HomeWork_2_Solution_Discussion_and_WQ.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.25,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-06-08": {
+        "date": "2026-06-08",
+        "lectures": [
           {
             "subject": "C PROGRAMMING",
             "video_number": 16,
@@ -7922,15 +7930,7 @@
             "video_number": 21,
             "duration": "01:24:42",
             "file_name": "020. Recording - LIVE Homework 3 Solution.mp4"
-          }
-        ],
-        "total_lecture_time": 5.1,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-06-08": {
-        "date": "2026-06-08",
-        "lectures": [
+          },
           {
             "subject": "C PROGRAMMING",
             "video_number": 22,
@@ -7966,7 +7966,15 @@
             "video_number": 27,
             "duration": "1900-01-01 02:39:00",
             "file_name": "026. Lecture 6b. auto and register Storage classes.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.23,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-06-09": {
+        "date": "2026-06-09",
+        "lectures": [
           {
             "subject": "C PROGRAMMING",
             "video_number": 28,
@@ -8044,21 +8052,21 @@
             "video_number": 40,
             "duration": "23:10:00",
             "file_name": "039. Lecture 8d.Introduction to Array.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.2,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-06-10": {
+        "date": "2026-06-10",
+        "lectures": [
           {
             "subject": "C PROGRAMMING",
             "video_number": 41,
             "duration": "1900-01-01 10:20:00",
             "file_name": "040. Recording - LIVE Session 6_ Homework 5 Solution.mp4"
-          }
-        ],
-        "total_lecture_time": 4.87,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-06-09": {
-        "date": "2026-06-09",
-        "lectures": [
+          },
           {
             "subject": "C PROGRAMMING",
             "video_number": 42,
@@ -8130,7 +8138,15 @@
             "video_number": 53,
             "duration": "01:14:33",
             "file_name": "052_Recording_LIVE_Solution_of_Practice_Questions_on_cha.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.71,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-06-11": {
+        "date": "2026-06-11",
+        "lectures": [
           {
             "subject": "C PROGRAMMING",
             "video_number": 54,
@@ -8166,15 +8182,7 @@
             "video_number": 59,
             "duration": "01:04:10",
             "file_name": "058. Recording - LIVE_ Solution of above Practice Questi.mp4"
-          }
-        ],
-        "total_lecture_time": 5.3,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-06-10": {
-        "date": "2026-06-10",
-        "lectures": [
+          },
           {
             "subject": "C PROGRAMMING",
             "video_number": 60,
@@ -8210,7 +8218,15 @@
             "video_number": 65,
             "duration": "1900-01-02 06:12:00",
             "file_name": "064_Lecture_14_Miscellaneous_topics_getchar,_putchar,_St.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.47,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-06-12": {
+        "date": "2026-06-12",
+        "lectures": [
           {
             "subject": "C PROGRAMMING",
             "video_number": 66,
@@ -8294,21 +8310,21 @@
             "video_number": 11,
             "duration": "09:05:00",
             "file_name": "010_3b_Recursion_in_Linkedlist_Question_2_based_on_recursion.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.2,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-06-13": {
+        "date": "2026-06-13",
+        "lectures": [
           {
             "subject": "DSA",
             "video_number": 12,
             "duration": "06:43:00",
             "file_name": "011_3c_Recursion_in_Linkedlist_Question_3_based_on_recursion.mp4"
-          }
-        ],
-        "total_lecture_time": 4.84,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-06-11": {
-        "date": "2026-06-11",
-        "lectures": [
+          },
           {
             "subject": "DSA",
             "video_number": 13,
@@ -8374,7 +8390,15 @@
             "video_number": 23,
             "duration": "16:53:00",
             "file_name": "022. DS Videos_ 5a. Introduction to Asymptotic Analysis.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.25,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-06-14": {
+        "date": "2026-06-14",
+        "lectures": [
           {
             "subject": "DSA",
             "video_number": 24,
@@ -8416,15 +8440,7 @@
             "video_number": 30,
             "duration": "21:03:00",
             "file_name": "029_DS_Videos_6b_Asymptotic_Notations_GATE_PYQs_1994,_96,_2000,1.mp4"
-          }
-        ],
-        "total_lecture_time": 4.87,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-06-12": {
-        "date": "2026-06-12",
-        "lectures": [
+          },
           {
             "subject": "DSA",
             "video_number": 31,
@@ -8460,7 +8476,15 @@
             "video_number": 36,
             "duration": "01:43:37",
             "file_name": "035_Recording_LIVE_Asymptotic_Notations_Practice_Set_Discussion.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.38,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-06-15": {
+        "date": "2026-06-15",
+        "lectures": [
           {
             "subject": "DSA",
             "video_number": 37,
@@ -8540,12 +8564,12 @@
             "file_name": "048_Recording_LIVE_Stack_and_Queue_Practice_Set_Discussion.mp4"
           }
         ],
-        "total_lecture_time": 5.16,
-        "practice_time": 1.2000000000000002,
+        "total_lecture_time": 3.45,
+        "practice_time": 0.8,
         "status": "pending"
       },
-      "2026-06-13": {
-        "date": "2026-06-13",
+      "2026-06-16": {
+        "date": "2026-06-16",
         "lectures": [
           {
             "subject": "DSA",
@@ -8618,7 +8642,15 @@
             "video_number": 61,
             "duration": "20:07:00",
             "file_name": "060. 14a. GATE 1996 Possible probe sequences.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.28,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-06-17": {
+        "date": "2026-06-17",
+        "lectures": [
           {
             "subject": "DSA",
             "video_number": 62,
@@ -8642,15 +8674,7 @@
             "video_number": 65,
             "duration": "01:06:11",
             "file_name": "064_Recording_LIVE_Binary_Tree_and_Binary_Search_Tree_Practice_Set.mp4"
-          }
-        ],
-        "total_lecture_time": 4.82,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-06-14": {
-        "date": "2026-06-14",
-        "lectures": [
+          },
           {
             "subject": "DSA",
             "video_number": 66,
@@ -8692,7 +8716,15 @@
             "video_number": 72,
             "duration": "1900-01-01 09:25:00",
             "file_name": "071. 17 c. Build Heap (Bottom-up) time complexity.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.46,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-06-18": {
+        "date": "2026-06-18",
+        "lectures": [
           {
             "subject": "DSA",
             "video_number": 73,
@@ -8760,12 +8792,12 @@
             "file_name": "082. Recording - LIVE Heap_ Practice Set Discussion (Part 3).mp4"
           }
         ],
-        "total_lecture_time": 5.23,
-        "practice_time": 1.2000000000000002,
+        "total_lecture_time": 3.31,
+        "practice_time": 0.8,
         "status": "pending"
       },
-      "2026-06-15": {
-        "date": "2026-06-15",
+      "2026-06-19": {
+        "date": "2026-06-19",
         "lectures": [
           {
             "subject": "DSA",
@@ -8856,7 +8888,15 @@
             "video_number": 98,
             "duration": "01:42:00",
             "file_name": "097. Recording - Stack and Queue PYQs.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.55,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-06-20": {
+        "date": "2026-06-20",
+        "lectures": [
           {
             "subject": "DSA",
             "video_number": 99,
@@ -8868,15 +8908,7 @@
             "video_number": 100,
             "duration": "01:29:28",
             "file_name": "099. Recording - DS Test Series Test 4 Discussion.mp4"
-          }
-        ],
-        "total_lecture_time": 4.91,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-06-16": {
-        "date": "2026-06-16",
-        "lectures": [
+          },
           {
             "subject": "DSA",
             "video_number": 101,
@@ -8918,7 +8950,15 @@
             "video_number": 6,
             "duration": "1900-01-01 07:22:00",
             "file_name": "005_5d_What_is_Asymptotic_comparison_how_LOG_works_rice_.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.25,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-06-21": {
+        "date": "2026-06-21",
+        "lectures": [
           {
             "subject": "ALGORITHM",
             "video_number": 7,
@@ -8986,12 +9026,12 @@
             "file_name": "016_Recording_LIVE_Asymptotic_Notations_Practice_Set_Dis.mp4"
           }
         ],
-        "total_lecture_time": 5.1,
-        "practice_time": 1.2000000000000002,
+        "total_lecture_time": 3.21,
+        "practice_time": 0.8,
         "status": "pending"
       },
-      "2026-06-17": {
-        "date": "2026-06-17",
+      "2026-06-22": {
+        "date": "2026-06-22",
         "lectures": [
           {
             "subject": "ALGORITHM",
@@ -9172,7 +9212,15 @@
             "video_number": 47,
             "duration": "14:44:00",
             "file_name": "046. 9b. Merge Sort questions -2.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.29,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-06-23": {
+        "date": "2026-06-23",
+        "lectures": [
           {
             "subject": "ALGORITHM",
             "video_number": 48,
@@ -9238,15 +9286,7 @@
             "video_number": 58,
             "duration": "1900-01-01 07:20:00",
             "file_name": "057. 12b. Second maximum using Tournament Method.mp4"
-          }
-        ],
-        "total_lecture_time": 4.87,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-06-18": {
-        "date": "2026-06-18",
-        "lectures": [
+          },
           {
             "subject": "ALGORITHM",
             "video_number": 59,
@@ -9312,7 +9352,15 @@
             "video_number": 69,
             "duration": "1900-01-01 00:28:00",
             "file_name": "068. 16a. Heart of counting Inversion.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.22,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-06-24": {
+        "date": "2026-06-24",
+        "lectures": [
           {
             "subject": "ALGORITHM",
             "video_number": 70,
@@ -9416,12 +9464,12 @@
             "file_name": "085. 21c .Bubble Sort and Insertion Sort.mp4"
           }
         ],
-        "total_lecture_time": 4.84,
-        "practice_time": 1.2000000000000002,
+        "total_lecture_time": 3.21,
+        "practice_time": 0.8,
         "status": "pending"
       },
-      "2026-06-19": {
-        "date": "2026-06-19",
+      "2026-06-25": {
+        "date": "2026-06-25",
         "lectures": [
           {
             "subject": "ALGORITHM",
@@ -9500,7 +9548,15 @@
             "video_number": 99,
             "duration": "21:16:00",
             "file_name": "098. 16b. GATE 2007 question on DAG finish time.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.25,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-06-26": {
+        "date": "2026-06-26",
+        "lectures": [
           {
             "subject": "ALGORITHM",
             "video_number": 100,
@@ -9536,15 +9592,7 @@
             "video_number": 105,
             "duration": "1900-01-02 08:28:00",
             "file_name": "104_18a_Introduction_to_Greedy_Algorithms_Introduction_a.mp4"
-          }
-        ],
-        "total_lecture_time": 5.07,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-06-20": {
-        "date": "2026-06-20",
-        "lectures": [
+          },
           {
             "subject": "ALGORITHM",
             "video_number": 106,
@@ -9592,7 +9640,15 @@
             "video_number": 113,
             "duration": "17:52:00",
             "file_name": "112_20a_DAG_Shortest_Path_Shortest_Path_in_Directed_Acyc.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.2,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-06-27": {
+        "date": "2026-06-27",
+        "lectures": [
           {
             "subject": "ALGORITHM",
             "video_number": 114,
@@ -9670,21 +9726,21 @@
             "video_number": 126,
             "duration": "1900-01-02 10:19:00",
             "file_name": "125. 31c. Four Cases in MSTs _ GATE 2020.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.21,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-06-28": {
+        "date": "2026-06-28",
+        "lectures": [
           {
             "subject": "ALGORITHM",
             "video_number": 127,
             "duration": "1900-01-01 08:27:00",
             "file_name": "126_32a_Huffman_Encoding_Concept_and_Questions_Interesti.mp4"
-          }
-        ],
-        "total_lecture_time": 4.86,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-06-21": {
-        "date": "2026-06-21",
-        "lectures": [
+          },
           {
             "subject": "ALGORITHM",
             "video_number": 128,
@@ -9810,7 +9866,15 @@
             "video_number": 148,
             "duration": "1900-01-01 02:29:00",
             "file_name": "147. 38a. Longest Common Subsequence _ BruteForce Method.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.22,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-06-29": {
+        "date": "2026-06-29",
+        "lectures": [
           {
             "subject": "ALGORITHM",
             "video_number": 149,
@@ -9888,15 +9952,7 @@
             "video_number": 161,
             "duration": "15:55:00",
             "file_name": "160. 41a. Greedy Strategy on 0-1 Knapsack Problem.mp4"
-          }
-        ],
-        "total_lecture_time": 4.87,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-06-22": {
-        "date": "2026-06-22",
-        "lectures": [
+          },
           {
             "subject": "ALGORITHM",
             "video_number": 162,
@@ -9956,7 +10012,15 @@
             "video_number": 1,
             "duration": "19:45:00",
             "file_name": "000_Lecture_1A_Introduction_to_COA_Architecture_Vs_Organ.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.34,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-06-30": {
+        "date": "2026-06-30",
+        "lectures": [
           {
             "subject": "COA",
             "video_number": 2,
@@ -9992,21 +10056,21 @@
             "video_number": 7,
             "duration": "02:52:58",
             "file_name": "006_Recording_Lecture_2B_Byte_Ordering_Endianness_Little.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 2.97,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-07-01": {
+        "date": "2026-07-01",
+        "lectures": [
           {
             "subject": "COA",
             "video_number": 8,
             "duration": "02:08:57",
             "file_name": "007_Recording_Lecture_2C_Practice_Questions_Endianness.mp4"
-          }
-        ],
-        "total_lecture_time": 5.46,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-06-23": {
-        "date": "2026-06-23",
-        "lectures": [
+          },
           {
             "subject": "COA",
             "video_number": 9,
@@ -10018,7 +10082,15 @@
             "video_number": 10,
             "duration": "02:05:50",
             "file_name": "009_Recording_Lecture_3B_Memory_Interfacing_&_Expansion.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 2.57,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-07-02": {
+        "date": "2026-07-02",
+        "lectures": [
           {
             "subject": "COA",
             "video_number": 11,
@@ -10030,21 +10102,21 @@
             "video_number": 12,
             "duration": "03:02:17",
             "file_name": "011. Recording - Lecture 1 - Registers & Status Flags.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 2.87,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-07-03": {
+        "date": "2026-07-03",
+        "lectures": [
           {
             "subject": "COA",
             "video_number": 13,
             "duration": "02:26:55",
             "file_name": "012_Recording_Lecture_2A_Instruction_Set_Architecture_IS.mp4"
-          }
-        ],
-        "total_lecture_time": 5.59,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-06-24": {
-        "date": "2026-06-24",
-        "lectures": [
+          },
           {
             "subject": "COA",
             "video_number": 14,
@@ -10056,7 +10128,15 @@
             "video_number": 15,
             "duration": "01:50:26",
             "file_name": "014_Recording_Lecture_3A_Instruction_Format_&_Expand_Opc.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 2.88,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-07-04": {
+        "date": "2026-07-04",
+        "lectures": [
           {
             "subject": "COA",
             "video_number": 16,
@@ -10076,12 +10156,12 @@
             "file_name": "017_Recording_Lecture_3D_Instruction_Types_&_ALU_Operati.mp4"
           }
         ],
-        "total_lecture_time": 5.14,
-        "practice_time": 1.2000000000000002,
+        "total_lecture_time": 3.48,
+        "practice_time": 0.8,
         "status": "pending"
       },
-      "2026-06-25": {
-        "date": "2026-06-25",
+      "2026-07-05": {
+        "date": "2026-07-05",
         "lectures": [
           {
             "subject": "COA",
@@ -10106,21 +10186,21 @@
             "video_number": 22,
             "duration": "02:14:55",
             "file_name": "021. Recording - Lecture 6A - Addressing Modes.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.76,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-07-06": {
+        "date": "2026-07-06",
+        "lectures": [
           {
             "subject": "COA",
             "video_number": 23,
             "duration": "02:52:25",
             "file_name": "022. Recording - Lecture 6B - Addressing Modes Part 2.mp4"
-          }
-        ],
-        "total_lecture_time": 5.2,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-06-26": {
-        "date": "2026-06-26",
-        "lectures": [
+          },
           {
             "subject": "COA",
             "video_number": 24,
@@ -10132,7 +10212,15 @@
             "video_number": 25,
             "duration": "01:46:45",
             "file_name": "024. Lecture 1 Introduction to Cache Direct Mapped Cache.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.27,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-07-07": {
+        "date": "2026-07-07",
+        "lectures": [
           {
             "subject": "COA",
             "video_number": 26,
@@ -10164,12 +10252,12 @@
             "file_name": "029. Lecture 6 GATE PYQs on Loop Array and Cache Questio.mp4"
           }
         ],
-        "total_lecture_time": 5.54,
-        "practice_time": 1.2000000000000002,
+        "total_lecture_time": 3.71,
+        "practice_time": 0.8,
         "status": "pending"
       },
-      "2026-06-27": {
-        "date": "2026-06-27",
+      "2026-07-08": {
+        "date": "2026-07-08",
         "lectures": [
           {
             "subject": "COA",
@@ -10200,7 +10288,15 @@
             "video_number": 35,
             "duration": "01:39:32",
             "file_name": "034_Recording_Lecture_3_Floating_Point_Representation_GA.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.33,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-07-09": {
+        "date": "2026-07-09",
+        "lectures": [
           {
             "subject": "OS",
             "video_number": 1,
@@ -10218,21 +10314,21 @@
             "video_number": 3,
             "duration": "01:55:48",
             "file_name": "002_Lecture_2b_Forking_the_Identical_Copies_GATE_2005_ve.mp4"
-          }
-        ],
-        "total_lecture_time": 5.68,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-06-28": {
-        "date": "2026-06-28",
-        "lectures": [
+          },
           {
             "subject": "OS",
             "video_number": 4,
             "duration": "01:32:24",
             "file_name": "003. Lecture 3_ Fork Questions _ Process Graph _ Fork Tr.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.12,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-07-10": {
+        "date": "2026-07-10",
+        "lectures": [
           {
             "subject": "OS",
             "video_number": 5,
@@ -10256,7 +10352,15 @@
             "video_number": 8,
             "duration": "01:17:07",
             "file_name": "007. Lecture 7_ Thread Mapping models, and Context Switc.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.2,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-07-11": {
+        "date": "2026-07-11",
+        "lectures": [
           {
             "subject": "OS",
             "video_number": 9,
@@ -10268,15 +10372,7 @@
             "video_number": 10,
             "duration": "1900-01-01 19:04:00",
             "file_name": "009. Recording - Lecture 9 _ Scheduling Algorithms.mp4"
-          }
-        ],
-        "total_lecture_time": 5.13,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-06-29": {
-        "date": "2026-06-29",
-        "lectures": [
+          },
           {
             "subject": "OS",
             "video_number": 11,
@@ -10294,7 +10390,15 @@
             "video_number": 13,
             "duration": "01:46:40",
             "file_name": "012. Recording - Lecture 12 _ Scheduling Algorithms_ SRT.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.71,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-07-12": {
+        "date": "2026-07-12",
+        "lectures": [
           {
             "subject": "OS",
             "video_number": 14,
@@ -10318,21 +10422,21 @@
             "video_number": 17,
             "duration": "01:34:21",
             "file_name": "016. Lecture 16_ Critical Section Solution Requirements.mp4"
-          }
-        ],
-        "total_lecture_time": 5.14,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-06-30": {
-        "date": "2026-06-30",
-        "lectures": [
+          },
           {
             "subject": "OS",
             "video_number": 18,
             "duration": "01:56:02",
             "file_name": "017_Recording_Lecture_17_Questions_on_Critical_Section_S.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.56,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-07-13": {
+        "date": "2026-07-13",
+        "lectures": [
           {
             "subject": "OS",
             "video_number": 19,
@@ -10350,21 +10454,21 @@
             "video_number": 21,
             "duration": "02:15:27",
             "file_name": "020. Lecture 20_ Semaphores PYQs.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 2.96,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-07-14": {
+        "date": "2026-07-14",
+        "lectures": [
           {
             "subject": "OS",
             "video_number": 22,
             "duration": "02:09:58",
             "file_name": "021_Lecture_21_Classic_Synchronisation_Problems_Producer.mp4"
-          }
-        ],
-        "total_lecture_time": 5.01,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-07-01": {
-        "date": "2026-07-01",
-        "lectures": [
+          },
           {
             "subject": "OS",
             "video_number": 23,
@@ -10376,7 +10480,15 @@
             "video_number": 24,
             "duration": "02:20:05",
             "file_name": "023_Recording_Lecture_23_Memory_Management_1_Base_Bound_.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.0,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-07-15": {
+        "date": "2026-07-15",
+        "lectures": [
           {
             "subject": "OS",
             "video_number": 25,
@@ -10396,12 +10508,12 @@
             "file_name": "026. Recording - Lecture 26_Single level Paging question.mp4"
           }
         ],
-        "total_lecture_time": 5.1,
-        "practice_time": 1.2000000000000002,
+        "total_lecture_time": 3.19,
+        "practice_time": 0.8,
         "status": "pending"
       },
-      "2026-07-02": {
-        "date": "2026-07-02",
+      "2026-07-16": {
+        "date": "2026-07-16",
         "lectures": [
           {
             "subject": "OS",
@@ -10420,7 +10532,15 @@
             "video_number": 30,
             "duration": "02:36:03",
             "file_name": "029_Lecture_29_Multi_Level_Paging_3_Reducing_Page_Table_.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.22,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-07-17": {
+        "date": "2026-07-17",
+        "lectures": [
           {
             "subject": "OS",
             "video_number": 31,
@@ -10432,15 +10552,7 @@
             "video_number": 32,
             "duration": "01:10:19",
             "file_name": "031. Recording - Lecture 31_ Segmentation with Paging.mp4"
-          }
-        ],
-        "total_lecture_time": 4.79,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-07-03": {
-        "date": "2026-07-03",
-        "lectures": [
+          },
           {
             "subject": "OS",
             "video_number": 33,
@@ -10452,7 +10564,15 @@
             "video_number": 34,
             "duration": "01:34:52",
             "file_name": "033_Recording_Lecture_33_Remaining_Topics_in_Memory_Mana.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.44,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-07-18": {
+        "date": "2026-07-18",
+        "lectures": [
           {
             "subject": "OS",
             "video_number": 35,
@@ -10478,12 +10598,12 @@
             "file_name": "037. File System Implementation.mp4"
           }
         ],
-        "total_lecture_time": 5.64,
-        "practice_time": 1.2000000000000002,
+        "total_lecture_time": 3.78,
+        "practice_time": 0.8,
         "status": "pending"
       },
-      "2026-07-04": {
-        "date": "2026-07-04",
+      "2026-07-19": {
+        "date": "2026-07-19",
         "lectures": [
           {
             "subject": "OS",
@@ -10526,7 +10646,15 @@
             "video_number": 6,
             "duration": "21:33:00",
             "file_name": "1_5060352617293546537.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.1,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-07-20": {
+        "date": "2026-07-20",
+        "lectures": [
           {
             "subject": "DBMS",
             "video_number": 7,
@@ -10544,15 +10672,7 @@
             "video_number": 9,
             "duration": "01:12:22",
             "file_name": "video_2024-03-15_02-19-30_7394371866099449872.mp4"
-          }
-        ],
-        "total_lecture_time": 5.04,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-07-05": {
-        "date": "2026-07-05",
-        "lectures": [
+          },
           {
             "subject": "DBMS",
             "video_number": 10,
@@ -10564,7 +10684,15 @@
             "video_number": 11,
             "duration": "02:00:00",
             "file_name": "video_2024-03-15_02-29-52_7394375727275049092.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.37,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-07-21": {
+        "date": "2026-07-21",
+        "lectures": [
           {
             "subject": "DBMS",
             "video_number": 12,
@@ -10590,12 +10718,12 @@
             "file_name": "1_5057926446102610866 (3).mp4"
           }
         ],
-        "total_lecture_time": 5.16,
-        "practice_time": 1.2000000000000002,
+        "total_lecture_time": 3.73,
+        "practice_time": 0.8,
         "status": "pending"
       },
-      "2026-07-06": {
-        "date": "2026-07-06",
+      "2026-07-22": {
+        "date": "2026-07-22",
         "lectures": [
           {
             "subject": "DBMS",
@@ -10638,7 +10766,15 @@
             "video_number": 22,
             "duration": "01:21:53",
             "file_name": "video_2024-03-15_12-36-37_7395075343087829104.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.15,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-07-23": {
+        "date": "2026-07-23",
+        "lectures": [
           {
             "subject": "DBMS",
             "video_number": 23,
@@ -10656,21 +10792,21 @@
             "video_number": 25,
             "duration": "01:11:10",
             "file_name": "video_2024-03-15_13-09-02_7395078774766698508.mp4"
-          }
-        ],
-        "total_lecture_time": 5.11,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-07-07": {
-        "date": "2026-07-07",
-        "lectures": [
+          },
           {
             "subject": "DBMS",
             "video_number": 26,
             "duration": "02:53:19",
             "file_name": "video_2024-03-15_14-53-16_7396660001336459612.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.4,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-07-24": {
+        "date": "2026-07-24",
+        "lectures": [
           {
             "subject": "DBMS",
             "video_number": 27,
@@ -10690,12 +10826,12 @@
             "file_name": "video_2024-03-15_15-17-45_7396671138186657884.mp4"
           }
         ],
-        "total_lecture_time": 4.63,
-        "practice_time": 1.2000000000000002,
+        "total_lecture_time": 3.19,
+        "practice_time": 0.8,
         "status": "pending"
       },
-      "2026-07-08": {
-        "date": "2026-07-08",
+      "2026-07-25": {
+        "date": "2026-07-25",
         "lectures": [
           {
             "subject": "DBMS",
@@ -10714,7 +10850,15 @@
             "video_number": 32,
             "duration": "02:00:35",
             "file_name": "video_2024-03-16_12-40-56_7395073457597186296.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.01,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-07-26": {
+        "date": "2026-07-26",
+        "lectures": [
           {
             "subject": "DBMS",
             "video_number": 33,
@@ -10726,15 +10870,7 @@
             "video_number": 34,
             "duration": "02:08:40",
             "file_name": "video_2024-03-18_01-10-40_7395076025987629084.mp4"
-          }
-        ],
-        "total_lecture_time": 4.93,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-07-09": {
-        "date": "2026-07-09",
-        "lectures": [
+          },
           {
             "subject": "DBMS",
             "video_number": 35,
@@ -10746,7 +10882,15 @@
             "video_number": 36,
             "duration": "01:05:08",
             "file_name": "video_2024-03-18_01-23-06_7395078495593824324.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.71,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-07-27": {
+        "date": "2026-07-27",
+        "lectures": [
           {
             "subject": "DBMS",
             "video_number": 37,
@@ -10776,15 +10920,7 @@
             "video_number": 41,
             "duration": "03:24:00",
             "file_name": "video_2024-03-18_01-54-53_7396673740936840272.mp4"
-          }
-        ],
-        "total_lecture_time": 4.82,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-07-10": {
-        "date": "2026-07-10",
-        "lectures": [
+          },
           {
             "subject": "DBMS",
             "video_number": 42,
@@ -10796,7 +10932,15 @@
             "video_number": 43,
             "duration": "04:42:00",
             "file_name": "video_2024-03-18_01-57-01_7396677348709368048.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.16,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-07-28": {
+        "date": "2026-07-28",
+        "lectures": [
           {
             "subject": "DBMS",
             "video_number": 44,
@@ -10820,7 +10964,15 @@
             "video_number": 47,
             "duration": "01:16:43",
             "file_name": "video_2024-03-18_02-25-25_7397816730518552712.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.34,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-07-29": {
+        "date": "2026-07-29",
+        "lectures": [
           {
             "subject": "DBMS",
             "video_number": 48,
@@ -10832,21 +10984,21 @@
             "video_number": 49,
             "duration": "01:53:36",
             "file_name": "video_2024-03-18_09-34-09_7397818603124293696.mp4"
-          }
-        ],
-        "total_lecture_time": 4.89,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-07-11": {
-        "date": "2026-07-11",
-        "lectures": [
+          },
           {
             "subject": "DBMS",
             "video_number": 50,
             "duration": "03:30:40",
             "file_name": "video_2024-03-18_09-56-21_7397819595261739052.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.18,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-07-30": {
+        "date": "2026-07-30",
+        "lectures": [
           {
             "subject": "DBMS",
             "video_number": 51,
@@ -10866,12 +11018,12 @@
             "file_name": "video_2024-03-19_02-02-15_7396677395954008740.mp4"
           }
         ],
-        "total_lecture_time": 4.8,
-        "practice_time": 1.2000000000000002,
+        "total_lecture_time": 3.04,
+        "practice_time": 0.8,
         "status": "pending"
       },
-      "2026-07-12": {
-        "date": "2026-07-12",
+      "2026-07-31": {
+        "date": "2026-07-31",
         "lectures": [
           {
             "subject": "DBMS",
@@ -10884,7 +11036,15 @@
             "video_number": 55,
             "duration": "02:49:16",
             "file_name": "video_2024-03-19_02-50-35_7397816232302346240.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 2.94,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-08-01": {
+        "date": "2026-08-01",
+        "lectures": [
           {
             "subject": "DBMS",
             "video_number": 56,
@@ -10904,12 +11064,12 @@
             "file_name": "video_2024-03-19_04-42-59_7397819749880562248.mp4"
           }
         ],
-        "total_lecture_time": 5.5,
-        "practice_time": 1.2000000000000002,
+        "total_lecture_time": 2.56,
+        "practice_time": 0.8,
         "status": "pending"
       },
-      "2026-07-13": {
-        "date": "2026-07-13",
+      "2026-08-02": {
+        "date": "2026-08-02",
         "lectures": [
           {
             "subject": "DBMS",
@@ -10928,7 +11088,15 @@
             "video_number": 61,
             "duration": "02:15:05",
             "file_name": "video_2024-03-19_08-58-21_7397822365515645384.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.52,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-08-03": {
+        "date": "2026-08-03",
+        "lectures": [
           {
             "subject": "DBMS",
             "video_number": 62,
@@ -10940,15 +11108,7 @@
             "video_number": 63,
             "duration": "01:46:25",
             "file_name": "video_2024-03-19_08-28-33_7397824701977854028.mp4"
-          }
-        ],
-        "total_lecture_time": 5.0,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-07-14": {
-        "date": "2026-07-14",
-        "lectures": [
+          },
           {
             "subject": "DBMS",
             "video_number": 64,
@@ -10960,7 +11120,15 @@
             "video_number": 65,
             "duration": "02:16:27",
             "file_name": "video_2024-03-19_19-45-43_7397827197353853100.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.14,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-08-04": {
+        "date": "2026-08-04",
+        "lectures": [
           {
             "subject": "DBMS",
             "video_number": 66,
@@ -10986,12 +11154,12 @@
             "file_name": "video_2024-03-19_20-14-50_7397832072141733996.mp4"
           }
         ],
-        "total_lecture_time": 5.37,
-        "practice_time": 1.2000000000000002,
+        "total_lecture_time": 3.71,
+        "practice_time": 0.8,
         "status": "pending"
       },
-      "2026-07-15": {
-        "date": "2026-07-15",
+      "2026-08-05": {
+        "date": "2026-08-05",
         "lectures": [
           {
             "subject": "DBMS",
@@ -11022,7 +11190,15 @@
             "video_number": 74,
             "duration": "1900-01-02 11:54:00",
             "file_name": "073. Lecture 16 - B+ Tree.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.25,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-08-06": {
+        "date": "2026-08-06",
+        "lectures": [
           {
             "subject": "DBMS",
             "video_number": 75,
@@ -11040,21 +11216,21 @@
             "video_number": 77,
             "duration": "02:05:14",
             "file_name": "076. Lecture 19 - B+ Tree Questions.mp4"
-          }
-        ],
-        "total_lecture_time": 5.55,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-07-16": {
-        "date": "2026-07-16",
-        "lectures": [
+          },
           {
             "subject": "DBMS",
             "video_number": 78,
             "duration": "01:51:28",
             "file_name": "077. Lecture 1 - Transaction, Database Consistency.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.22,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-08-07": {
+        "date": "2026-08-07",
+        "lectures": [
           {
             "subject": "DBMS",
             "video_number": 79,
@@ -11078,21 +11254,21 @@
             "video_number": 82,
             "duration": "01:41:33",
             "file_name": "081. Lecture 5 - Serializability Introduction.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.79,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-08-08": {
+        "date": "2026-08-08",
+        "lectures": [
           {
             "subject": "DBMS",
             "video_number": 83,
             "duration": "01:59:56",
             "file_name": "082. Lecture 6 - Serializability In General.mp4"
-          }
-        ],
-        "total_lecture_time": 5.72,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-07-17": {
-        "date": "2026-07-17",
-        "lectures": [
+          },
           {
             "subject": "DBMS",
             "video_number": 84,
@@ -11104,7 +11280,15 @@
             "video_number": 85,
             "duration": "03:02:43",
             "file_name": "084. Lecture 8 - View Serializability.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.76,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-08-09": {
+        "date": "2026-08-09",
+        "lectures": [
           {
             "subject": "DBMS",
             "video_number": 86,
@@ -11116,21 +11300,21 @@
             "video_number": 87,
             "duration": "01:49:35",
             "file_name": "086_Lecture_10_General_Locking_Protocol_for_Concurrency_.mp4"
-          }
-        ],
-        "total_lecture_time": 4.89,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-07-18": {
-        "date": "2026-07-18",
-        "lectures": [
+          },
           {
             "subject": "DBMS",
             "video_number": 88,
             "duration": "02:03:26",
             "file_name": "087. Lecture 11 - Two Phase Locking Protocol.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.16,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-08-10": {
+        "date": "2026-08-10",
+        "lectures": [
           {
             "subject": "DBMS",
             "video_number": 89,
@@ -11148,27 +11332,35 @@
             "video_number": 91,
             "duration": "02:27:16",
             "file_name": "090_Lecture_14_Timestamp_Based_Protocols_for_Concurrency.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 2.6,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-08-11": {
+        "date": "2026-08-11",
+        "lectures": [
           {
             "subject": "DBMS",
             "video_number": 92,
             "duration": "02:59:32",
             "file_name": "091. Lecture 15 - 50 Questions on Timestamp Protocol.mp4"
-          }
-        ],
-        "total_lecture_time": 5.13,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-07-19": {
-        "date": "2026-07-19",
-        "lectures": [
+          },
           {
             "subject": "DBMS",
             "video_number": 93,
             "duration": "03:02:35",
             "file_name": "092. Lecture 1 - ER Model.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.02,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-08-12": {
+        "date": "2026-08-12",
+        "lectures": [
           {
             "subject": "DBMS",
             "video_number": 94,
@@ -11180,21 +11372,21 @@
             "video_number": 95,
             "duration": "04:18:31",
             "file_name": "094. Lecture 3 - ER Model to Relational Model Conversion.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.02,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-08-13": {
+        "date": "2026-08-13",
+        "lectures": [
           {
             "subject": "COMPUTER NETWORKS",
             "video_number": 1,
             "duration": "01:53:08",
             "file_name": "000. Recording - Lecture 1 Computer Networks.mp4"
-          }
-        ],
-        "total_lecture_time": 5.48,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-07-20": {
-        "date": "2026-07-20",
-        "lectures": [
+          },
           {
             "subject": "COMPUTER NETWORKS",
             "video_number": 2,
@@ -11206,7 +11398,15 @@
             "video_number": 3,
             "duration": "02:44:55",
             "file_name": "002_Lecture_4_Practice_Session_on_Subnetting_and_Superne.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.49,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-08-14": {
+        "date": "2026-08-14",
+        "lectures": [
           {
             "subject": "COMPUTER NETWORKS",
             "video_number": 4,
@@ -11224,21 +11424,21 @@
             "video_number": 6,
             "duration": "01:58:56",
             "file_name": "005_Recording_Lecture_6_Switching_Packet_Switch_and_Circ.mp4"
-          }
-        ],
-        "total_lecture_time": 5.03,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-07-21": {
-        "date": "2026-07-21",
-        "lectures": [
+          },
           {
             "subject": "COMPUTER NETWORKS",
             "video_number": 7,
             "duration": "02:39:03",
             "file_name": "006_Recording_Lecture_7_Error_Control_Methods_Single_Bit.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.81,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-08-15": {
+        "date": "2026-08-15",
+        "lectures": [
           {
             "subject": "COMPUTER NETWORKS",
             "video_number": 8,
@@ -11274,21 +11474,21 @@
             "video_number": 13,
             "duration": "02:03:04",
             "file_name": "012_Lecture_10_Checksum_Error_Control,_Delays_in_Network.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.03,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-08-16": {
+        "date": "2026-08-16",
+        "lectures": [
           {
             "subject": "COMPUTER NETWORKS",
             "video_number": 14,
             "duration": "02:05:22",
             "file_name": "013_Recording_Lecture_11_Questions_Based_on_delays_Propa.mp4"
-          }
-        ],
-        "total_lecture_time": 5.4,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-07-22": {
-        "date": "2026-07-22",
-        "lectures": [
+          },
           {
             "subject": "COMPUTER NETWORKS",
             "video_number": 15,
@@ -11300,7 +11500,15 @@
             "video_number": 16,
             "duration": "01:38:51",
             "file_name": "015. Recording - Lecture 13_ Stop-Wait Protocol.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 2.77,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-08-17": {
+        "date": "2026-08-17",
+        "lectures": [
           {
             "subject": "COMPUTER NETWORKS",
             "video_number": 17,
@@ -11326,12 +11534,12 @@
             "file_name": "019. Lecture 24 Address Resolution Protocol(ARP).mp4"
           }
         ],
-        "total_lecture_time": 5.56,
-        "practice_time": 1.2000000000000002,
+        "total_lecture_time": 3.83,
+        "practice_time": 0.8,
         "status": "pending"
       },
-      "2026-07-23": {
-        "date": "2026-07-23",
+      "2026-08-18": {
+        "date": "2026-08-18",
         "lectures": [
           {
             "subject": "COMPUTER NETWORKS",
@@ -11362,7 +11570,15 @@
             "video_number": 25,
             "duration": "01:23:47",
             "file_name": "024. Recording - Lecture_ More Fragmentation Questions.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.57,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-08-19": {
+        "date": "2026-08-19",
+        "lectures": [
           {
             "subject": "COMPUTER NETWORKS",
             "video_number": 26,
@@ -11374,15 +11590,7 @@
             "video_number": 27,
             "duration": "01:57:09",
             "file_name": "026_Recording_Lecture_31_Internet_Control_Message_Protoc.mp4"
-          }
-        ],
-        "total_lecture_time": 5.38,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-07-24": {
-        "date": "2026-07-24",
-        "lectures": [
+          },
           {
             "subject": "COMPUTER NETWORKS",
             "video_number": 28,
@@ -11394,7 +11602,15 @@
             "video_number": 29,
             "duration": "01:48:58",
             "file_name": "028. Recording - Lecture 32 Distance Vector Routing Prot.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.24,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-08-20": {
+        "date": "2026-08-20",
+        "lectures": [
           {
             "subject": "COMPUTER NETWORKS",
             "video_number": 30,
@@ -11426,12 +11642,12 @@
             "file_name": "033. Recording - Lecture 35_ TCP Flow Control.mp4"
           }
         ],
-        "total_lecture_time": 5.11,
-        "practice_time": 1.2000000000000002,
+        "total_lecture_time": 3.68,
+        "practice_time": 0.8,
         "status": "pending"
       },
-      "2026-07-25": {
-        "date": "2026-07-25",
+      "2026-08-21": {
+        "date": "2026-08-21",
         "lectures": [
           {
             "subject": "COMPUTER NETWORKS",
@@ -11468,7 +11684,15 @@
             "video_number": 40,
             "duration": "01:49:02",
             "file_name": "039. Recording - Lecture 39. TCP Options or Extensions.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.6,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-08-22": {
+        "date": "2026-08-22",
+        "lectures": [
           {
             "subject": "COMPUTER NETWORKS",
             "video_number": 41,
@@ -11492,15 +11716,7 @@
             "video_number": 44,
             "duration": "22:23:00",
             "file_name": "043. DNS.mp4"
-          }
-        ],
-        "total_lecture_time": 4.8,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-07-26": {
-        "date": "2026-07-26",
-        "lectures": [
+          },
           {
             "subject": "COMPUTER NETWORKS",
             "video_number": 45,
@@ -11536,7 +11752,15 @@
             "video_number": 4,
             "duration": "1900-01-01 23:16:00",
             "file_name": "003_Lecture_2C_Basic_Concepts_Prefix,_Suffix,_Substring,_Sub.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.51,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-08-23": {
+        "date": "2026-08-23",
+        "lectures": [
           {
             "subject": "TOC",
             "video_number": 5,
@@ -11596,15 +11820,7 @@
             "video_number": 14,
             "duration": "1900-01-01 02:28:00",
             "file_name": "013. Lecture 8A - Deterministic Finite Automata DFA.mp4"
-          }
-        ],
-        "total_lecture_time": 4.96,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-07-27": {
-        "date": "2026-07-27",
-        "lectures": [
+          },
           {
             "subject": "TOC",
             "video_number": 15,
@@ -11616,7 +11832,15 @@
             "video_number": 16,
             "duration": "1900-01-01 06:25:00",
             "file_name": "015. Lecture 8C - Designing DFA Part 2.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.3,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-08-24": {
+        "date": "2026-08-24",
+        "lectures": [
           {
             "subject": "TOC",
             "video_number": 17,
@@ -11688,7 +11912,15 @@
             "video_number": 28,
             "duration": "1900-01-02 02:10:00",
             "file_name": "027_Lecture_12B_DFA_Minimization_Part_2_State_Equivalence.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.33,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-08-25": {
+        "date": "2026-08-25",
+        "lectures": [
           {
             "subject": "TOC",
             "video_number": 29,
@@ -11706,15 +11938,7 @@
             "video_number": 31,
             "duration": "1900-01-02 06:56:00",
             "file_name": "030_Lecture_12E_DFA_Minimization_Part_5_Partition_Algorithm_.mp4"
-          }
-        ],
-        "total_lecture_time": 4.87,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-07-28": {
-        "date": "2026-07-28",
-        "lectures": [
+          },
           {
             "subject": "TOC",
             "video_number": 32,
@@ -11780,7 +12004,15 @@
             "video_number": 42,
             "duration": "1900-01-01 02:07:00",
             "file_name": "041_Lecture_14H_NFA_Practice_&_NFA_Extended_Transition_Funct.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.21,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-08-26": {
+        "date": "2026-08-26",
+        "lectures": [
           {
             "subject": "TOC",
             "video_number": 43,
@@ -11798,15 +12030,7 @@
             "video_number": 45,
             "duration": "02:25:51",
             "file_name": "044. Recording - Lecture 15B - Equivalence of DFA & NFA.mp4"
-          }
-        ],
-        "total_lecture_time": 4.81,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-07-29": {
-        "date": "2026-07-29",
-        "lectures": [
+          },
           {
             "subject": "TOC",
             "video_number": 46,
@@ -11824,7 +12048,15 @@
             "video_number": 48,
             "duration": "01:00:40",
             "file_name": "047. Lecture 16C - A Lot of Practice - Regular Expression.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.58,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-08-27": {
+        "date": "2026-08-27",
+        "lectures": [
           {
             "subject": "TOC",
             "video_number": 49,
@@ -11890,21 +12122,21 @@
             "video_number": 59,
             "duration": "1900-01-02 11:37:00",
             "file_name": "058_Lecture_17F_Equivalence_of_RE_and_FA_Part_6_The_Two_Temp.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 2.7,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-08-28": {
+        "date": "2026-08-28",
+        "lectures": [
           {
             "subject": "TOC",
             "video_number": 60,
             "duration": "02:49:41",
             "file_name": "059_Recording_Lecture_18A_Pumping_Lemma_for_Regular_Language.mp4"
-          }
-        ],
-        "total_lecture_time": 5.2,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-07-30": {
-        "date": "2026-07-30",
-        "lectures": [
+          },
           {
             "subject": "TOC",
             "video_number": 61,
@@ -11916,7 +12148,15 @@
             "video_number": 62,
             "duration": "01:36:34",
             "file_name": "061_Recording_Lecture_18C_Pumping_Lemma_for_Regular_Language.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.37,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-08-29": {
+        "date": "2026-08-29",
+        "lectures": [
           {
             "subject": "TOC",
             "video_number": 63,
@@ -11936,12 +12176,12 @@
             "file_name": "064_Proving_Non_Regular_Language_Part_1_Myhill_Nerode_Theore.mp4"
           }
         ],
-        "total_lecture_time": 5.24,
-        "practice_time": 1.2000000000000002,
+        "total_lecture_time": 3.28,
+        "practice_time": 0.8,
         "status": "pending"
       },
-      "2026-07-31": {
-        "date": "2026-07-31",
+      "2026-08-30": {
+        "date": "2026-08-30",
         "lectures": [
           {
             "subject": "TOC",
@@ -11972,7 +12212,15 @@
             "video_number": 70,
             "duration": "02:25:17",
             "file_name": "069_Recording_Lecture_19F_Finding_Number_of_States_in_Minima.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.46,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-08-31": {
+        "date": "2026-08-31",
+        "lectures": [
           {
             "subject": "TOC",
             "video_number": 71,
@@ -11984,21 +12232,21 @@
             "video_number": 72,
             "duration": "02:17:15",
             "file_name": "071. Lecture 1A - Context Free Grammars.mp4"
-          }
-        ],
-        "total_lecture_time": 5.61,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-08-01": {
-        "date": "2026-08-01",
-        "lectures": [
+          },
           {
             "subject": "TOC",
             "video_number": 73,
             "duration": "01:53:58",
             "file_name": "072. Lecture 1B - Practice & Standard Examples of CFGs.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.1,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-09-01": {
+        "date": "2026-09-01",
+        "lectures": [
           {
             "subject": "TOC",
             "video_number": 74,
@@ -12034,7 +12282,15 @@
             "video_number": 79,
             "duration": "1900-01-01 17:31:00",
             "file_name": "078_Lecture_2C_PDA_Analysis_Understanding_PDA_Transitions_&_.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.46,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-09-02": {
+        "date": "2026-09-02",
+        "lectures": [
           {
             "subject": "TOC",
             "video_number": 80,
@@ -12058,15 +12314,7 @@
             "video_number": 83,
             "duration": "06:44:00",
             "file_name": "082. PDA Design Example 4 - a^nb^m Language.mp4"
-          }
-        ],
-        "total_lecture_time": 4.83,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-08-02": {
-        "date": "2026-08-02",
-        "lectures": [
+          },
           {
             "subject": "TOC",
             "video_number": 84,
@@ -12102,7 +12350,15 @@
             "video_number": 89,
             "duration": "01:24:02",
             "file_name": "088_Recording_Live_Session_Weekly_Quiz_26_Discussion_Theory_.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.33,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-09-03": {
+        "date": "2026-09-03",
+        "lectures": [
           {
             "subject": "TOC",
             "video_number": 90,
@@ -12126,15 +12382,7 @@
             "video_number": 93,
             "duration": "1900-01-01 03:52:00",
             "file_name": "92.Lecture 2G - Practice - PDA with Empty Stack Acceptan.mp4"
-          }
-        ],
-        "total_lecture_time": 4.81,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-08-03": {
-        "date": "2026-08-03",
-        "lectures": [
+          },
           {
             "subject": "TOC",
             "video_number": 94,
@@ -12146,7 +12394,15 @@
             "video_number": 95,
             "duration": "02:27:33",
             "file_name": "94.Lecture 3B - DPDA and DCFL.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.29,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-09-04": {
+        "date": "2026-09-04",
+        "lectures": [
           {
             "subject": "TOC",
             "video_number": 96,
@@ -12184,12 +12440,12 @@
             "file_name": "100_Recording_Lecture_1A_Closure_Properties_of_Regular_Langu.mp4"
           }
         ],
-        "total_lecture_time": 5.07,
-        "practice_time": 1.2000000000000002,
+        "total_lecture_time": 3.68,
+        "practice_time": 0.8,
         "status": "pending"
       },
-      "2026-08-04": {
-        "date": "2026-08-04",
+      "2026-09-05": {
+        "date": "2026-09-05",
         "lectures": [
           {
             "subject": "TOC",
@@ -12214,7 +12470,15 @@
             "video_number": 105,
             "duration": "01:23:36",
             "file_name": "104_Recording_Lecture_3_Closure_Properties_of_Nonregular_Lan.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.53,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-09-06": {
+        "date": "2026-09-06",
+        "lectures": [
           {
             "subject": "TOC",
             "video_number": 106,
@@ -12250,15 +12514,7 @@
             "video_number": 111,
             "duration": "02:02:40",
             "file_name": "110. Lecture 1 - Introduction of Turing Machines.mp4"
-          }
-        ],
-        "total_lecture_time": 5.7,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-08-05": {
-        "date": "2026-08-05",
-        "lectures": [
+          },
           {
             "subject": "TOC",
             "video_number": 112,
@@ -12276,7 +12532,15 @@
             "video_number": 114,
             "duration": "1900-01-01 02:35:00",
             "file_name": "113. Lecture 4 - Some Conjectures.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.25,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-09-07": {
+        "date": "2026-09-07",
+        "lectures": [
           {
             "subject": "TOC",
             "video_number": 115,
@@ -12308,12 +12572,12 @@
             "file_name": "118. Lecture 9 - Dovetailing, Variants of TM.mp4"
           }
         ],
-        "total_lecture_time": 4.89,
-        "practice_time": 1.2000000000000002,
+        "total_lecture_time": 3.8,
+        "practice_time": 0.8,
         "status": "pending"
       },
-      "2026-08-06": {
-        "date": "2026-08-06",
+      "2026-09-08": {
+        "date": "2026-09-08",
         "lectures": [
           {
             "subject": "TOC",
@@ -12344,7 +12608,15 @@
             "video_number": 124,
             "duration": "01:44:29",
             "file_name": "123_Lecture_13_Logically_Solving_Decision_Problems_related_t.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.14,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-09-09": {
+        "date": "2026-09-09",
+        "lectures": [
           {
             "subject": "TOC",
             "video_number": 125,
@@ -12362,15 +12634,7 @@
             "video_number": 127,
             "duration": "01:06:01",
             "file_name": "126_Lecture_15A_Simplification_of_Context_Free_Grammars_Usel.mp4"
-          }
-        ],
-        "total_lecture_time": 4.81,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-08-07": {
-        "date": "2026-08-07",
-        "lectures": [
+          },
           {
             "subject": "TOC",
             "video_number": 128,
@@ -12382,7 +12646,15 @@
             "video_number": 129,
             "duration": "02:37:26",
             "file_name": "128. Lecture 15C - Normal Forms of CFGs - CNF, GNF.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.59,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-09-10": {
+        "date": "2026-09-10",
+        "lectures": [
           {
             "subject": "TOC",
             "video_number": 130,
@@ -12408,12 +12680,12 @@
             "file_name": "132. Lecture 16C - Rice Theorem.mp4"
           }
         ],
-        "total_lecture_time": 5.63,
-        "practice_time": 1.2000000000000002,
+        "total_lecture_time": 3.71,
+        "practice_time": 0.8,
         "status": "pending"
       },
-      "2026-08-08": {
-        "date": "2026-08-08",
+      "2026-09-11": {
+        "date": "2026-09-11",
         "lectures": [
           {
             "subject": "TOC",
@@ -12444,21 +12716,21 @@
             "video_number": 138,
             "duration": "03:00:29",
             "file_name": "137_Lecture_18_Closure_Properties_of_RE,_REC_Languages,_Comp.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.48,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-09-12": {
+        "date": "2026-09-12",
+        "lectures": [
           {
             "subject": "TOC",
             "video_number": 139,
             "duration": "02:39:44",
             "file_name": "138. Recording - Lecture 1 - Countable Sets.mp4"
-          }
-        ],
-        "total_lecture_time": 4.81,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-08-09": {
-        "date": "2026-08-09",
-        "lectures": [
+          },
           {
             "subject": "TOC",
             "video_number": 140,
@@ -12470,7 +12742,15 @@
             "video_number": 141,
             "duration": "01:54:25",
             "file_name": "140_Recording_Lecture_3_Uncountable_Sets_&_Cantor's_Diagonal.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.07,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-09-13": {
+        "date": "2026-09-13",
+        "lectures": [
           {
             "subject": "TOC",
             "video_number": 142,
@@ -12490,12 +12770,12 @@
             "file_name": "143_Recording_Lecture_6_Cantor's_Theorem_&_Consequences.mp4"
           }
         ],
-        "total_lecture_time": 4.89,
-        "practice_time": 1.2000000000000002,
+        "total_lecture_time": 3.15,
+        "practice_time": 0.8,
         "status": "pending"
       },
-      "2026-08-10": {
-        "date": "2026-08-10",
+      "2026-09-14": {
+        "date": "2026-09-14",
         "lectures": [
           {
             "subject": "TOC",
@@ -12526,7 +12806,15 @@
             "video_number": 3,
             "duration": "1900-01-01 06:23:00",
             "file_name": "002. Lecture 1c. Recognition of Tokens and Maximal Munch.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.12,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-09-15": {
+        "date": "2026-09-15",
+        "lectures": [
           {
             "subject": "COMPILER DESIGN",
             "video_number": 4,
@@ -12574,15 +12862,7 @@
             "video_number": 11,
             "duration": "1900-01-02 00:45:00",
             "file_name": "010. Lecture 3a. Left Recursion and Left Factoring.mp4"
-          }
-        ],
-        "total_lecture_time": 4.99,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-08-11": {
-        "date": "2026-08-11",
-        "lectures": [
+          },
           {
             "subject": "COMPILER DESIGN",
             "video_number": 12,
@@ -12618,7 +12898,15 @@
             "video_number": 17,
             "duration": "1900-01-01 20:36:00",
             "file_name": "016. Lecture 6a. Computing First.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.34,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-09-16": {
+        "date": "2026-09-16",
+        "lectures": [
           {
             "subject": "COMPILER DESIGN",
             "video_number": 18,
@@ -12656,12 +12944,12 @@
             "file_name": "022. Lecture 9a. LR(0) and SLR(1) Parsing Table Examples.mp4"
           }
         ],
-        "total_lecture_time": 5.07,
-        "practice_time": 1.2000000000000002,
+        "total_lecture_time": 3.6,
+        "practice_time": 0.8,
         "status": "pending"
       },
-      "2026-08-12": {
-        "date": "2026-08-12",
+      "2026-09-17": {
+        "date": "2026-09-17",
         "lectures": [
           {
             "subject": "COMPILER DESIGN",
@@ -12746,7 +13034,15 @@
             "video_number": 37,
             "duration": "01:36:46",
             "file_name": "036. Recording - Lecture 14 Questions on LALR(1) and CLR.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.5,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-09-18": {
+        "date": "2026-09-18",
+        "lectures": [
           {
             "subject": "COMPILER DESIGN",
             "video_number": 38,
@@ -12764,15 +13060,7 @@
             "video_number": 40,
             "duration": "1900-01-02 11:01:00",
             "file_name": "039_Lecture_16_PYQs_on_Syntax_Directed_Definition_and_Tr.mp4"
-          }
-        ],
-        "total_lecture_time": 5.0,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-08-13": {
-        "date": "2026-08-13",
-        "lectures": [
+          },
           {
             "subject": "COMPILER DESIGN",
             "video_number": 41,
@@ -12790,7 +13078,15 @@
             "video_number": 43,
             "duration": "02:07:31",
             "file_name": "042_Recording_Lecture_2_Broad_Overview_of_Phases_of_Comp.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.47,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-09-19": {
+        "date": "2026-09-19",
+        "lectures": [
           {
             "subject": "COMPILER DESIGN",
             "video_number": 44,
@@ -12810,12 +13106,12 @@
             "file_name": "045_Recording_Lecture_3D_Static_Single_Assignment_Form_S.mp4"
           }
         ],
-        "total_lecture_time": 5.0,
-        "practice_time": 1.2000000000000002,
+        "total_lecture_time": 3.03,
+        "practice_time": 0.8,
         "status": "pending"
       },
-      "2026-08-14": {
-        "date": "2026-08-14",
+      "2026-09-20": {
+        "date": "2026-09-20",
         "lectures": [
           {
             "subject": "COMPILER DESIGN",
@@ -12840,21 +13136,21 @@
             "video_number": 50,
             "duration": "02:17:21",
             "file_name": "050. Lecture 5C - Practice Questions - Liveness Analysis.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.72,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-09-21": {
+        "date": "2026-09-21",
+        "lectures": [
           {
             "subject": "COMPILER DESIGN",
             "video_number": 51,
             "duration": "02:20:47",
             "file_name": "051_Lecture_6_Available_Expression_Analysis,_Common_Sube.mp4"
-          }
-        ],
-        "total_lecture_time": 4.89,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-08-15": {
-        "date": "2026-08-15",
-        "lectures": [
+          },
           {
             "subject": "DL",
             "video_number": 1,
@@ -12890,7 +13186,15 @@
             "video_number": 6,
             "duration": "01:02:03",
             "file_name": "005_Lecture_4B_Boolean_Expressions_&_Boolean_Algebra_Law.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.55,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-09-22": {
+        "date": "2026-09-22",
+        "lectures": [
           {
             "subject": "DL",
             "video_number": 7,
@@ -12922,12 +13226,12 @@
             "file_name": "010_Recording_Lecture_5C_Sum_of_Minterms,_Product_of_Max.mp4"
           }
         ],
-        "total_lecture_time": 5.32,
-        "practice_time": 1.2000000000000002,
+        "total_lecture_time": 2.94,
+        "practice_time": 0.8,
         "status": "pending"
       },
-      "2026-08-16": {
-        "date": "2026-08-16",
+      "2026-09-23": {
+        "date": "2026-09-23",
         "lectures": [
           {
             "subject": "DL",
@@ -12964,27 +13268,35 @@
             "video_number": 17,
             "duration": "1900-01-01 22:29:00",
             "file_name": "016_Lecture_6C_K_Map_Part_3_Minimization_of_Boolean_Expr.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.48,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-09-24": {
+        "date": "2026-09-24",
+        "lectures": [
           {
             "subject": "DL",
             "video_number": 18,
             "duration": "02:41:06",
             "file_name": "017_Lecture_6D_K_Map_Part_4_Don't_Cares,_Prime_Implicant.mp4"
-          }
-        ],
-        "total_lecture_time": 4.82,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-08-17": {
-        "date": "2026-08-17",
-        "lectures": [
+          },
           {
             "subject": "DL",
             "video_number": 19,
             "duration": "02:33:20",
             "file_name": "018_Lecture_6E_K_Map_Part_5_Prime_Implicant,_Essential_P.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 2.62,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-09-25": {
+        "date": "2026-09-25",
+        "lectures": [
           {
             "subject": "DL",
             "video_number": 20,
@@ -13026,7 +13338,15 @@
             "video_number": 26,
             "duration": "01:00:06",
             "file_name": "025_Lecture_3A_Complement_of_a_number,_Subtraction_using.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.42,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-09-26": {
+        "date": "2026-09-26",
+        "lectures": [
           {
             "subject": "DL",
             "video_number": 27,
@@ -13038,15 +13358,7 @@
             "video_number": 28,
             "duration": "1900-01-01 05:10:00",
             "file_name": "027. Lecture 3C - Subtraction using r-1's complement.mp4"
-          }
-        ],
-        "total_lecture_time": 5.02,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-08-18": {
-        "date": "2026-08-18",
-        "lectures": [
+          },
           {
             "subject": "DL",
             "video_number": 29,
@@ -13094,7 +13406,15 @@
             "video_number": 36,
             "duration": "1900-01-01 06:45:00",
             "file_name": "035. Lecture 7A - Binary Codes Introduction.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.39,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-09-27": {
+        "date": "2026-09-27",
+        "lectures": [
           {
             "subject": "DL",
             "video_number": 37,
@@ -13118,15 +13438,7 @@
             "video_number": 40,
             "duration": "01:04:20",
             "file_name": "039. Lecture 1 - Compact Truth Table Representation.mp4"
-          }
-        ],
-        "total_lecture_time": 4.87,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-08-19": {
-        "date": "2026-08-19",
-        "lectures": [
+          },
           {
             "subject": "DL",
             "video_number": 41,
@@ -13150,7 +13462,15 @@
             "video_number": 44,
             "duration": "1900-01-01 02:47:00",
             "file_name": "043. Lecture 2D - Function Realization using Multiplexer.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.32,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-09-28": {
+        "date": "2026-09-28",
+        "lectures": [
           {
             "subject": "DL",
             "video_number": 45,
@@ -13218,12 +13538,12 @@
             "file_name": "054. Lecture 7B - Adder - Full Adder.mp4"
           }
         ],
-        "total_lecture_time": 5.15,
-        "practice_time": 1.2000000000000002,
+        "total_lecture_time": 3.63,
+        "practice_time": 0.8,
         "status": "pending"
       },
-      "2026-08-20": {
-        "date": "2026-08-20",
+      "2026-09-29": {
+        "date": "2026-09-29",
         "lectures": [
           {
             "subject": "DL",
@@ -13296,7 +13616,15 @@
             "video_number": 67,
             "duration": "1900-01-01 04:59:00",
             "file_name": "066_Lecture_2C_S'R'_Latch_Cross_Coupled_NAND_gates.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.21,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-09-30": {
+        "date": "2026-09-30",
+        "lectures": [
           {
             "subject": "DL",
             "video_number": 68,
@@ -13314,15 +13642,7 @@
             "video_number": 70,
             "duration": "1900-01-01 21:01:00",
             "file_name": "069. Lecture 5 - D Flipflop.mp4"
-          }
-        ],
-        "total_lecture_time": 4.91,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-08-21": {
-        "date": "2026-08-21",
-        "lectures": [
+          },
           {
             "subject": "DL",
             "video_number": 71,
@@ -13358,7 +13678,15 @@
             "video_number": 76,
             "duration": "14:31:00",
             "file_name": "075. Lecture 9B - Morris Mano PN Flip-flop Question.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.3,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-10-01": {
+        "date": "2026-10-01",
+        "lectures": [
           {
             "subject": "DL",
             "video_number": 77,
@@ -13414,12 +13742,12 @@
             "file_name": "084_Lecture_16C_Asynchronous_Counters_Part_3_Binary_Ripp.mp4"
           }
         ],
-        "total_lecture_time": 5.4,
-        "practice_time": 1.2000000000000002,
+        "total_lecture_time": 3.8,
+        "practice_time": 0.8,
         "status": "pending"
       },
-      "2026-08-22": {
-        "date": "2026-08-22",
+      "2026-10-02": {
+        "date": "2026-10-02",
         "lectures": [
           {
             "subject": "DL",
@@ -13498,7 +13826,15 @@
             "video_number": 98,
             "duration": "01:09:29",
             "file_name": "097. Lecture 18B - Johnson Counter - Synchronous Counter.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.55,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-10-03": {
+        "date": "2026-10-03",
+        "lectures": [
           {
             "subject": "APTITUDE",
             "video_number": 1,
@@ -13516,15 +13852,7 @@
             "video_number": 3,
             "duration": "01:16:56",
             "file_name": "002. Lecture 3 Ratio & Proportion.mp4"
-          }
-        ],
-        "total_lecture_time": 5.08,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-08-23": {
-        "date": "2026-08-23",
-        "lectures": [
+          },
           {
             "subject": "APTITUDE",
             "video_number": 4,
@@ -13554,7 +13882,15 @@
             "video_number": 8,
             "duration": "1900-01-02 01:05:00",
             "file_name": "007. Spatial Aptitude.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.59,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      "2026-10-04": {
+        "date": "2026-10-04",
+        "lectures": [
           {
             "subject": "APTITUDE",
             "video_number": 9,
@@ -13584,15 +13920,7 @@
             "video_number": 13,
             "duration": "1900-01-01 01:41:00",
             "file_name": "012_Verbal_Aptitude_English_Grammar_Part_1_Many_GATE_PYQ.mp4"
-          }
-        ],
-        "total_lecture_time": 4.86,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      "2026-08-24": {
-        "date": "2026-08-24",
-        "lectures": [
+          },
           {
             "subject": "APTITUDE",
             "video_number": 14,
@@ -13606,8 +13934,8 @@
             "file_name": "014. Verbal Aptitude Part 3.mp4"
           }
         ],
-        "total_lecture_time": 0.76,
-        "practice_time": 1.2000000000000002,
+        "total_lecture_time": 3.58,
+        "practice_time": 0.8,
         "status": "pending"
       }
     },
@@ -13704,7 +14032,15 @@
             "video_number": 15,
             "duration": "01:06:35",
             "file_name": "014_Recording_LIVE_HomeWork_2_Solution_Discussion_and_WQ.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.25,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      {
+        "date": "2026-06-08",
+        "lectures": [
           {
             "subject": "C PROGRAMMING",
             "video_number": 16,
@@ -13740,15 +14076,7 @@
             "video_number": 21,
             "duration": "01:24:42",
             "file_name": "020. Recording - LIVE Homework 3 Solution.mp4"
-          }
-        ],
-        "total_lecture_time": 5.1,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      {
-        "date": "2026-06-08",
-        "lectures": [
+          },
           {
             "subject": "C PROGRAMMING",
             "video_number": 22,
@@ -13784,7 +14112,15 @@
             "video_number": 27,
             "duration": "1900-01-01 02:39:00",
             "file_name": "026. Lecture 6b. auto and register Storage classes.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.23,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      {
+        "date": "2026-06-09",
+        "lectures": [
           {
             "subject": "C PROGRAMMING",
             "video_number": 28,
@@ -13862,21 +14198,21 @@
             "video_number": 40,
             "duration": "23:10:00",
             "file_name": "039. Lecture 8d.Introduction to Array.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.2,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      {
+        "date": "2026-06-10",
+        "lectures": [
           {
             "subject": "C PROGRAMMING",
             "video_number": 41,
             "duration": "1900-01-01 10:20:00",
             "file_name": "040. Recording - LIVE Session 6_ Homework 5 Solution.mp4"
-          }
-        ],
-        "total_lecture_time": 4.87,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      {
-        "date": "2026-06-09",
-        "lectures": [
+          },
           {
             "subject": "C PROGRAMMING",
             "video_number": 42,
@@ -13948,7 +14284,15 @@
             "video_number": 53,
             "duration": "01:14:33",
             "file_name": "052_Recording_LIVE_Solution_of_Practice_Questions_on_cha.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.71,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      {
+        "date": "2026-06-11",
+        "lectures": [
           {
             "subject": "C PROGRAMMING",
             "video_number": 54,
@@ -13984,15 +14328,7 @@
             "video_number": 59,
             "duration": "01:04:10",
             "file_name": "058. Recording - LIVE_ Solution of above Practice Questi.mp4"
-          }
-        ],
-        "total_lecture_time": 5.3,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      {
-        "date": "2026-06-10",
-        "lectures": [
+          },
           {
             "subject": "C PROGRAMMING",
             "video_number": 60,
@@ -14028,7 +14364,15 @@
             "video_number": 65,
             "duration": "1900-01-02 06:12:00",
             "file_name": "064_Lecture_14_Miscellaneous_topics_getchar,_putchar,_St.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.47,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      {
+        "date": "2026-06-12",
+        "lectures": [
           {
             "subject": "C PROGRAMMING",
             "video_number": 66,
@@ -14112,21 +14456,21 @@
             "video_number": 11,
             "duration": "09:05:00",
             "file_name": "010_3b_Recursion_in_Linkedlist_Question_2_based_on_recursion.mp4"
-          },
+          }
+        ],
+        "total_lecture_time": 3.2,
+        "practice_time": 0.8,
+        "status": "pending"
+      },
+      {
+        "date": "2026-06-13",
+        "lectures": [
           {
             "subject": "DSA",
             "video_number": 12,
             "duration": "06:43:00",
             "file_name": "011_3c_Recursion_in_Linkedlist_Question_3_based_on_recursion.mp4"
-          }
-        ],
-        "total_lecture_time": 4.84,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      {
-        "date": "2026-06-11",
-        "lectures": [
+          },
           {
             "subject": "DSA",
             "video_number": 13,
@@ -14192,278 +14536,10 @@
             "video_number": 23,
             "duration": "16:53:00",
             "file_name": "022. DS Videos_ 5a. Introduction to Asymptotic Analysis.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 24,
-            "duration": "1900-01-01 14:57:00",
-            "file_name": "023_DS_Videos_5b_Big_oh_and_Big_omega_Asymptotic_Notations.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 25,
-            "duration": "13:19:00",
-            "file_name": "024. DS Videos_ 5c. Theta Asymptotic notation.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 26,
-            "duration": "1900-01-01 07:22:00",
-            "file_name": "025_DS_Videos_5d_What_is_Asymptotic_comparison_how_LOG_works_rice.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 27,
-            "duration": "1900-01-02 05:16:00",
-            "file_name": "026_DS_Videos_5e_Comparing_Different_Functions_Asymptotically.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 28,
-            "duration": "1900-01-01 12:49:00",
-            "file_name": "027_DS_Videos_5f_Little_Oh_Little_Omega_Properties_of_asymptotic.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 29,
-            "duration": "06:42:00",
-            "file_name": "028. DS Videos_ 6a.Formal set notation of Asymptote symbols.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 30,
-            "duration": "21:03:00",
-            "file_name": "029_DS_Videos_6b_Asymptotic_Notations_GATE_PYQs_1994,_96,_2000,1.mp4"
           }
         ],
-        "total_lecture_time": 4.87,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      {
-        "date": "2026-06-12",
-        "lectures": [
-          {
-            "subject": "DSA",
-            "video_number": 31,
-            "duration": "1900-01-01 05:05:00",
-            "file_name": "030. DS Videos_ 6c. Analysing the loops time complexity.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 32,
-            "duration": "17:10:00",
-            "file_name": "031. 6d. Time Complexity of loops -2.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 33,
-            "duration": "22:52:00",
-            "file_name": "032. DS Videos_ 7a. Brief about Best Case, Worst Case.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 34,
-            "duration": "1900-01-01 02:44:00",
-            "file_name": "033. DS Videos_ 7b. More about Best Case, Worst Case.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 35,
-            "duration": "05:02:00",
-            "file_name": "034. DS Videos_ 7c. Questions on Algorithmic notations.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 36,
-            "duration": "01:43:37",
-            "file_name": "035_Recording_LIVE_Asymptotic_Notations_Practice_Set_Discussion.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 37,
-            "duration": "01:02:46",
-            "file_name": "036_Recording_LIVE_Asymptotic_Notations_Practice_Set_Discussion.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 38,
-            "duration": "1900-01-01 06:50:00",
-            "file_name": "037. 8a. Introduction to Stack and Stack Permutations.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 39,
-            "duration": "1900-01-01 02:08:00",
-            "file_name": "038. 8b. Implementation of Stack using Array and Linked list.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 40,
-            "duration": "1900-01-01 17:30:00",
-            "file_name": "039. 9a. Introduction to Queue.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 41,
-            "duration": "1900-01-01 00:40:00",
-            "file_name": "040. 9b. Implementation of Queue using Array.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 42,
-            "duration": "1900-01-01 00:51:00",
-            "file_name": "041_9c_Queue_another_Implementation_using_Array_with_F=R=0_GATE.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 43,
-            "duration": "10:29:00",
-            "file_name": "042. 9d. Implementing Queue using Linked List.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 44,
-            "duration": "15:31:00",
-            "file_name": "043. 9e. Queue using two stacks.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 45,
-            "duration": "12:05:00",
-            "file_name": "044. 10a. Stack using two queues.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 46,
-            "duration": "12:58:00",
-            "file_name": "045. 10b. Balancing parentheses and Two Stacks in one array.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 47,
-            "duration": "1900-01-01 06:36:00",
-            "file_name": "046_10c_Infix,_Prefix_&_Postfix_and_Conversion_to_each_other.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 48,
-            "duration": "14:22:00",
-            "file_name": "047_10d_Infix_to_Postfix_using_Stack_and_Postfix_evaluation_using.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 49,
-            "duration": "01:47:48",
-            "file_name": "048_Recording_LIVE_Stack_and_Queue_Practice_Set_Discussion.mp4"
-          }
-        ],
-        "total_lecture_time": 5.16,
-        "practice_time": 1.2000000000000002,
-        "status": "pending"
-      },
-      {
-        "date": "2026-06-13",
-        "lectures": [
-          {
-            "subject": "DSA",
-            "video_number": 50,
-            "duration": "01:49:40",
-            "file_name": "049. LIVE Stack and Queue Practice Set Discussion 2.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 51,
-            "duration": "1900-01-01 09:52:00",
-            "file_name": "050. 11a. Introduction to Binary trees.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 52,
-            "duration": "1900-01-01 05:58:00",
-            "file_name": "051. 11b. Some questions and representation of tree.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 53,
-            "duration": "1900-01-01 10:37:00",
-            "file_name": "052. 11c. Questions on Binary trees.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 54,
-            "duration": "1900-01-01 00:13:00",
-            "file_name": "053. 11d. Questions on Binary trees 2.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 55,
-            "duration": "20:32:00",
-            "file_name": "054. 12a. Binary Tree Traversals.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 56,
-            "duration": "1900-01-01 03:07:00",
-            "file_name": "055_12b_Binary_tree_construction_using_preorder_postorder_and_inorder.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 57,
-            "duration": "21:59:00",
-            "file_name": "056_12c_Binary_tree_construction_using_preorder_postorder_and_inorder.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 58,
-            "duration": "18:38:00",
-            "file_name": "057. 13a. Introduction to Binary Search Tree.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 59,
-            "duration": "1900-01-01 08:19:00",
-            "file_name": "058_13b_Range_Search_in_Binary_Search_Tree_GATE_2014_GATE_2020.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 60,
-            "duration": "21:01:00",
-            "file_name": "059. 13c. BST Deletion.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 61,
-            "duration": "20:07:00",
-            "file_name": "060. 14a. GATE 1996 Possible probe sequences.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 62,
-            "duration": "19:41:00",
-            "file_name": "061. 14b. BST PYQs 1997, 2001, 06, 07, 16.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 63,
-            "duration": "18:41:00",
-            "file_name": "062. 14c. BST Time Complexities.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 64,
-            "duration": "01:20:17",
-            "file_name": "063_Recording_LIVEBinary_Tree_and_Binary_Search_Tree_Practice_Set.mp4"
-          },
-          {
-            "subject": "DSA",
-            "video_number": 65,
-            "duration": "01:06:11",
-            "file_name": "064_Recording_LIVE_Binary_Tree_and_Binary_Search_Tree_Practice_Set.mp4"
-          }
-        ],
-        "total_lecture_time": 4.82,
-        "practice_time": 1.2000000000000002,
+        "total_lecture_time": 3.25,
+        "practice_time": 0.8,
         "status": "pending"
       }
     ]
