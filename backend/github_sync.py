@@ -15,21 +15,68 @@ class GitHubSync:
         self.progress_file = os.path.join(self.repo_path, 'backend', 'progress_data.json')
         self.github_token = os.getenv('GITHUB_TOKEN')
         self.github_repo = os.getenv('GITHUB_REPO', 'GateLogX/GATE-DAYWISE-TRACKER')
+        self.git_initialized = False
+        
+    def init_git_repo(self):
+        """Initialize git repository if not exists (for Render deployment)"""
+        try:
+            # Check if .git exists
+            git_dir = os.path.join(self.repo_path, '.git')
+            if os.path.exists(git_dir):
+                self.git_initialized = True
+                return True
+            
+            print("📦 Initializing git repository...")
+            
+            # Initialize git repo
+            subprocess.run(['git', 'init'], cwd=self.repo_path, check=True, capture_output=True)
+            
+            # Configure git
+            subprocess.run(['git', 'config', 'user.email', 'bot@gatetracker.com'], 
+                         cwd=self.repo_path, check=True, capture_output=True)
+            subprocess.run(['git', 'config', 'user.name', 'GATE Tracker Bot'], 
+                         cwd=self.repo_path, check=True, capture_output=True)
+            
+            # Add remote with token
+            if self.github_token:
+                remote_url = f'https://{self.github_token}@github.com/{self.github_repo}.git'
+                subprocess.run(['git', 'remote', 'add', 'origin', remote_url], 
+                             cwd=self.repo_path, check=True, capture_output=True)
+            
+            # Fetch from remote
+            subprocess.run(['git', 'fetch', 'origin'], cwd=self.repo_path, 
+                         check=True, capture_output=True, timeout=30)
+            
+            # Checkout main branch
+            subprocess.run(['git', 'checkout', '-b', 'main', 'origin/main'], 
+                         cwd=self.repo_path, check=True, capture_output=True)
+            
+            self.git_initialized = True
+            print("✅ Git repository initialized successfully")
+            return True
+            
+        except Exception as e:
+            print(f"⚠️ Git init warning: {e}")
+            return False
         
     def configure_git(self):
         """Configure git with credentials"""
         try:
+            # Initialize git if needed
+            if not self.git_initialized:
+                self.init_git_repo()
+            
             # Set git user
             subprocess.run(['git', 'config', 'user.email', 'bot@gatetracker.com'], 
-                         cwd=self.repo_path, check=True)
+                         cwd=self.repo_path, check=True, capture_output=True)
             subprocess.run(['git', 'config', 'user.name', 'GATE Tracker Bot'], 
-                         cwd=self.repo_path, check=True)
+                         cwd=self.repo_path, check=True, capture_output=True)
             
-            # Set remote with token
+            # Update remote URL with token
             if self.github_token:
                 remote_url = f'https://{self.github_token}@github.com/{self.github_repo}.git'
                 subprocess.run(['git', 'remote', 'set-url', 'origin', remote_url], 
-                             cwd=self.repo_path, check=False)
+                             cwd=self.repo_path, check=False, capture_output=True)
             
             return True
         except Exception as e:
@@ -42,16 +89,21 @@ class GitHubSync:
             if not self.github_token:
                 print("No GitHub token - skipping pull")
                 return False
-                
+            
+            # Initialize git if needed
+            if not self.git_initialized:
+                if not self.init_git_repo():
+                    return False
+            
             self.configure_git()
             
-            # Pull latest changes
+            # Pull latest changes (progress_data.json only)
             result = subprocess.run(
                 ['git', 'pull', 'origin', 'main', '--rebase'],
                 cwd=self.repo_path,
                 capture_output=True,
                 text=True,
-                timeout=10
+                timeout=30
             )
             
             if result.returncode == 0:
