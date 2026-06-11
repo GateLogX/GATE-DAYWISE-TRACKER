@@ -174,9 +174,28 @@ async function loadTimetableFromBackend() {
         
         // ALWAYS use backend timetable if available (it's the source of truth)
         if (data.success && data.timetable && Array.isArray(data.timetable) && data.timetable.length > 0) {
+            // Backend timetable has the videos already embedded, use it directly
             window.daySchedule = data.timetable;
             window.backlogDays = data.timetable.map(day => ({ ...day, completed: false }));
+            
+            // Also populate videoData from the backend timetable
+            window.videoData = [];
+            data.timetable.forEach(day => {
+                if (day.videos && Array.isArray(day.videos)) {
+                    day.videos.forEach(video => {
+                        window.videoData.push({
+                            subject: video.subject,
+                            videoNumber: video.videoNumber,
+                            fileName: video.fileName,
+                            durationSeconds: video.durationSeconds,
+                            messageId: video.messageId
+                        });
+                    });
+                }
+            });
+            
             console.log(`✅ Loaded ${data.timetable.length} days from backend (${data.goals?.daily_study_hours || '?'} hrs/day)`);
+            console.log(`📹 Loaded ${window.videoData.length} videos from backend timetable`);
             
             // Re-render UI with new timetable
             if (window.render) {
@@ -193,20 +212,28 @@ async function loadTimetableFromBackend() {
     }
 }
 
-// Initialize integration
+// Initialize integration - Wait for CSV then override with backend
 document.addEventListener('DOMContentLoaded', () => {
     console.log('🚀 WhatsApp Integration Loaded (100% FREE)');
     
-    // Wait for CSV to load first (give it time)
+    // Wait 2 seconds for CSV to populate videoData
     setTimeout(() => {
-        // Load completed videos from backend first
-        loadCompletedFromBackend().then(() => {
-            // Then try to load timetable (but don't overwrite good local data)
-            return loadTimetableFromBackend();
+        console.log('🔄 Now loading backend timetable to override schedule...');
+        
+        // Load backend timetable (it will populate both daySchedule and videoData)
+        loadTimetableFromBackend().then((loaded) => {
+            if (loaded) {
+                console.log('✅ Using backend timetable (120 days, 4hrs/day)');
+            } else {
+                console.log('⚠️ Backend failed, using CSV schedule');
+            }
+            
+            // Then load completed videos
+            return loadCompletedFromBackend();
         }).then(() => {
             enableAutoSync();
             
-            // Add WhatsApp button after initial render
+            // Add WhatsApp button
             setTimeout(addWhatsAppButton, 500);
             
             // Check status
@@ -214,5 +241,5 @@ document.addEventListener('DOMContentLoaded', () => {
                 console.log(status.message);
             });
         });
-    }, 1000); // Wait 1 second for CSV to load
+    }, 2000); // Wait 2 seconds for CSV to finish loading
 });

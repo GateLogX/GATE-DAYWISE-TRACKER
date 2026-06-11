@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test - Day-Wise Tracker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white p-8">
+    <div class="max-w-4xl mx-auto">
+        <h1 class="text-3xl font-bold mb-6">🧪 Local Test - GATE Day-Wise Tracker</h1>
+        
+        <div class="bg-gray-800 rounded-lg p-6 mb-4">
+            <h2 class="text-xl font-bold mb-3">Backend Status</h2>
+            <div id="backend-status" class="space-y-2">
+                <p>⏳ Checking...</p>
+            </div>
+        </div>
+        
+        <div class="bg-gray-800 rounded-lg p-6 mb-4">
+            <h2 class="text-xl font-bold mb-3">Timetable Data</h2>
+            <div id="timetable-status" class="space-y-2">
+                <p>⏳ Loading...</p>
+            </div>
+        </div>
+        
+        <div class="bg-gray-800 rounded-lg p-6">
+            <h2 class="text-xl font-bold mb-3">Actions</h2>
+            <button onclick="testBackend()" class="bg-blue-600 px-4 py-2 rounded mr-2 hover:bg-blue-700">
+                🔄 Test Backend
+            </button>
+            <button onclick="openMainSite()" class="bg-green-600 px-4 py-2 rounded hover:bg-green-700">
+                🚀 Open Main Site
+            </button>
+        </div>
+    </div>
+
+    <script>
+        const BACKEND_URL = 'https://gate-tracker-backend-ct70.onrender.com';
+        
+        async function testBackend() {
+            const statusDiv = document.getElementById('backend-status');
+            const timetableDiv = document.getElementById('timetable-status');
+            
+            statusDiv.innerHTML = '<p>⏳ Testing backend...</p>';
+            
+            try {
+                // Test health endpoint
+                const healthResp = await fetch(`${BACKEND_URL}/api/health`);
+                const health = await healthResp.json();
+                
+                statusDiv.innerHTML = `
+                    <p class="text-green-400">✅ Backend is online!</p>
+                    <p class="text-sm text-gray-400">Mode: ${health.mode || 'FREE'}</p>
+                `;
+                
+                // Test timetable endpoint
+                timetableDiv.innerHTML = '<p>⏳ Loading timetable...</p>';
+                const timetableResp = await fetch(`${BACKEND_URL}/api/full-timetable`);
+                const timetableData = await timetableResp.json();
+                
+                if (timetableData.success && timetableData.timetable && timetableData.timetable.length > 0) {
+                    const firstDay = timetableData.timetable[0];
+                    timetableDiv.innerHTML = `
+                        <p class="text-green-400">✅ Timetable loaded successfully!</p>
+                        <p class="text-sm">Total days: ${timetableData.total_days}</p>
+                        <p class="text-sm">First day subject: ${firstDay.subject}</p>
+                        <p class="text-sm">First day videos: ${firstDay.videos?.length || 0}</p>
+                        <details class="mt-2">
+                            <summary class="cursor-pointer text-blue-400">Show first day data</summary>
+                            <pre class="text-xs bg-gray-900 p-2 mt-2 rounded overflow-auto max-h-64">${JSON.stringify(firstDay, null, 2)}</pre>
+                        </details>
+                    `;
+                } else {
+                    timetableDiv.innerHTML = `
+                        <p class="text-yellow-400">⚠️ Timetable is empty</p>
+                        <p class="text-sm text-gray-400">Backend may still be deploying...</p>
+                        <p class="text-sm text-gray-400">Wait 2-3 minutes and try again</p>
+                    `;
+                }
+                
+            } catch (error) {
+                statusDiv.innerHTML = `
+                    <p class="text-red-400">❌ Backend connection failed</p>
+                    <p class="text-sm text-gray-400">${error.message}</p>
+                `;
+                timetableDiv.innerHTML = '<p class="text-gray-400">Could not load timetable</p>';
+            }
+        }
+        
+        function openMainSite() {
+            window.open('index.html', '_blank');
+        }
+        
+        // Auto-test on load
+        testBackend();
+        
+        // Re-test every 30 seconds
+        setInterval(testBackend, 30000);
+    </script>
+</body>
+</html>

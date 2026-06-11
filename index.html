@@ -438,7 +438,7 @@
     }
 
     function generateDaySchedule(videos) {
-      const DAILY_SECONDS = 6.5 * 3600;
+      const DAILY_SECONDS = 4 * 3600; // 4 hours per day at 2x speed
       const subjectGroups = {};
       videos.forEach(v => {
         if (!subjectGroups[v.subject]) subjectGroups[v.subject] = [];
