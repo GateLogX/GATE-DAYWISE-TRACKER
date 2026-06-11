@@ -100,7 +100,10 @@ async function loadCompletedFromBackend() {
             return;
         }
         
-        // Mark videos as completed in the UI
+        // CLEAR localStorage first - backend is source of truth
+        completedVideos = {};
+        
+        // Mark videos as completed in the UI from backend
         let syncedCount = 0;
         data.completed_lectures.forEach(lecture => {
             // Find matching video in videoData
@@ -109,23 +112,19 @@ async function loadCompletedFromBackend() {
                 parseInt(v.videoNumber) === lecture.video_number
             );
             
-            if (video && !completedVideos[video.messageId]) {
+            if (video) {
                 completedVideos[video.messageId] = true;
                 syncedCount++;
             }
         });
         
-        if (syncedCount > 0) {
-            // Save to localStorage and re-render
-            localStorage.setItem('completedVideos', JSON.stringify(completedVideos));
-            if (window.render) {
-                window.render();
-            }
-            
-            console.log(`✅ Synced ${syncedCount} lectures from WhatsApp! Total: ${data.completed_lectures.length}`);
-        } else {
-            console.log(`✅ Tracker up to date (${data.completed_lectures.length} total completed)`);
+        // Save to localStorage and re-render
+        localStorage.setItem('completedVideos', JSON.stringify(completedVideos));
+        if (window.render) {
+            window.render();
         }
+        
+        console.log(`✅ Loaded ${syncedCount} lectures from backend (cleared local cache)`);
     } catch (error) {
         console.log('⏳ Could not reach backend. Will retry on next page load.');
     }
