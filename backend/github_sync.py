@@ -165,7 +165,7 @@ class GitHubSync:
             return False
     
     def commit_and_push(self, message="Update progress via WhatsApp"):
-        """Commit and push progress to GitHub"""
+        """Commit and push progress to GitHub (only progress_data.json to avoid deployment loops)"""
         try:
             if not self.github_token:
                 print("⚠️ No GitHub token - progress will be lost on redeploy!")
@@ -173,12 +173,7 @@ class GitHubSync:
             
             self.configure_git()
             
-            # Check if file exists and has changes
-            if not os.path.exists(self.progress_file):
-                print("No progress file to commit")
-                return False
-            
-            # Add progress file
+            # Only add progress_data.json (NOT app_data.json to avoid deployment loops)
             subprocess.run(['git', 'add', 'backend/progress_data.json'], 
                          cwd=self.repo_path, check=True)
             
@@ -190,9 +185,9 @@ class GitHubSync:
                 print("No changes to commit")
                 return True
             
-            # Commit
+            # Commit with [skip ci] to prevent Render auto-deploy
             timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-            commit_msg = f"{message} - {timestamp}"
+            commit_msg = f"{message} - {timestamp} [skip ci]"
             subprocess.run(['git', 'commit', '-m', commit_msg], 
                          cwd=self.repo_path, check=True, capture_output=True)
             
@@ -206,7 +201,7 @@ class GitHubSync:
             )
             
             if result.returncode == 0:
-                print(f"✅ Pushed progress to GitHub: {commit_msg}")
+                print(f"✅ Pushed to GitHub: {commit_msg}")
                 return True
             else:
                 print(f"Push error: {result.stderr}")

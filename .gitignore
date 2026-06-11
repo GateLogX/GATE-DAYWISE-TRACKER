@@ -11,9 +11,9 @@ ENV/
 # Environment variables
 backend/.env
 
-# Data files
-backend/app_data.json
-# backend/progress_data.json - NOW TRACKED FOR PERSISTENCE!
+# Data files - NOW TRACKED FOR PERSISTENCE!
+# backend/app_data.json - Excel data tracked
+# backend/progress_data.json - WhatsApp progress tracked
 *.xlsx
 *.xls
 *.csv

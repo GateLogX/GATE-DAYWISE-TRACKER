@@ -12,12 +12,16 @@ from whatsapp_service import WhatsAppService
 from voice_processor import VoiceProcessor
 from progress_tracker import ProgressTracker
 from scheduler_service import SchedulerService
+from github_sync import GitHubSync
 
 # Load environment variables
 load_dotenv()
 
 app = Flask(__name__)
 CORS(app)
+
+# Initialize GitHub sync
+github_sync = GitHubSync()
 
 # Initialize services
 excel_parser = ExcelParser()
@@ -51,6 +55,8 @@ def save_app_data():
                 'current_timetable': current_timetable
             }, f, indent=2)
         print("App data saved successfully")
+        # Note: app_data.json is tracked in Git and restored on deployment
+        # We don't auto-commit it to avoid deployment loops
     except Exception as e:
         print(f"Error saving app data: {e}")
 
