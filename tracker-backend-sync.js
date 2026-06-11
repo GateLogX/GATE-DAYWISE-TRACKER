@@ -4,7 +4,7 @@
  * 100% FREE - uses Twilio trial credit
  */
 
-const BACKEND_URL = 'http://localhost:5000';
+const BACKEND_URL = 'https://gate-tracker-backend-ct70.onrender.com';
 
 // Sync completed videos to backend
 async function syncCompletedVideos(completedVideos) {
