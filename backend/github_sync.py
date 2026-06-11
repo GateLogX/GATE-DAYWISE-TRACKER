@@ -20,43 +20,61 @@ class GitHubSync:
     def init_git_repo(self):
         """Initialize git repository if not exists (for Render deployment)"""
         try:
+            if not self.github_token:
+                print("⚠️ No GITHUB_TOKEN - cannot initialize git sync")
+                return False
+            
             # Check if .git exists
             git_dir = os.path.join(self.repo_path, '.git')
             if os.path.exists(git_dir):
+                print("✅ Git already initialized")
                 self.git_initialized = True
                 return True
             
-            print("📦 Initializing git repository...")
+            print("📦 Initializing git repository from scratch...")
+            print(f"   Repo path: {self.repo_path}")
+            print(f"   Remote: {self.github_repo}")
             
             # Initialize git repo
-            subprocess.run(['git', 'init'], cwd=self.repo_path, check=True, capture_output=True)
+            result = subprocess.run(['git', 'init'], cwd=self.repo_path, 
+                                  check=True, capture_output=True, text=True)
+            print("   ✓ Git init complete")
             
             # Configure git
             subprocess.run(['git', 'config', 'user.email', 'bot@gatetracker.com'], 
                          cwd=self.repo_path, check=True, capture_output=True)
             subprocess.run(['git', 'config', 'user.name', 'GATE Tracker Bot'], 
                          cwd=self.repo_path, check=True, capture_output=True)
+            print("   ✓ Git config complete")
             
-            # Add remote with token
-            if self.github_token:
-                remote_url = f'https://{self.github_token}@github.com/{self.github_repo}.git'
-                subprocess.run(['git', 'remote', 'add', 'origin', remote_url], 
-                             cwd=self.repo_path, check=True, capture_output=True)
+            # Add remote with token (hide token in logs)
+            remote_url = f'https://{self.github_token}@github.com/{self.github_repo}.git'
+            result = subprocess.run(['git', 'remote', 'add', 'origin', remote_url], 
+                         cwd=self.repo_path, check=True, capture_output=True, text=True)
+            print("   ✓ Remote added")
             
             # Fetch from remote
-            subprocess.run(['git', 'fetch', 'origin'], cwd=self.repo_path, 
-                         check=True, capture_output=True, timeout=30)
+            print("   Fetching from GitHub...")
+            result = subprocess.run(['git', 'fetch', 'origin', 'main'], cwd=self.repo_path, 
+                         check=True, capture_output=True, text=True, timeout=30)
+            print("   ✓ Fetch complete")
             
             # Checkout main branch
-            subprocess.run(['git', 'checkout', '-b', 'main', 'origin/main'], 
-                         cwd=self.repo_path, check=True, capture_output=True)
+            result = subprocess.run(['git', 'checkout', '-b', 'main', '--track', 'origin/main'], 
+                         cwd=self.repo_path, check=True, capture_output=True, text=True)
+            print("   ✓ Checked out main branch")
             
             self.git_initialized = True
-            print("✅ Git repository initialized successfully")
+            print("✅ Git repository initialized successfully!")
             return True
             
+        except subprocess.CalledProcessError as e:
+            print(f"⚠️ Git init error: {e}")
+            print(f"   stdout: {e.stdout if hasattr(e, 'stdout') else 'N/A'}")
+            print(f"   stderr: {e.stderr if hasattr(e, 'stderr') else 'N/A'}")
+            return False
         except Exception as e:
-            print(f"⚠️ Git init warning: {e}")
+            print(f"⚠️ Git init unexpected error: {e}")
             return False
         
     def configure_git(self):
@@ -87,17 +105,25 @@ class GitHubSync:
         """Pull latest progress from GitHub"""
         try:
             if not self.github_token:
-                print("No GitHub token - skipping pull")
+                print("⚠️ No GitHub token - skipping pull (set GITHUB_TOKEN env var)")
                 return False
+            
+            print("🔄 Attempting to pull latest progress from GitHub...")
             
             # Initialize git if needed
             if not self.git_initialized:
+                print("📦 Git not initialized yet, initializing now...")
                 if not self.init_git_repo():
+                    print("⚠️ Could not initialize git - will work with local file only")
                     return False
             
             self.configure_git()
             
-            # Pull latest changes (progress_data.json only)
+            # Reset any local changes first (in case of conflicts)
+            subprocess.run(['git', 'reset', '--hard'], cwd=self.repo_path, 
+                         capture_output=True, timeout=10)
+            
+            # Pull latest changes
             result = subprocess.run(
                 ['git', 'pull', 'origin', 'main', '--rebase'],
                 cwd=self.repo_path,
@@ -107,14 +133,16 @@ class GitHubSync:
             )
             
             if result.returncode == 0:
-                print(f"✅ Pulled latest progress from GitHub")
+                print(f"✅ Successfully pulled latest progress from GitHub")
                 return True
             else:
-                print(f"Pull warning: {result.stderr}")
+                print(f"⚠️ Pull warning (non-fatal): {result.stderr.strip()}")
+                # Not a fatal error - continue with local file
                 return False
                 
         except Exception as e:
-            print(f"Pull error: {e}")
+            print(f"⚠️ Pull error (non-fatal): {e}")
+            # Not a fatal error - backend will continue with local file
             return False
     
     def commit_and_push(self, message="Update progress via WhatsApp"):
