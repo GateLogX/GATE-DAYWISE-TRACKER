@@ -6,6 +6,7 @@ from datetime import datetime, timedelta
 import json
 
 # Import our modules
+# Updated: 2026-06-12 - 4 hours/day schedule
 from excel_parser import ExcelParser
 from timetable_generator import TimetableGenerator
 from whatsapp_service import WhatsAppService
