@@ -172,24 +172,17 @@ async function loadTimetableFromBackend() {
         
         const data = await response.json();
         
-        // Only update if we got valid timetable data with items
+        // ALWAYS use backend timetable if available (it's the source of truth)
         if (data.success && data.timetable && Array.isArray(data.timetable) && data.timetable.length > 0) {
-            // Preserve the existing daySchedule structure if backend data exists
-            if (window.daySchedule && window.daySchedule.length > 0) {
-                console.log(`✅ Backend returned ${data.timetable.length} days (keeping local CSV-based schedule for now)`);
-                // Don't overwrite - CSV data is already loaded and working
-                return true;
-            } else {
-                // Only set if local schedule is empty
-                window.daySchedule = data.timetable;
-                console.log(`✅ Loaded ${data.timetable.length} days from backend`);
-                
-                // Re-render UI with new timetable
-                if (window.render) {
-                    window.render();
-                }
-                return true;
+            window.daySchedule = data.timetable;
+            window.backlogDays = data.timetable.map(day => ({ ...day, completed: false }));
+            console.log(`✅ Loaded ${data.timetable.length} days from backend (${data.goals?.daily_study_hours || '?'} hrs/day)`);
+            
+            // Re-render UI with new timetable
+            if (window.render) {
+                window.render();
             }
+            return true;
         } else {
             console.log('⚠️ Backend timetable is empty, keeping local CSV data');
             return false;
