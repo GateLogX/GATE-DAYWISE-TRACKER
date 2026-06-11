@@ -158,12 +158,49 @@ function addWhatsAppButton() {
     }
 }
 
+// Load timetable from backend
+async function loadTimetableFromBackend() {
+    try {
+        console.log('📅 Loading timetable from backend...');
+        
+        // Fetch complete timetable from new endpoint
+        const response = await fetch(`${BACKEND_URL}/api/full-timetable`);
+        if (!response.ok) {
+            console.log('⚠️ Could not load timetable from backend, using static data');
+            return false;
+        }
+        
+        const data = await response.json();
+        if (data.success && data.timetable && window.daySchedule) {
+            window.daySchedule = data.timetable;
+            console.log(`✅ Loaded ${data.timetable.length} days from backend (${data.goals?.daily_study_hours || 4} hrs/day)`);
+            
+            // Re-render UI with new timetable
+            if (window.render) {
+                window.render();
+            }
+            return true;
+        }
+        return false;
+    } catch (error) {
+        console.log('⚠️ Timetable load failed:', error.message);
+        return false;
+    }
+}
+
 // Initialize integration
 document.addEventListener('DOMContentLoaded', () => {
     console.log('🚀 WhatsApp Integration Loaded (100% FREE)');
     
-    // Load completed videos from backend FIRST
-    loadCompletedFromBackend().then(() => {
+    // Load timetable FIRST, then completed videos
+    loadTimetableFromBackend().then((loaded) => {
+        if (loaded) {
+            console.log('✅ Using live timetable from backend (4 hrs/day)');
+        }
+        
+        // Load completed videos from backend
+        return loadCompletedFromBackend();
+    }).then(() => {
         enableAutoSync();
         
         // Add WhatsApp button after initial render
