@@ -180,13 +180,55 @@ def get_full_timetable():
             return jsonify({"error": "No timetable generated yet"}), 400
         
         # Return the full timetable with all days
-        all_days = current_timetable.get('schedule', {})
+        all_days = current_timetable.get('daily_schedule', {})
         
         # Convert dict to array format for frontend
         schedule_array = []
+        day_number = 1
         for date_key in sorted(all_days.keys()):
             day_data = all_days[date_key]
-            schedule_array.append(day_data)
+            
+            # Transform backend format to frontend format
+            videos = []
+            total_seconds = 0
+            
+            # Extract subject from first lecture (assumes all lectures in a day are same subject)
+            subject = day_data.get('lectures', [{}])[0].get('subject', 'UNKNOWN') if day_data.get('lectures') else 'UNKNOWN'
+            
+            for lecture in day_data.get('lectures', []):
+                # Parse duration to seconds (handle different formats)
+                duration_str = lecture.get('duration', '00:00:00')
+                try:
+                    # Try parsing as HH:MM:SS
+                    parts = duration_str.split(':')
+                    if len(parts) == 3:
+                        h, m, s = parts
+                        seconds = int(h) * 3600 + int(m) * 60 + int(s)
+                    else:
+                        seconds = 0
+                except:
+                    seconds = 0
+                
+                total_seconds += seconds
+                
+                # Create video object matching frontend format
+                videos.append({
+                    'subject': lecture.get('subject', ''),
+                    'videoNumber': str(lecture.get('video_number', '')),
+                    'fileName': lecture.get('file_name', ''),
+                    'durationSeconds': seconds,
+                    'messageId': f"{lecture.get('subject', '')}_{lecture.get('video_number', '')}"
+                })
+            
+            schedule_array.append({
+                'day': day_number,
+                'subject': subject,
+                'videos': videos,
+                'totalSeconds': total_seconds,
+                'totalHours': round(total_seconds / 3600, 2),
+                'originalHours': round((total_seconds * 2) / 3600, 2)
+            })
+            day_number += 1
         
         return jsonify({
             "success": True,
