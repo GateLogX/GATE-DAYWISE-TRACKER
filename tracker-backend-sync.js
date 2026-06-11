@@ -88,47 +88,46 @@ async function checkWhatsAppStatus() {
 // Load completed videos FROM backend
 async function loadCompletedFromBackend() {
     try {
-        // Wait for backend to be ready (Render cold start)
-        await new Promise(resolve => setTimeout(resolve, 2000));
-        
-        const progressResponse = await fetch(`${BACKEND_URL}/api/progress`);
-        if (!progressResponse.ok) {
-            console.log('⏳ Backend still deploying... Will retry on next page load');
+        const response = await fetch(`${BACKEND_URL}/api/progress`);
+        if (!response.ok) {
+            console.log('⏳ Backend deploying... Completed lectures will sync on next refresh');
             return;
         }
         
-        const progressData = await progressResponse.json();
+        const data = await response.json();
+        if (!data.success || !data.completed_lectures) {
+            console.log('No completed lectures from backend');
+            return;
+        }
         
         // Mark videos as completed in the UI
-        if (progressData.success && progressData.completed_lectures) {
-            let syncedCount = 0;
-            progressData.completed_lectures.forEach(lecture => {
-                // Find matching video in videoData
-                const video = videoData.find(v => 
-                    v.subject === lecture.subject && 
-                    parseInt(v.videoNumber) === lecture.video_number
-                );
-                
-                if (video && !completedVideos[video.messageId]) {
-                    completedVideos[video.messageId] = true;
-                    syncedCount++;
-                }
-            });
+        let syncedCount = 0;
+        data.completed_lectures.forEach(lecture => {
+            // Find matching video in videoData
+            const video = videoData.find(v => 
+                v.subject === lecture.subject && 
+                parseInt(v.videoNumber) === lecture.video_number
+            );
             
-            if (syncedCount > 0) {
-                // Save to localStorage and re-render
-                localStorage.setItem('completedVideos', JSON.stringify(completedVideos));
-                if (window.render) {
-                    window.render();
-                }
-                
-                console.log('✅ Synced', syncedCount, 'new completed videos from WhatsApp to tracker!');
-            } else {
-                console.log('✅ Tracker already up to date with backend');
+            if (video && !completedVideos[video.messageId]) {
+                completedVideos[video.messageId] = true;
+                syncedCount++;
             }
+        });
+        
+        if (syncedCount > 0) {
+            // Save to localStorage and re-render
+            localStorage.setItem('completedVideos', JSON.stringify(completedVideos));
+            if (window.render) {
+                window.render();
+            }
+            
+            console.log(`✅ Synced ${syncedCount} lectures from WhatsApp! Total: ${data.completed_lectures.length}`);
+        } else {
+            console.log(`✅ Tracker up to date (${data.completed_lectures.length} total completed)`);
         }
     } catch (error) {
-        console.log('⏳ Backend offline (cold start or deploying). Refresh page in 30 seconds.');
+        console.log('⏳ Could not reach backend. Will retry on next page load.');
     }
 }
 
