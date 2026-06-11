@@ -1,13 +1,18 @@
 from datetime import datetime
 import json
 import os
+from github_sync import GitHubSync
 
 class ProgressTracker:
     """Track lecture completion progress"""
     
     def __init__(self, data_file='progress_data.json'):
         self.data_file = data_file
+        self.github_sync = GitHubSync()
         self.completed_lectures = self.load_progress()
+        
+        # Pull latest progress from GitHub on startup
+        self.github_sync.pull_latest()
     
     def load_progress(self):
         """Load progress from file"""
@@ -20,10 +25,13 @@ class ProgressTracker:
         return []
     
     def save_progress(self):
-        """Save progress to file"""
+        """Save progress to file and sync to GitHub"""
         try:
             with open(self.data_file, 'w') as f:
                 json.dump(self.completed_lectures, f, indent=2)
+            
+            # Auto-sync to GitHub for persistence
+            self.github_sync.commit_and_push("📚 Progress update via WhatsApp")
         except Exception as e:
             print(f"Error saving progress: {str(e)}")
     
